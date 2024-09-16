@@ -13,6 +13,7 @@ PATH_SSH_KEY_ANSIBLE="$HOME/.ssh/${APP}_${USERNAME_ANSIBLE}";
 
 # PATH Config files
 PATH_ANSIBLE_CONFIG_HOSTS="../ansible/hosts";
+PATH_ANSIBLE_CONFIG_INVENTORY="../ansible/inventory";
 
 # Config Hetzner
 HCLOUD_SSH_KEY="${APP}_${DEV_NAME}";

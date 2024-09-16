@@ -1,0 +1,31 @@
+- name: Install and configure HAProxy
+  hosts: all
+  become: yes
+  tasks:
+
+    - name: Ensure HAProxy is installed
+      package:
+        name: haproxy
+        state: present
+
+    - name: Deploy HAProxy configuration file
+      copy:
+        src: haproxy.cfg
+        dest: /etc/haproxy/haproxy.cfg
+        owner: root
+        group: root
+        mode: '0644'
+      notify:
+        - Restart HAProxy
+
+    - name: Ensure HAProxy is running and enabled
+      service:
+        name: haproxy
+        state: started
+        enabled: yes
+
+  handlers:
+    - name: Restart HAProxy
+      service:
+        name: haproxy
+        state: restarted

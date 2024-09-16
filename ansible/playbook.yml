@@ -1,0 +1,8 @@
+---
+- name: Setup HealthNexus
+  hosts: healthnexus_server
+  become: yes
+  roles:
+    - setup
+    - nginx
+    - haproxy
