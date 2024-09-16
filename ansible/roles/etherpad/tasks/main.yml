@@ -1,0 +1,12 @@
+---
+- name: Install dependencies
+  import_tasks: install_dependencies.yml
+
+- name: Set up Etherpad
+  import_tasks: setup_database.yml
+
+- name: Configure Etherpad
+  import_tasks: configure_etherpad.yml
+
+- name: Start Etherpad
+  import_tasks: start_etherpad.yml

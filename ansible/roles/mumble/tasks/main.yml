@@ -1,0 +1,9 @@
+---
+- name: Install Mumble server
+  import_tasks: install_mumble.yml
+
+- name: Configure Mumble server
+  import_tasks: configure_mumble.yml
+
+- name: Start Mumble server
+  import_tasks: start_mumble.yml

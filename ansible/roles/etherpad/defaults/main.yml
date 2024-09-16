@@ -1,0 +1,9 @@
+---
+etherpad_version: "1.8.15"
+etherpad_install_dir: /opt/etherpad
+etherpad_user: etherpad
+etherpad_group: etherpad
+etherpad_port: 9001
+etherpad_config_file: /opt/etherpad/etherpad-lite/Settings.json
+redis_host: localhost
+redis_port: 6379

@@ -1,0 +1,6 @@
+---
+- name: Install Mumble server package
+  apt:
+    name: mumble-server
+    state: present
+  become: yes

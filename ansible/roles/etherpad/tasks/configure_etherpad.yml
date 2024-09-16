@@ -1,0 +1,28 @@
+---
+- name: Download Etherpad
+  become: yes
+  get_url:
+    url: "https://github.com/ether/etherpad-lite/releases/download/{{ etherpad_version }}/etherpad-lite-{{ etherpad_version }}.tar.gz"
+    dest: /tmp/etherpad-lite-{{ etherpad_version }}.tar.gz
+
+- name: Extract Etherpad
+  become: yes
+  unarchive:
+    src: /tmp/etherpad-lite-{{ etherpad_version }}.tar.gz
+    dest: "{{ etherpad_install_dir }}"
+    remote_src: yes
+
+- name: Set ownership of Etherpad directory
+  become: yes
+  file:
+    path: "{{ etherpad_install_dir }}"
+    owner: "{{ etherpad_user }}"
+    group: "{{ etherpad_group }}"
+    state: directory
+    recurse: yes
+
+- name: Configure Etherpad
+  template:
+    src: etherpad_config.json.j2
+    dest: "{{ etherpad_config_file }}"
+  become: yes

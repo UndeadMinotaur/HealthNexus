@@ -1,0 +1,26 @@
+---
+- name: Install Node.js
+  apt:
+    name: nodejs
+    state: present
+  become: yes
+
+- name: Install npm
+  apt:
+    name: npm
+    state: present
+  become: yes
+
+- name: Install Redis
+  apt:
+    name: redis-server
+    state: present
+  become: yes
+
+- name: Create Etherpad user
+  user:
+    name: "{{ etherpad_user }}"
+    group: "{{ etherpad_group }}"
+    create_home: no
+    shell: /bin/false
+  become: yes

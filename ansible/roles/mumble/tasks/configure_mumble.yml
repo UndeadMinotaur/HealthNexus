@@ -1,0 +1,6 @@
+---
+- name: Configure Mumble server
+  template:
+    src: murmur.ini.j2
+    dest: /etc/mumble-server.ini
+  become: yes

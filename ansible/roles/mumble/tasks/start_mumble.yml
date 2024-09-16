@@ -1,0 +1,7 @@
+---
+- name: Start Mumble server
+  service:
+    name: mumble-server
+    state: started
+    enabled: yes
+  become: yes

@@ -10,6 +10,8 @@
     - nextcloud
     - bigbluebutton
     - dokuwiki
+    - etherpad
+    - mumble
     - keycloak_ldap
     - ldap_sso
 
