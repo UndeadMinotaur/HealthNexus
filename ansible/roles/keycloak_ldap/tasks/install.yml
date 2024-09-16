@@ -1,0 +1,27 @@
+---
+- name: Download Keycloak
+  get_url:
+    url: "https://github.com/keycloak/keycloak/releases/download/{{ keycloak_version }}/keycloak-{{ keycloak_version }}.tar.gz"
+    dest: /tmp/keycloak.tar.gz
+  become: yes
+
+- name: Extract Keycloak
+  unarchive:
+    src: /tmp/keycloak.tar.gz
+    dest: /opt/
+    remote_src: yes
+    copy: no
+  become: yes
+
+- name: Set up Keycloak service
+  template:
+    src: keycloak.conf.j2
+    dest: /etc/systemd/system/keycloak.service
+  become: yes
+
+- name: Start and enable Keycloak service
+  systemd:
+    name: keycloak
+    state: started
+    enabled: yes
+  become: yes

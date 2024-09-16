@@ -1,0 +1,27 @@
+---
+- name: Create Keycloak backup directory
+  file:
+    path: "{{ keycloak_backup_dir }}"
+    state: directory
+    mode: '0755'
+  become: yes
+
+- name: Backup Keycloak configuration files
+  command: >
+    tar -czf {{ keycloak_backup_dir }}/keycloak-config-{{ ansible_date_time.iso8601 }}.tgz -C {{ keycloak_config_dir }} .
+  become: yes
+
+- name: Backup Keycloak data
+  command: >
+    tar -czf {{ keycloak_backup_dir }}/keycloak-data-{{ ansible_date_time.iso8601 }}.tgz -C {{ keycloak_data_dir }} .
+  become: yes
+
+- name: Backup Keycloak database (if applicable)
+  command: >
+    {% if keycloak_database_type == 'postgresql' %}
+    pg_dump -U keycloak -F c keycloak_db > {{ keycloak_backup_dir }}/keycloak-db-{{ ansible_date_time.iso8601 }}.sql
+    {% elif keycloak_database_type == 'mysql' %}
+    mysqldump -u keycloak -p keycloak_db > {{ keycloak_backup_dir }}/keycloak-db-{{ ansible_date_time.iso8601 }}.sql
+    {% endif %}
+  become: yes
+  when: keycloak_database_type is defined

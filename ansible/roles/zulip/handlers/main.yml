@@ -1,0 +1,4 @@
+---
+- name: Restart Zulip services
+  command: "{{ zulip_directory }}/scripts/restart"
+  become: yes

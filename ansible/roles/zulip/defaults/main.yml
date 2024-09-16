@@ -1,0 +1,6 @@
+---
+zulip_version: "5.0"
+zulip_user: zulip
+zulip_group: zulip
+zulip_directory: /opt/zulip
+zulip_repo: https://github.com/zulip/zulip.git

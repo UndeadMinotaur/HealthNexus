@@ -1,0 +1,6 @@
+---
+dokuwiki_version: "20220909"
+dokuwiki_directory: /var/www/dokuwiki
+dokuwiki_admin_user: admin
+dokuwiki_admin_password: admin_password
+server_name: dokuwiki.example.com

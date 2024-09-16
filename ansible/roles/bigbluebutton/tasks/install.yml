@@ -1,0 +1,46 @@
+---
+- name: Add BigBlueButton repository key
+  apt_key:
+    url: "{{ bbb_repo }}"
+    state: present
+  become: yes
+
+- name: Add BigBlueButton repository
+  apt_repository:
+    repo: "{{ bbb_repo_url }}"
+    state: present
+  become: yes
+
+- name: Install BigBlueButton and dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - bigbluebutton
+    - bbb-web
+    - bbb-freeswitch
+    - bbb-java
+  become: yes
+
+- name: Install additional dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - nginx
+    - redis-server
+    - mariadb-server
+  become: yes
+
+- name: Ensure services are started and enabled
+  service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  loop:
+    - nginx
+    - redis-server
+    - mariadb
+    - bbb-web
+    - bbb-freeswitch
+  become: yes

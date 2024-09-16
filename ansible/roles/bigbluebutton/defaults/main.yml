@@ -1,0 +1,8 @@
+---
+bbb_version: "2.5.6"
+bbb_repo: "https://ubuntu.bigbluebutton.org/bigbluebutton.asc"
+bbb_repo_url: "deb http://ubuntu.bigbluebutton.org/bbb-release focal bbb"
+bbb_database_name: bbb
+bbb_database_user: bbbuser
+bbb_database_password: bbbpassword
+bbb_hostname: bigbluebutton.example.com

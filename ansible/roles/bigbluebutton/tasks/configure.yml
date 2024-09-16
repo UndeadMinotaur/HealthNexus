@@ -1,0 +1,33 @@
+---
+- name: Configure BigBlueButton
+  template:
+    src: bigbluebutton.conf.j2
+    dest: /etc/bigbluebutton/bbb-config.xml
+  become: yes
+
+- name: Configure MySQL for BigBlueButton
+  mysql_db:
+    name: "{{ bbb_database_name }}"
+    state: present
+    login_user: root
+    login_password: root_password
+  become: yes
+
+- name: Create BigBlueButton database user
+  mysql_user:
+    name: "{{ bbb_database_user }}"
+    password: "{{ bbb_database_password }}"
+    priv: "{{ bbb_database_name }}.*:ALL"
+    state: present
+    login_user: root
+    login_password: root_password
+  become: yes
+
+- name: Restart BigBlueButton services
+  service:
+    name: "{{ item }}"
+    state: restarted
+  loop:
+    - bbb-web
+    - bbb-freeswitch
+  become: yes

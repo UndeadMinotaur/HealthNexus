@@ -1,0 +1,10 @@
+---
+- name: Create Keycloak Admin User
+  command: >
+    /opt/keycloak/bin/kc.sh create realms --realm master --user {{ keycloak_admin_user }} --password {{ keycloak_admin_password }}
+  become: yes
+
+- name: Import Keycloak Configuration
+  command: >
+    /opt/keycloak/bin/kc.sh import --file /path/to/your/keycloak-config.json
+  become: yes

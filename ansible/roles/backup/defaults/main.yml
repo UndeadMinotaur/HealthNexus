@@ -1,0 +1,12 @@
+---
+backup_directory: /var/backups
+nginx_config_dir: /etc/nginx
+haproxy_config_dir: /etc/haproxy
+zulip_data_dir: /home/zulip
+nextcloud_data_dir: /var/www/nextcloud
+bbb_data_dir: /var/bigbluebutton
+dokuwiki_data_dir: /var/www/dokuwiki
+keycloak_data_dir: /opt/keycloak/data
+keycloak_config_dir: /opt/keycloak/conf
+keycloak_backup_dir: /var/backups/keycloak
+keycloak_database_type: postgresql

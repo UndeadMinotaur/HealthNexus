@@ -1,0 +1,5 @@
+---
+- name: Backup HAProxy configuration files
+  command: >
+    tar -czf {{ backup_directory }}/haproxy-config-{{ ansible_date_time.iso8601 }}.tgz -C {{ haproxy_config_dir }} .
+  become: yes

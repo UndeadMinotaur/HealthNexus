@@ -1,0 +1,48 @@
+---
+- name: Install system dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - git
+    - python3
+    - python3-pip
+    - python3-dev
+    - build-essential
+    - libffi-dev
+    - libssl-dev
+    - libjpeg-dev
+    - libxml2-dev
+    - libxslt1-dev
+    - zlib1g-dev
+  become: yes
+
+- name: Create zulip user and group
+  user:
+    name: "{{ zulip_user }}"
+    group: "{{ zulip_group }}"
+    create_home: no
+    shell: /bin/bash
+  become: yes
+
+- name: Clone Zulip repository
+  git:
+    repo: "{{ zulip_repo }}"
+    dest: "{{ zulip_directory }}"
+    version: "{{ zulip_version }}"
+    force: yes
+  become: yes
+
+- name: Install Python dependencies
+  pip:
+    requirements: "{{ zulip_directory }}/requirements.txt"
+    virtualenv: "{{ zulip_directory }}/venv"
+  become: yes
+
+- name: Install Zulip
+  command: "{{ zulip_directory }}/scripts/setup --prod"
+  become: yes
+
+- name: Start Zulip services
+  command: "{{ zulip_directory }}/scripts/do-setup"
+  become: yes

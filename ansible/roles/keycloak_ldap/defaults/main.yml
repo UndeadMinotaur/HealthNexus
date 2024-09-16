@@ -1,0 +1,14 @@
+---
+keycloak_version: "20.0.1"
+keycloak_admin_user: admin
+keycloak_admin_password: admin_password
+keycloak_host: keycloak.example.com
+keycloak_port: 8080
+ldap_url: ldap://ldap.example.com:389
+ldap_user_dn: "ou=users,dc=example,dc=com"
+ldap_bind_dn: "cn=admin,dc=example,dc=com"
+ldap_bind_password: ldap_password
+ldap_user_search_base: "ou=users,dc=example,dc=com"
+ldap_user_search_filter: "(uid={0})"
+ldap_group_search_base: "ou=groups,dc=example,dc=com"
+ldap_group_search_filter: "(member={0})"

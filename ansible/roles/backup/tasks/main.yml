@@ -1,0 +1,21 @@
+---
+- name: Backup Nginx configuration
+  import_tasks: backup_nginx.yml
+
+- name: Backup HAProxy configuration
+  import_tasks: backup_haproxy.yml
+
+- name: Backup Zulip data
+  import_tasks: backup_zulip.yml
+
+- name: Backup Nextcloud data
+  import_tasks: backup_nextcloud.yml
+
+- name: Backup BigBlueButton data
+  import_tasks: backup_bigbluebutton.yml
+
+- name: Backup DokuWiki data
+  import_tasks: backup_dokuwiki.yml
+
+- name: Backup Keycloak
+  import_tasks: backup_keycloak.yml

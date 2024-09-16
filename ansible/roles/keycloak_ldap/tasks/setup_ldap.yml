@@ -1,0 +1,29 @@
+---
+- name: Configure LDAP User Federation
+  uri:
+    url: "http://{{ keycloak_host }}:{{ keycloak_port }}/auth/admin/serverinfo"
+    method: POST
+    user: "{{ keycloak_admin_user }}"
+    password: "{{ keycloak_admin_password }}"
+    body_format: json
+    body:
+      {
+        "userFederationProviders": [
+          {
+            "providerName": "ldap",
+            "providerType": "org.keycloak.storage.ldap.LDAPStorageProviderFactory",
+            "config": {
+              "connectionUrl": "{{ ldap_url }}",
+              "usersDn": "{{ ldap_user_dn }}",
+              "bindDn": "{{ ldap_bind_dn }}",
+              "bindCredential": "{{ ldap_bind_password }}",
+              "userSearchBase": "{{ ldap_user_search_base }}",
+              "userSearchFilter": "{{ ldap_user_search_filter }}",
+              "groupSearchBase": "{{ ldap_group_search_base }}",
+              "groupSearchFilter": "{{ ldap_group_search_filter }}"
+            }
+          }
+        ]
+      }
+    status_code: 200
+  become: yes

@@ -1,0 +1,9 @@
+---
+- name: Restart BigBlueButton services
+  service:
+    name: "{{ item }}"
+    state: restarted
+  loop:
+    - bbb-web
+    - bbb-freeswitch
+  become: yes

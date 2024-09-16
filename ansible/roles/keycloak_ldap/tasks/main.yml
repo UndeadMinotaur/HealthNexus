@@ -1,0 +1,9 @@
+---
+- name: Install Keycloak
+  import_tasks: install_keycloak.yml
+
+- name: Configure Keycloak
+  import_tasks: configure_keycloak.yml
+
+- name: Setup LDAP Integration
+  import_tasks: setup_ldap.yml

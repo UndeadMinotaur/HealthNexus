@@ -1,0 +1,6 @@
+---
+- name: Install BigBlueButton
+  import_tasks: install.yml
+
+- name: Configure BigBlueButton
+  import_tasks: configure.yml

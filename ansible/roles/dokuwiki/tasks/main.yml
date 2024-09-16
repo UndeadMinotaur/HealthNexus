@@ -1,0 +1,6 @@
+---
+- name: Install DokuWiki
+  import_tasks: install.yml
+
+- name: Configure DokuWiki
+  import_tasks: configure.yml

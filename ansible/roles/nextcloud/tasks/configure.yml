@@ -1,0 +1,40 @@
+---
+- name: Install database client
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - mysql-client
+    - postgresql-client
+  become: yes
+
+- name: Create Nextcloud database
+  mysql_db:
+    name: "{{ nextcloud_db_name }}"
+    state: present
+    login_user: root
+    login_password: root_password
+  become: yes
+
+- name: Create Nextcloud database user
+  mysql_user:
+    name: "{{ nextcloud_db_user }}"
+    password: "{{ nextcloud_db_password }}"
+    priv: "{{ nextcloud_db_name }}.*:ALL"
+    state: present
+    login_user: root
+    login_password: root_password
+  become: yes
+
+- name: Configure Nextcloud
+  command: >
+    sudo -u www-data php {{ nextcloud_directory }}/occ maintenance:install
+    --database "pgsql"
+    --database-host "{{ nextcloud_db_host }}"
+    --database-name "{{ nextcloud_db_name }}"
+    --database-user "{{ nextcloud_db_user }}"
+    --database-pass "{{ nextcloud_db_password }}"
+    --admin-user "{{ nextcloud_admin_user }}"
+    --admin-pass "{{ nextcloud_admin_password }}"
+    --data-dir "{{ nextcloud_directory }}/data"
+  become: yes

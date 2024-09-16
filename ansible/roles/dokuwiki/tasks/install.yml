@@ -1,0 +1,44 @@
+---
+- name: Install system dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - nginx
+    - php
+    - php-fpm
+    - php-xml
+    - php-mbstring
+    - php-gd
+    - wget
+    - unzip
+  become: yes
+
+- name: Download DokuWiki
+  get_url:
+    url: "https://download.dokuwiki.org/src/dokuwiki/dokuwiki-{{ dokuwiki_version }}.tgz"
+    dest: /tmp/dokuwiki.tgz
+  become: yes
+
+- name: Extract DokuWiki
+  unarchive:
+    src: /tmp/dokuwiki.tgz
+    dest: /var/www/
+    remote_src: yes
+    copy: no
+  become: yes
+
+- name: Set permissions for DokuWiki
+  file:
+    path: "{{ dokuwiki_directory }}"
+    owner: www-data
+    group: www-data
+    recurse: yes
+  become: yes
+
+- name: Ensure Nginx is started and enabled
+  service:
+    name: nginx
+    state: started
+    enabled: yes
+  become: yes

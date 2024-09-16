@@ -1,0 +1,5 @@
+---
+- name: Backup Nginx configuration files
+  command: >
+    tar -czf {{ backup_directory }}/nginx-config-{{ ansible_date_time.iso8601 }}.tgz -C {{ nginx_config_dir }} .
+  become: yes

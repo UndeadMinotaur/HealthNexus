@@ -1,0 +1,16 @@
+---
+- name: Configure Nginx for DokuWiki
+  template:
+    src: dokuwiki.conf.j2
+    dest: /etc/nginx/sites-available/dokuwiki
+  become: yes
+
+- name: Enable DokuWiki site
+  command: nginx -s reload
+  become: yes
+
+- name: Restart Nginx
+  service:
+    name: nginx
+    state: restarted
+  become: yes

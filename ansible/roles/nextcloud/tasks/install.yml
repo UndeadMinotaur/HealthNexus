@@ -1,0 +1,57 @@
+---
+- name: Install system dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - nginx
+    - php-fpm
+    - php-cli
+    - php-gd
+    - php-xml
+    - php-mbstring
+    - php-pgsql
+    - php-intl
+    - php-zip
+    - wget
+    - unzip
+  become: yes
+
+- name: Download Nextcloud
+  get_url:
+    url: "https://download.nextcloud.com/server/releases/nextcloud-{{ nextcloud_version }}.zip"
+    dest: /tmp/nextcloud.zip
+  become: yes
+
+- name: Unzip Nextcloud
+  unarchive:
+    src: /tmp/nextcloud.zip
+    dest: /var/www/
+    remote_src: yes
+  become: yes
+
+- name: Set permissions for Nextcloud
+  file:
+    path: "{{ nextcloud_directory }}"
+    owner: www-data
+    group: www-data
+    recurse: yes
+  become: yes
+
+- name: Configure PHP for Nextcloud
+  lineinfile:
+    path: /etc/php/{{ ansible_facts['distribution'] }}/{{ ansible_facts['php_version'] }}/fpm/php.ini
+    regexp: '^{{ item.key }}'
+    line: "{{ item.key }} = {{ item.value }}"
+  loop:
+    - { key: 'upload_max_filesize', value: '512M' }
+    - { key: 'post_max_size', value: '512M' }
+    - { key: 'memory_limit', value: '512M' }
+    - { key: 'max_execution_time', value: '360' }
+  become: yes
+
+- name: Restart PHP-FPM
+  service:
+    name: php-fpm
+    state: restarted
+  become: yes
