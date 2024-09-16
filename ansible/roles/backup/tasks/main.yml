@@ -17,5 +17,17 @@
 - name: Backup DokuWiki data
   import_tasks: backup_dokuwiki.yml
 
+- name: Backup Etherpad
+  import_tasks: backup_etherpad.yml
+
+- name: Backup Mumble
+  import_tasks: backup_mumble.yml
+
+- name: Backup CryptPad
+  import_tasks: backup_cryptpad.yml
+
 - name: Backup Keycloak
   import_tasks: backup_keycloak.yml
+
+- name: Cleanup old backups
+  import_tasks: cleanup.yml

@@ -1,0 +1,6 @@
+---
+cryptpad_version: "latest"
+cryptpad_domain: "cryptpad.example.com"
+cryptpad_ssl_cert: "/etc/ssl/certs/your_cert.pem"
+cryptpad_ssl_key: "/etc/ssl/private/your_key.pem"
+cryptpad_data_dir: "/var/lib/cryptpad"

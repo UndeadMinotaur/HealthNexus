@@ -6,6 +6,9 @@ zulip_data_dir: /home/zulip
 nextcloud_data_dir: /var/www/nextcloud
 bbb_data_dir: /var/bigbluebutton
 dokuwiki_data_dir: /var/www/dokuwiki
+etherpad_data_dir: "/var/lib/etherpad"
+mumble_data_dir: "/var/lib/mumble"
+cryptpad_data_dir: "/var/lib/cryptpad"
 keycloak_data_dir: /opt/keycloak/data
 keycloak_config_dir: /opt/keycloak/conf
 keycloak_backup_dir: /var/backups/keycloak

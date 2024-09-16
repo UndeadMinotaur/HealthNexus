@@ -1,0 +1,5 @@
+---
+- name: Create a backup of Mumble data
+  command: >
+    tar -czf {{ backup_directory }}/mumble_backup_$(date +%F_%T).tar.gz {{ mumble_data_dir }}
+  become: yes

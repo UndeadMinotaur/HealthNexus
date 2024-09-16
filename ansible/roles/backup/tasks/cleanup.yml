@@ -1,0 +1,15 @@
+---
+- name: Remove backups older than 30 days
+  find:
+    paths: "{{ backup_directory }}"
+    age: 5y
+    recurse: yes
+  register: old_backups
+
+- name: Delete old backups
+  file:
+    path: "{{ item.path }}"
+    state: absent
+  loop: "{{ old_backups.files }}"
+  when: old_backups.files | length > 0
+  become: yes

@@ -1,0 +1,9 @@
+---
+- name: Install CryptPad dependencies
+  import_tasks: install_dependencies.yml
+
+- name: Configure CryptPad
+  import_tasks: configure_cryptpad.yml
+
+- name: Start CryptPad
+  import_tasks: start_cryptpad.yml

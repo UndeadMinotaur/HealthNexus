@@ -12,6 +12,7 @@
     - dokuwiki
     - etherpad
     - mumble
+    - cryptpad
     - keycloak_ldap
     - ldap_sso
 

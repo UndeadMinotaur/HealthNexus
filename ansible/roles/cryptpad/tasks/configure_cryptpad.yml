@@ -1,0 +1,15 @@
+---
+- name: Create CryptPad Docker Compose file
+  template:
+    src: cryptpad_docker_compose.yml.j2
+    dest: /opt/cryptpad/docker-compose.yml
+  become: yes
+
+- name: Create CryptPad data directory
+  file:
+    path: "{{ cryptpad_data_dir }}"
+    state: directory
+    owner: root
+    group: root
+    mode: '0755'
+  become: yes

@@ -1,0 +1,5 @@
+---
+- name: Create a backup of Etherpad data
+  command: >
+    tar -czf {{ backup_directory }}/etherpad_backup_$(date +%F_%T).tar.gz {{ etherpad_data_dir }}
+  become: yes

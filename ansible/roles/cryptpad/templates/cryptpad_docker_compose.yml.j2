@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  cryptpad:
+    image: cryptpad/cryptpad:{{ cryptpad_version }}
+    container_name: cryptpad
+    environment:
+      - DOMAIN={{ cryptpad_domain }}
+    ports:
+      - "443:443"
+    volumes:
+      - "{{ cryptpad_ssl_cert }}:/etc/ssl/certs/ssl-cert-snakeoil.pem"
+      - "{{ cryptpad_ssl_key }}:/etc/ssl/private/ssl-cert-snakeoil.key"
+      - "{{ cryptpad_data_dir }}:/var/lib/cryptpad"
+    restart: unless-stopped

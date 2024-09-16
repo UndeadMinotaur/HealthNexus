@@ -1,0 +1,5 @@
+---
+- name: Create a backup of CryptPad data
+  command: >
+    tar -czf {{ backup_directory }}/cryptpad_backup_$(date +%F_%T).tar.gz {{ cryptpad_data_dir }}
+  become: yes
