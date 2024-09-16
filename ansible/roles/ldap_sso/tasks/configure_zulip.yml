@@ -1,0 +1,14 @@
+---
+- name: Ensure Zulip LDAP configuration file exists
+  template:
+    src: zulip_ldap_config.py.j2
+    dest: "{{ zulip_config_file }}"
+  become: yes
+
+- name: Set correct permissions for Zulip LDAP config
+  file:
+    path: "{{ zulip_config_file }}"
+    owner: zulip
+    group: zulip
+    mode: '0640'
+  become: yes

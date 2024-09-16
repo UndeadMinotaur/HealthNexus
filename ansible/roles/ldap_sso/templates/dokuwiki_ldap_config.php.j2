@@ -1,0 +1,9 @@
+<?php
+$conf['auth'] = 'ldap';
+$conf['auth_ldap_host'] = '{{ ldap_url }}';
+$conf['auth_ldap_dn'] = '{{ ldap_bind_dn }}';
+$conf['auth_ldap_pw'] = '{{ ldap_bind_password }}';
+$conf['auth_ldap_user'] = '{{ ldap_user_search_base }}';
+$conf['auth_ldap_user_filter'] = '{{ ldap_user_search_filter }}';
+$conf['auth_ldap_group'] = '{{ ldap_group_search_base }}';
+$conf['auth_ldap_group_filter'] = '{{ ldap_group_search_filter }}';

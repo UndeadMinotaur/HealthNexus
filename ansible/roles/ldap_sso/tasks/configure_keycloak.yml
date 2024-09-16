@@ -1,0 +1,27 @@
+---
+- name: Configure Keycloak LDAP integration
+  uri:
+    url: "http://{{ keycloak_host }}:{{ keycloak_port }}/auth/admin/realms/master/components"
+    method: POST
+    user: "{{ keycloak_admin_user }}"
+    password: "{{ keycloak_admin_password }}"
+    body_format: json
+    body:
+      {
+        "id": "ldap",
+        "providerId": "ldap",
+        "providerType": "org.keycloak.storage.ldap.LDAPStorageProviderFactory",
+        "name": "LDAP",
+        "config": {
+          "connectionUrl": "{{ ldap_url }}",
+          "usersDn": "{{ ldap_user_dn }}",
+          "bindDn": "{{ ldap_bind_dn }}",
+          "bindCredential": "{{ ldap_bind_password }}",
+          "userSearchBase": "{{ ldap_user_search_base }}",
+          "userSearchFilter": "{{ ldap_user_search_filter }}",
+          "groupSearchBase": "{{ ldap_group_search_base }}",
+          "groupSearchFilter": "{{ ldap_group_search_filter }}"
+        }
+      }
+    status_code: 201
+  become: yes

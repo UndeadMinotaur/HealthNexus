@@ -1,0 +1,14 @@
+---
+- name: Ensure LDAP configuration file exists
+  template:
+    src: nextcloud_ldap_config.php.j2
+    dest: "{{ nextcloud_config_dir }}/ldap.php"
+  become: yes
+
+- name: Set correct permissions for Nextcloud LDAP config
+  file:
+    path: "{{ nextcloud_config_dir }}/ldap.php"
+    owner: www-data
+    group: www-data
+    mode: '0644'
+  become: yes

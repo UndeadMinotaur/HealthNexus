@@ -1,0 +1,14 @@
+---
+ldap_url: ldap://ldap.example.com:389
+ldap_user_dn: "ou=users,dc=example,dc=com"
+ldap_bind_dn: "cn=admin,dc=example,dc=com"
+ldap_bind_password: ldap_password
+ldap_user_search_base: "ou=users,dc=example,dc=com"
+ldap_user_search_filter: "(uid={0})"
+ldap_group_search_base: "ou=groups,dc=example,dc=com"
+ldap_group_search_filter: "(member={0})"
+keycloak_host: keycloak.example.com
+keycloak_port: 8080
+nextcloud_config_dir: /var/www/nextcloud/config
+zulip_config_file: /etc/zulip/zulip.conf
+dokuwiki_config_file: /var/www/dokuwiki/conf/local.php

@@ -11,6 +11,7 @@
     - bigbluebutton
     - dokuwiki
     - keycloak_ldap
+    - ldap_sso
 
 - name: Backup all services
   hosts: all

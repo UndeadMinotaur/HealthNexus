@@ -1,0 +1,12 @@
+---
+- name: Configure Keycloak with LDAP
+  import_tasks: configure_keycloak.yml
+
+- name: Configure Nextcloud with LDAP
+  import_tasks: configure_nextcloud.yml
+
+- name: Configure Zulip with LDAP
+  import_tasks: configure_zulip.yml
+
+- name: Configure DokuWiki with LDAP
+  import_tasks: configure_dokuwiki.yml

@@ -1,0 +1,12 @@
+<?php
+$CONFIG = array (
+  'ldapProviderFactory' => 'OCA\\User_LDAP\\LDAPProviderFactory',
+  'ldapProvider' => array (
+    'ldap_server' => array (
+      'host' => '{{ ldap_url }}',
+      'base' => '{{ ldap_user_dn }}',
+      'bind_dn' => '{{ ldap_bind_dn }}',
+      'bind_password' => '{{ ldap_bind_password }}',
+    ),
+  ),
+);

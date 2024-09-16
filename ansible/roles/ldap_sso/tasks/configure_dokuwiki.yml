@@ -1,0 +1,14 @@
+---
+- name: Ensure DokuWiki LDAP configuration file exists
+  template:
+    src: dokuwiki_ldap_config.php.j2
+    dest: "{{ dokuwiki_config_file }}"
+  become: yes
+
+- name: Set correct permissions for DokuWiki LDAP config
+  file:
+    path: "{{ dokuwiki_config_file }}"
+    owner: www-data
+    group: www-data
+    mode: '0644'
+  become: yes
