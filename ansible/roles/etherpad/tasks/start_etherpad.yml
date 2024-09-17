@@ -1,12 +1,12 @@
 ---
 - name: Install Etherpad dependencies
   npm:
-    path: "{{ etherpad_install_dir }}/etherpad-lite"
+    path: "{{ etherpad_install_dir }}/etherpad-lite-2.2.4"
     state: present
   become: yes
 
 - name: Start Etherpad
-  command: "node {{ etherpad_install_dir }}/etherpad-lite/node_modules/ep_etherpad-lite/bin/www"
+  command: "node {{ etherpad_install_dir }}/etherpad-lite-2.2.4/node_modules/ep_etherpad-lite/bin/www"
   become: yes
   async: 1
   poll: 0

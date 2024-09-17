@@ -1,0 +1,5 @@
+---
+- name: Backup BigBlueButton data
+  command: >
+    tar -czf {{ backup_directory }}/bbb-data-{{ ansible_date_time.iso8601 }}.tgz -C {{ bbb_data_dir }} .
+  become: yes

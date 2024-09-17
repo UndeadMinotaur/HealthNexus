@@ -16,7 +16,7 @@
 
 - name: Download DokuWiki
   get_url:
-    url: "https://download.dokuwiki.org/src/dokuwiki/dokuwiki-{{ dokuwiki_version }}.tgz"
+    url: "https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz"
     dest: /tmp/dokuwiki.tgz
   become: yes
 
@@ -24,8 +24,6 @@
   unarchive:
     src: /tmp/dokuwiki.tgz
     dest: /var/www/
-    remote_src: yes
-    copy: no
   become: yes
 
 - name: Set permissions for DokuWiki

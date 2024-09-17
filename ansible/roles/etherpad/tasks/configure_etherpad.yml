@@ -2,8 +2,16 @@
 - name: Download Etherpad
   become: yes
   get_url:
-    url: "https://github.com/ether/etherpad-lite/releases/download/{{ etherpad_version }}/etherpad-lite-{{ etherpad_version }}.tar.gz"
+    url: "https://github.com/ether/etherpad-lite/archive/refs/tags/{{ etherpad_version }}.tar.gz"
     dest: /tmp/etherpad-lite-{{ etherpad_version }}.tar.gz
+
+- name: Create /opt/etherpad directory
+  file:
+    path: /opt/etherpad
+    state: directory
+    owner: etherpad
+    group: etherpad
+    mode: '0755'
 
 - name: Extract Etherpad
   become: yes

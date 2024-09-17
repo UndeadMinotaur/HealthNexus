@@ -11,4 +11,4 @@
   loop:
     - git
     - unzip
-    - docker
+    - docker.io

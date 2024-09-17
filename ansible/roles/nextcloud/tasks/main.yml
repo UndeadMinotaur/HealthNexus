@@ -1,6 +1,16 @@
 ---
 - name: Install Nextcloud
   import_tasks: install.yml
+  vars:
+    nextcloud_directory: /var/www/nextcloud
 
 - name: Configure Nextcloud
   import_tasks: configure.yml
+  vars:
+    nextcloud_directory: /var/www/nextcloud
+    nextcloud_admin_user: admin
+    nextcloud_admin_password: admin_password
+    nextcloud_db_name: nextcloud
+    nextcloud_db_user: nextclouduser
+    nextcloud_db_password: nextcloudpassword
+    nextcloud_db_host: localhost

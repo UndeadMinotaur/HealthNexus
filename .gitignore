@@ -1,2 +1,4 @@
 ansible/hosts
 ansible/inventory
+
+.vagrant

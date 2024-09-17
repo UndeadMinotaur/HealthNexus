@@ -1,15 +1,59 @@
 ---
-- name: Add BigBlueButton repository key
-  apt_key:
-    url: "{{ bbb_repo }}"
-    state: present
+
+- name: Ensure /opt/bigbluebutton directory exists
+  file:
+    path: /opt/bigbluebutton
+    state: directory
+    mode: '0755'
   become: yes
 
-- name: Add BigBlueButton repository
-  apt_repository:
-    repo: "{{ bbb_repo_url }}"
-    state: present
+- name: Download BigBlueButton installation script
+  get_url:
+    url: https://raw.githubusercontent.com/bigbluebutton/bbb-install/v2.7.x-release/bbb-install.sh
+    dest: /opt/bigbluebutton/bbb-install.sh
+    mode: '0755'
   become: yes
+
+- name: Install language pack for English
+  apt:
+    name: language-pack-en
+    state: present
+    update_cache: yes
+  become: yes
+
+- name: Update system locale
+  command: update-locale LANG=en_US.UTF-8
+  become: yes
+  environment:
+    DEBIAN_FRONTEND: noninteractive
+
+- name: Download BigBlueButton repository key
+  get_url:
+    url: https://ubuntu.bigbluebutton.org/repo/bigbluebutton.asc
+    dest: /tmp/bigbluebutton.asc
+  become: yes
+
+- name: Add BigBlueButton repository key
+  apt_key:
+    file: /tmp/bigbluebutton.asc
+    state: present
+    keyring: /etc/apt/trusted.gpg.d/bigbluebutton.gpg
+  become: yes
+
+- name: Update APT cache
+  apt:
+    update_cache: yes
+  become: yes
+
+- name: Execute BigBlueButton installation script
+  command: /opt/bigbluebutton/bbb-install.sh -v focal-270
+  become: yes
+  failed_when: result.rc != 0
+
+- name: Display BigBlueButton installation script output
+  debug:
+    msg: "{{ result.stdout }}\n{{ result.stderr }}"
+
 
 - name: Install BigBlueButton and dependencies
   apt:

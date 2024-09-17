@@ -19,10 +19,10 @@
 
 - name: Download Nextcloud
   get_url:
-    url: "https://download.nextcloud.com/server/releases/nextcloud-{{ nextcloud_version }}.zip"
+    url: "https://download.nextcloud.com/server/releases/latest.zip"
     dest: /tmp/nextcloud.zip
   become: yes
-
+  
 - name: Unzip Nextcloud
   unarchive:
     src: /tmp/nextcloud.zip
@@ -38,9 +38,18 @@
     recurse: yes
   become: yes
 
+- name: Determine PHP version
+  command: php -r "echo PHP_VERSION;"
+  register: php_version_output
+  changed_when: false
+
+- name: Set PHP version fact
+  set_fact:
+    php_version: "{{ php_version_output.stdout.split('.')[0:2] | join('.') }}"
+
 - name: Configure PHP for Nextcloud
   lineinfile:
-    path: /etc/php/{{ ansible_facts['distribution'] }}/{{ ansible_facts['php_version'] }}/fpm/php.ini
+    path: /etc/php/{{ php_version }}/fpm/php.ini
     regexp: '^{{ item.key }}'
     line: "{{ item.key }} = {{ item.value }}"
   loop:
@@ -52,6 +61,6 @@
 
 - name: Restart PHP-FPM
   service:
-    name: php-fpm
+    name: php{{ php_version }}-fpm
     state: restarted
   become: yes

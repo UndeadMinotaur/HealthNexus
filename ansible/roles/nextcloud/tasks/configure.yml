@@ -8,12 +8,26 @@
     - postgresql-client
   become: yes
 
+- name: Ensure Python pip is installed
+  apt:
+    name: python3-pip
+    state: present
+  become: yes
+
+- name: Install PyMySQL Python package
+  pip:
+    name: PyMySQL
+    state: present
+  become: yes
+
 - name: Create Nextcloud database
   mysql_db:
     name: "{{ nextcloud_db_name }}"
     state: present
     login_user: root
     login_password: root_password
+    encoding: utf8mb4
+    login_host: localhost  # Ensure this is the correct host
   become: yes
 
 - name: Create Nextcloud database user

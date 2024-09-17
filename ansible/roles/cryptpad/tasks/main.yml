@@ -1,9 +1,78 @@
 ---
-- name: Install CryptPad dependencies
-  import_tasks: install_dependencies.yml
+- name: Ensure CryptPad directory exists
+  file:
+    path: /opt/cryptpad
+    state: directory
+  become: yes
 
-- name: Configure CryptPad
-  import_tasks: configure_cryptpad.yml
+- name: Clone CryptPad repository
+  git:
+    repo: 'https://github.com/cryptpad/cryptpad.git'
+    dest: /opt/cryptpad
+    version: 'main'  # Update to the branch if needed
+  become: yes
+  tags: [cryptpad]
 
-- name: Start CryptPad
-  import_tasks: start_cryptpad.yml
+- name: Move to CryptPad directory
+  command: chdir=/opt/cryptpad pwd
+  become: yes
+
+- name: Checkout latest published tag
+  git:
+    repo: 'https://github.com/cryptpad/cryptpad.git'
+    dest: /opt/cryptpad
+    version: '2024.6.1'
+    update: yes
+  become: yes
+  tags: [cryptpad]
+
+- name: Install npm dependencies
+  npm:
+    path: /opt/cryptpad
+    state: present
+    executable: /usr/bin/npm
+  become: yes
+  tags: [cryptpad]
+
+- name: Run npm install:components
+  command: npm run install:components
+  args:
+    chdir: /opt/cryptpad
+  become: yes
+  tags: [cryptpad]
+
+- name: Copy example configuration file
+  command: cp config/config.example.js config/config.js
+  args:
+    chdir: /opt/cryptpad
+  become: yes
+  tags: [cryptpad]
+
+- name: Modify configuration file
+  lineinfile:
+    path: /opt/cryptpad/config/config.js
+    regexp: '^{{ item.key }}'
+    line: "{{ item.key }} = {{ item.value }}"
+  loop:
+    - { key: 'serverPort', value: '3000' }  # Example; adjust according to your needs
+    - { key: 'serverHost', value: 'localhost' }  # Example; adjust according to your needs
+  become: yes
+  tags: [cryptpad]
+
+- name: Install pm2 globally
+  npm:
+    name: pm2
+    global: yes
+    state: present
+  become: yes
+  tags: [cryptpad]
+
+- name: Start CryptPad server with pm2
+  command: pm2 start /opt/cryptpad/server.js --name cryptpad
+  become: yes
+  tags: [cryptpad]
+
+- name: Save pm2 process list
+  command: pm2 save
+  become: yes
+  tags: [cryptpad]

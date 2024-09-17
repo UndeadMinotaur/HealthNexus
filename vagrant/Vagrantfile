@@ -1,0 +1,51 @@
+# Vagrantfile to set up a Linux VM (Ubuntu) for use with Ansible
+Vagrant.configure("2") do |config|
+    # Use Ubuntu 22.04 LTS as the base box
+    config.vm.box = "ubuntu/jammy64"
+    
+    # Configure VM details
+    config.vm.hostname = "HealthNexus"
+    config.vm.network "private_network", type: "dhcp"
+    config.vm.provider "virtualbox" do |vb|
+      vb.name = "AnsibleEnvironment"
+      vb.memory = "4096"
+      vb.cpus = 4
+    end
+  
+    # Provisioning with shell script to install Ansible
+    config.vm.provision "shell", inline: <<-SHELL
+      # Update and install prerequisites
+      sudo apt-get update
+      sudo apt-get upgrade -y
+      sudo apt-get install -y software-properties-common
+  
+      # Add Ansible PPA and install Ansible
+      sudo apt-add-repository --yes --update ppa:ansible/ansible
+      sudo apt-get update
+      sudo apt-get install -y ansible
+    SHELL
+  
+    # Optional: Sync local Ansible roles and playbooks directory to the VM
+    # This syncs the host directory "./ansible" to "/vagrant/ansible" in the VM
+    config.vm.synced_folder "../ansible", "/vagrant/ansible", type: "virtualbox"
+  
+    # SSH configurations (Optional)
+    config.ssh.insert_key = false
+    config.ssh.forward_agent = true
+    
+    # # Ensure the /vagrant folder is ready (Optional delay)
+    # config.vm.provision "shell", inline: "sleep 10"
+
+    # # Provisioning with Ansible from host
+    # config.vm.provision "ansible" do |ansible|
+    #     ansible.playbook = "../ansible/playbook.yml"
+    #     ansible.inventory_path = "../ansible/inventory"
+    # end
+
+    # Provisioning with Ansible from guest
+    config.vm.provision "ansible_local" do |ansible|
+        ansible.playbook = "/vagrant/ansible/playbook.yml"
+        ansible.inventory_path = "/vagrant/ansible/inventory"
+    end
+  end
+  

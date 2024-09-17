@@ -1,6 +1,6 @@
 ---
 - name: Setup HealthNexus
-  hosts: healthnexus_server
+  hosts: healthnexus_server local
   become: yes
   roles:
     - setup
@@ -13,11 +13,13 @@
     - etherpad
     - mumble
     - cryptpad
-    - keycloak_ldap
-    - ldap_sso
+    # - keycloak_ldap
+    # - ldap_sso
 
-- name: Backup all services
-  hosts: all
-  become: yes
-  roles:
-    - backup
+# - name: Backup all services
+#   hosts: all
+#   become: yes
+#   roles:
+#     - backup
+                                                    
+

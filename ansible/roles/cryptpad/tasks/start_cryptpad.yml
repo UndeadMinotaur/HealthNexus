@@ -1,4 +1,0 @@
----
-- name: Start CryptPad container
-  command: docker-compose -f /opt/cryptpad/docker-compose.yml up -d
-  become: yes

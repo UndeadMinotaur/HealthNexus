@@ -1,48 +1,31 @@
----
-- name: Install system dependencies
+- name: Install Docker
   apt:
-    name: "{{ item }}"
+    name: docker.io
     state: present
-  loop:
-    - git
-    - python3
-    - python3-pip
-    - python3-dev
-    - build-essential
-    - libffi-dev
-    - libssl-dev
-    - libjpeg-dev
-    - libxml2-dev
-    - libxslt1-dev
-    - zlib1g-dev
-  become: yes
+    update_cache: yes
 
-- name: Create zulip user and group
-  user:
-    name: "{{ zulip_user }}"
-    group: "{{ zulip_group }}"
-    create_home: no
-    shell: /bin/bash
-  become: yes
+- name: Ensure Docker service is running
+  service:
+    name: docker
+    state: started
+    enabled: yes
 
-- name: Clone Zulip repository
-  git:
-    repo: "{{ zulip_repo }}"
-    dest: "{{ zulip_directory }}"
-    version: "{{ zulip_version }}"
-    force: yes
-  become: yes
+- name: Pull the Zulip Docker image
+  docker_image:
+    name: zulip/docker-zulip:latest
+    source: pull
 
-- name: Install Python dependencies
-  pip:
-    requirements: "{{ zulip_directory }}/requirements.txt"
-    virtualenv: "{{ zulip_directory }}/venv"
-  become: yes
-
-- name: Install Zulip
-  command: "{{ zulip_directory }}/scripts/setup --prod"
-  become: yes
-
-- name: Start Zulip services
-  command: "{{ zulip_directory }}/scripts/do-setup"
-  become: yes
+- name: Run Zulip Docker container
+  docker_container:
+    name: zulip
+    image: zulip/docker-zulip
+    state: started
+    restart_policy: always
+    published_ports:
+      - "1180:1180"      # Adjust ports as needed
+      - "11443:11443"    # Adjust ports as needed
+    volumes:
+      - /zulip:/zulip   # Adjust volumes as needed
+    env:
+      ZULIP_ADMIN_EMAIL: admin@example.com  # Replace with actual admin email
+      ZULIP_ADMIN_PASSWORD: yourpassword     # Replace with actual admin password
