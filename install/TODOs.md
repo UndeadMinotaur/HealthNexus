@@ -11,3 +11,4 @@
 -- dokuwiki
 -- backups
 - cleanup all secrets in ansible files
+- monitoring (nagios)

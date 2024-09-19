@@ -1,0 +1,26 @@
+---
+- name: Create LXC container nginx
+  command: >
+    lxc-create -n {{ container_name_nginx }} -t download
+    -- -d ubuntu -r focal -a amd64
+  args:
+    creates: /var/lib/lxc/{{ container_name_nginx }}
+
+- name: Start LXC container nginx
+  command: lxc-start -n {{ container_name_nginx }}
+
+- name: Ensure LXC container nginx starts on boot
+  command: lxc-autostart -n {{ container_name_nginx }}
+
+- name: Get LXC container IP address
+  command: lxc exec nginx-container -- ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+  register: container_ip
+  changed_when: false
+  become: yes
+
+- name: Add LXC container to Ansible inventory
+  add_host:
+    name: nginx-container
+    ansible_host: "{{ container_ip.stdout }}"
+    ansible_user: ubuntu
+  delegate_to: localhost

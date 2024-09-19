@@ -1,0 +1,123 @@
+{
+    "address_book": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "title": "Journalist",
+        "organization": "News Daily",
+        "contact_info": {
+          "email": "john.doe@example.com",
+          "phone": "+123456789",
+          "address": {
+            "street": "123 News Street",
+            "city": "Mediapolis",
+            "state": "NY",
+            "postal_code": "12345",
+            "country": "USA"
+          }
+        },
+        "labels": ["journalist", "media", "press"],
+        "notes": "Specializes in health and wellness topics."
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "title": "Politician",
+        "organization": "State Senate",
+        "contact_info": {
+          "email": "jane.smith@statesenate.gov",
+          "phone": "+987654321",
+          "address": {
+            "street": "456 Capitol Ave",
+            "city": "Politico City",
+            "state": "CA",
+            "postal_code": "67890",
+            "country": "USA"
+          }
+        },
+        "labels": ["politician", "state government"],
+        "notes": "Advocate for healthcare reform."
+      },
+      {
+        "id": 3,
+        "name": "Health Organization",
+        "title": "Non-Profit",
+        "organization": "Health for All",
+        "contact_info": {
+          "email": "info@healthforall.org",
+          "phone": "+1122334455",
+          "address": {
+            "street": "789 Wellness Way",
+            "city": "Healthville",
+            "state": "TX",
+            "postal_code": "54321",
+            "country": "USA"
+          }
+        },
+        "labels": ["non-profit", "healthcare"],
+        "notes": "Provides support for chronic illness patients."
+      },
+      {
+        "id": 18,
+        "name": "Grüne-Fraktion",
+        "title": "Parliamentary Group",
+        "organization": "The Greens",
+        "contact_info": {
+            "email": "", // No email provided
+            "phone": "",
+            "fax": "030 227 - 56552",
+            "fax_machine_readable": "03022756552",
+            "address": {
+                "street": "",
+                "city": "Berlin",
+                "state": "",
+                "postal_code": "",
+                "country": "de"
+            },
+            "contact_preferences": ["fax"],  // Possible values: "email", "phone", "fax", "mail"
+            "languages": ["de"]
+        },
+        "labels": [
+            "political party",
+            "parliament"
+        ],
+        "status": "unverified",
+        "notes": "",
+        "rating": {
+            "usefulness_rating": 4,  // Scale: 1 to 5
+            "responsiveness_rating": 3,  // Scale: 1 to 5
+        },
+        "power_level": "moderate",  // Possible values: "low", "moderate", "high"
+        "responsiveness":{
+            "availability": "weekdays", // Possible values: "weekdays", "weekends", "anytime"
+            "average_response_time": "72" // Response time in hours.
+        },
+        "social_media": {
+            "twitter": "https://twitter.com/janedoe",
+            "linkedin": "https://linkedin.com/in/janedoe",
+            "facebook": "https://facebook.com/janedoe",
+            "instagram": "https://instagram.com/janedoe",
+            "youtube": "https://youtube.com/user/janedoe"
+        },
+        "related_organizations": [
+            "Die Grünen"
+        ],
+        "historical_interactions": [
+            {
+                "date": "2024-08-15",
+                "interaction_type": "email",
+                "summary": "Discussed upcoming public health initiatives.",
+                "outcome": "Received detailed information and resources."
+              },
+              {
+                "date": "2024-09-10",
+                "interaction_type": "phone call",
+                "summary": "Inquired about new health regulations.",
+                "outcome": "Provided clarification on the new regulations."
+              } 
+        ],
+        "last_updated": "2024-09-19"  // Date of the last update
+    }
+    ]
+  }
+  

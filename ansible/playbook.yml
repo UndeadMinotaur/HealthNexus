@@ -3,18 +3,26 @@
   hosts: healthnexus_server local
   become: yes
   roles:
-    - setup
-    - nginx
-    - haproxy
-    - zulip
-    - nextcloud
-    - bigbluebutton
-    - dokuwiki
-    - etherpad
-    - mumble
-    - cryptpad
+    # - setup
+    - lxc
+    # - nginx
+    # - haproxy
+    # - zulip
+    # - nextcloud
+    # - bigbluebutton
+    # - dokuwiki
+    # - etherpad
+    # - mumble
+    # - cryptpad
     # - keycloak_ldap
     # - ldap_sso
+
+- name: Setup nginx
+  hosts: lxc_containers
+  roles:
+    - nginx
+
+
 
 # - name: Backup all services
 #   hosts: all

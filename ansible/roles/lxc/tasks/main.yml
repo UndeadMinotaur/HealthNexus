@@ -1,0 +1,12 @@
+---
+- name: Install LXC
+  import_tasks: install.yml
+  vars:
+    nextcloud_directory: /var/www/nextcloud
+
+- name: Setup LXC for "{{ item }}"
+  include_tasks: lxc_{{ item }}.yml
+  loop:
+    - nginx
+  vars:
+    container_name_nginx: nginx-container

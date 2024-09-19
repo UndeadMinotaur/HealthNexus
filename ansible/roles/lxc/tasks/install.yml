@@ -1,0 +1,29 @@
+---
+- name: Install LXC and dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - lxc
+    - lxc-templates
+    - python3-lxc
+  become: yes
+
+- name: Start LXD service
+  systemd:
+    name: lxd
+    state: started
+    enabled: yes
+  ignore_errors: yes
+  become: yes
+
+- name: Start LXD service (snap)
+  command: sudo snap start lxd
+  when: ansible_facts['distribution'] == 'Ubuntu'
+  ignore_errors: yes
+  become: yes
+
+- name: Initialize LXD
+  command: lxd init --auto
+  become: yes
