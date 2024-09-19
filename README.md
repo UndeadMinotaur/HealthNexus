@@ -47,11 +47,23 @@ For more details, refer to the [API Documentation]().
 
 ## Changelog
 
-For a detailed list of changes and updates to **MediMazeIQ**, please refer to the [Changelog](CHANGELOG.md).
+For a detailed list of changes and updates to **HealthNexus**, please refer to the [Changelog](CHANGELOG.md).
 
 ## Contributing
 
 Please review our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+Please send an email to [medimazeiq@posteo.net](mailto:medimazeiq@posteo.net) for coordination!
+Things you can currently contribute on without further coordination:
+
+- Add data to the `data/` directory.
+- Work on the API/Swagger API in flask to allow queries to the data.
+- Adjust the ansible playbooks to install the listed services. Currently, the roles are only dummies that are not yet functional (please use an LXC for all services (not haproxy, BBB)
+- Adjust the haproxy role to correctly forward all traffic to the containers/services
+- When you need to enter a domain, please use `healthnexus.online` and add it to `/etc/hosts`.
+- Use the subdomains listed in the haproxy config file
+
+That's the most important next steps for now
 
 ## License
 HealthNexus is licensed under the [CC BY-NC 4.0 License](LICENSE).
