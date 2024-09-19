@@ -2,7 +2,7 @@
 
 ## Basic Commands
 
-- **Command 1**: Description of what it does.
+- `cat data/addressbook.json | jq '.'`: Query the address book. Please refer to `tldr jquery` to get examples how to perform queries.
 - **Command 2**: Description of what it does.
 
 ## Configuration
