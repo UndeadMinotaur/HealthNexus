@@ -38,13 +38,13 @@ All
 | setup         | -         | :x: |
 | nginx         | 80, 443   | :white_check_mark: |
 | haproxy       | -         | :x:   |
-| zulip         | 80, 443   | (:white_check_mark:) |
+| zulip         | 80, 443   | ( :white_check_mark: ) |
 | nextcloud     | 80, 443   | :white_check_mark:   |
 | bigbluebutton | 80, 443, 7443, 16384-32768 | unclear [1] |
 | dokuwiki      | 80, 443   | :white_check_mark:   |
-| etherpad      | 9001      | (:white_check_mark:) |
-| mumble        | 64738     | (:white_check_mark:) |
-| cryptpad      | 3000      | (:white_check_mark:) |
+| etherpad      | 9001      | ( :white_check_mark: ) |
+| mumble        | 64738     | ( :white_check_mark: ) |
+| cryptpad      | 3000      | ( :white_check_mark: ) |
 | backup        | -         | :white_check_mark:   |
 
 [1] BigBlueButton requires access to kernel modules for WebRTC and screen sharing, and it uses several ports. It traditionally expects to run on a full VM or dedicated server. Running it in an LXC container could lead to compatibility issues, especially with audio/video features.
