@@ -1,0 +1,136 @@
+[
+    {
+        "name": "Long Covid",
+        "abbreviations": [
+            "LC",
+            "PASC"
+        ],
+        "synonymes": [
+            "Post Covid",
+            "Post-acute sequelae of COVID-19"
+        ]
+    },
+    {
+        "name": "Myalgic Encephalomyelitis",
+        "abbreviations":[
+            "ME/CFS",
+            "ME",
+            "CFS",
+            "CFS/ME"
+        ]
+    },
+    {
+        "name": "Human immunodeficiency viruses",
+        "abbreviations": [
+            "HIV"
+        ] 
+    },
+    {
+        "name": "Human T-lymphotropic virus",
+        "abbreviations":[ 
+            "HTLV"
+        ]
+    },
+    {
+        "name": "Neglected tropical diseases",
+        "abbreviations": [
+            "NTDs"
+        ]
+    },
+    {
+        "name": "Ehlers-Danlos-Syndrome",
+        "abbreviations": [
+            "EDS"
+        ]
+    },
+    {
+        "name": "General Practitioner",
+        "abbreviations": [
+            "GP"
+        ]
+    },
+    {
+        "name": "Substance Use Disorders",
+        "abbreviations":[
+            "SUD"
+        ]
+    },
+    {
+        "name": "Post-Acute Infection Syndromes",
+        "abbreviations": [
+            "PAIS"
+        ]
+    },
+    {
+        "name": "High-Density Lipoproteins",
+        "abbreviations": [
+            "HDL"
+        ]
+    },
+    {
+        "name": "Postural Orthostatic Tachycardia Syndrome",
+        "abbreviations":[
+            "POTS"
+        ]
+    },
+    {
+        "name": "Mast cell activation syndrome",
+        "abbreviations":[
+            "MCAS"
+        ]
+    },
+    {
+        "name": "Small Fiber Neuropathy",
+        "abbreviations": [
+            "SFN"
+        ]   
+    },
+    {
+        "name": "Cerebral small vessel disease",
+        "abbreviations": [
+            "cSVD"
+        ]
+    },
+    {
+        "name": "Electromyography",
+        "abbreviations": [
+            "EMG"
+        ]
+    },
+    {
+        "name": "Electroneuronography",
+        "abbreviations": [
+            "ENG"
+        ]
+    },
+    {
+        "name": "Medical Doctor",
+        "abbreviations": [
+            "MD"
+        ]
+    },
+    {
+        "name": "National Board Certified Health and Wellness Coach",
+        "abbreviations": [
+            "NBC-HWC"
+        ]
+    },
+    {
+        "name": "Intra-articular corticosteroid injection",
+        "abbreviations": [
+            "IACI"
+        ]
+    },
+    {
+        "name": "People of Color",
+        "abbreviations": [
+            "POC"
+        ]
+    },
+    {
+        "name": "Fibromyalgia",
+        "abbreviations":[
+            "FM"
+        ]
+    }
+]

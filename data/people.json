@@ -1,0 +1,1412 @@
+[
+    {
+        "name": "Carmen Scheibenbogen",
+        "titles": [
+            "Prof.",
+            "Dr. med."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "immunologist",
+            "medical doctor",
+            "advocate"
+        ],
+        "institute": {
+            "name": "Charite Berlin",
+            "url": "cfc.charite.de",
+            "address":{
+                "city": "Berlin",
+                "country": "DE"
+            }
+        },
+        "media" :{
+            "twitter": "@C_Scheibenbogen"
+        },
+        "keywords": [
+            "immunodeficiency", 
+            "immunology", 
+            "fatigue", 
+            "me/cfs", 
+            "lc"
+        ],
+        "bio": "Head of Immunodeficiency Outpatient Clinic Charité Berlin, Germany"
+    },
+    {
+        "name": "Bettina Grande",
+        "role": [
+            "speaker",
+            "psychological psychotherapist",
+            "analytical psychotherapy",
+            "depth psychology-based psychotherapy",
+            "advocate"
+        ],
+        "address": {
+            "url": "psychotherapie-grande.de",
+            "city": "Heidelberg",
+            "country": "DE"
+        },
+        "media": {
+            "twitter": "@GrandeBettina"
+        },
+        "keywords":[
+            "me/cfs", 
+            "psychotherapy",
+            "pem",
+            "lc"
+        ],
+        "bio": "Psychological psychotherapist practising in Heidelberg, Germany"
+    },    
+    {
+        "name": "E. Wesley Ely",
+        "titles": [
+            "Prof.",
+            "MD MPH"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "medical doctor",
+            "intensive care unit",
+            "advocate"
+        ],
+        "institute": {
+            "name": "Vanderbuilt University Medical Center",
+            "url": "www.icudelirium.org",
+            "address": {
+                "city":"Nashville",
+                "country":"USA"
+            }
+        },
+        "media": {
+            "twitter": "@WesElyMD"
+        },
+        "keywords":[
+            "lc", 
+            "intensive care medicine", 
+            "pics", 
+            "dementia", 
+            "delirium",
+            "immunomodulation",
+            "public health"
+        ],
+        "bio": "Professor of Medicine, Vanderbuilt University Medical Center, Co-Director of CIBS Center, Nashville, USA"
+    },
+    {
+        "name": "Karl Lauterbach",
+        "titles": [
+            "Prof.", 
+            "Dr."
+        ],
+        "role": [
+            "politician",
+            "minister of health",
+            "MdB"
+        ],
+        "media": {
+            "twitter": "@Karl_Lauterbach"
+        },
+        "keywords":[
+            "germany",
+            "politics"
+        ],
+        "bio": "MdB Federal Minister of Health of the Federal Republic of Germany"
+    },
+    {
+        "name": "Marie-Therese Burka",
+        "role": [
+            "chief operations officer",
+            "advocate",
+            "speaker"
+        ],
+        "organization": {
+            "name": "WE&ME Foundation",
+            "id": 24,
+            "address": {
+                "city": "Vienna",
+                "country": "AT"
+            }
+        },
+        "media": {
+            "twitter": "@MarieThereseBka"
+        },
+        "keywords":[
+            "me/cfs",
+            "funds"
+        ],
+        "bio": "Chief Operations Officer/COO WE&ME Foundation, Vienna, Austria"
+    },
+    {
+        "name": "Chantal Britt",
+        "titles": "",
+        "role": [
+            "founder",
+            "advocate",
+            "speaker"
+        ],
+        "organization": {
+            "name": "Long Covid Switzerland",
+            "id": 42,
+            "address": {
+                "country": "ch",
+                "city": "Bern"
+            }
+        },
+        "media": {
+            "twitter": "@ChantalBritt"
+        },
+        "keywords": [
+            "lc",
+            "me/cfs"
+        ],
+        "bio": "2023 Viktor Award Winner and founder of Patient Organization Long Covid Switzerland"
+    },
+    {
+        "name": "Akiko Iwasaki",
+        "titles": [
+            "Prof.",
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "immunologist",
+            "professor",
+            "investigator"
+        ],
+        "institute": {
+            "name": "Yale University",
+            "address": {
+                "country": "USA",
+                "city":"Connecticut"
+            }
+        },
+        "media": {
+            "twitter": "@VirusesImmunity",
+            "url": "medicine.yale.edu/lab/iwasaki"
+        },
+        "keywords":[
+            "immunobiology",
+            "antiviral immunity",
+            "viral disease pathogenesis",
+            "lc",
+            "immunology",
+            "pais"
+        ],
+        "bio": "Sterling Professor of Immunobiology, Yale University Investigator, HHMI, Connecticut, USA"
+    },
+    {
+        "name": "Daniel M. Altmann",
+        "titles": [
+            "Prof"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "author"
+        ],
+        "institute": {
+            "name": "Departement of Immunology and Inflammation, Imperial College",
+            "address": {
+                "country": "UK",
+                "city": "London"   
+            }
+        },
+        "media": {
+            "twitter": "@Daltmann10"
+        },
+        "keywords":[
+            "immunology",
+            "lc"
+        ],
+        "bio": "Departement of Immunology and Inflammation, Imperial College, Faculty of Medicine, London, UK"
+    },
+    {
+        "name": "Johan Van Weyenbergh",
+        "titles": "",
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate"
+        ],
+        "institute": {
+            "name": "Laboratory of Clinical and Epidemiological Virology Department of Microbiology, Immunology and Transplantation Rega Institute for Medical Research",
+            "address":{
+                "country":"be",
+                "city":"Leuven"
+            }
+        },
+        "media": {
+            "twitter": "@johanvawe",
+            "researchgate": "www.researchgate.net/profile/Johan_Van_Weyenbergh"
+        },
+        "keywords":[
+            "respiratory viruses",
+            "vaccine responses",
+            "hiv",
+            "htlv",
+            "immunology",
+            "ntds",
+            "covid19",
+            "patient-driven 'grassroots' clinical trials"
+        ],
+        "bio": "Laboratory of Clinical and Epidemiological Virology Department of Microbiology, Immunology and Transplantation Rega Institute for Medical Research, Leuven, Belgium"
+    },
+    {
+        "name": "Bhupesh K. Prusty",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "molecular virologist"
+        ],
+        "institute": {
+            "name": "Riga Stradins University",
+            "address":{
+                "country":"LV",
+                "city":"Riga"
+            }
+        },
+        "media": {
+            "twitter": "@BhupeshPrusty",
+            "url": "prustylab.org"
+        },
+        "keywords":[
+            "molecular virology",
+            "patient-oriented scientific research",
+            "lc",
+            "me/cfs",
+            "differences between me/cfs and lc"
+        ],
+        "bio": "Professor of Science, Riga Stradins University, Riga, Latvia"
+    },
+    {
+        "name": "Rob Wüst",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "assistant professor"
+        ],
+        "institute": {
+            "name": "Vrije University",
+            "address":{
+                "country": "nl",
+                "city":"Amsterdam"
+            }
+        },
+        "media": {
+            "twitter": "@RobWust"
+        },
+        "keywords":[
+            "muscle metabolism",
+            "lc",
+            "skeletal muscle function",
+            "pem"
+        ],
+        "bio": "Assistant-Professor Muscle Metabolism at Vrije University Amsterdam, Netherlands"
+    },
+    {
+        "name": "Resia Pretorius",
+        "titles": [
+            "Prof.",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "professor"
+        ],
+        "institute": {
+            "name": "Stellenbosch University",
+            "address": {
+                "country": "ZA"
+            }
+        },
+        "media": {
+            "twitter": "@resiapretorius"
+        },
+        "keywords": [
+            "physiology",
+            "coagulation",
+            "inflammation",
+            "lc",
+            "microclots",
+            "platelet hyperactivation",
+            "thrombotic edothelialitis"
+        ],
+        "bio": "Professor of Physiological Sciences at Stellenbosch University, South Africa"
+    },
+    {
+        "name": "Bernhard Schieffer",
+        "titles": [
+            "Prof.",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "interventional cardiologist",
+            "director"
+        ],
+        "institute": {
+            "name": "University Hospital, Marburg",
+            "address": {
+                "country": "de",
+                "city": "Marburg"
+            }
+        },
+        "media": {
+            "twitter": "@ProfSchieffer",
+            "url": "www.ukgm.de/ugm_2/deu/umr_kar/index.html"
+        },
+        "keywords": [
+            "cardiology",
+            "angiology",
+            "intensive care medicine",
+            "lc",
+            "HDL proteome",
+            "treatment"
+        ],
+        "bio": "Director University Heart Center Department of Cardiology, Angiology and Critical Care Medicine University Hospital, Marburg, Germany"
+    },
+    {
+        "name": "Anna Brooks",
+        "titles": "PhD",
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "senior lecurer",
+            "immunologist",
+            "cytometry director",
+            "co-founder",
+            "principal investigator"
+        ],
+        "institute": {
+            "name": "Auckland Cytometry, University of Auckland",
+            "address": {
+                "country": "NZ",
+                "city": "Auckland"
+            }
+        },
+        "media": {
+            "twitter": "@DrAnnaNZ",
+            "linkedin": "www.linkedin.com/mwlite/in/anna-brooks-47313614"
+        },
+        "keywords": [
+            "cytometry",
+            "lc",
+            "immunology",
+            "me/cfs",
+            "recognition",
+            "biomedical research"
+        ],
+        "bio": "Senior Lecturer and Director at Auckland Cytometry, University of Auckland, New Zealand"
+    },
+    {
+        "name": "Abigail Koppes",
+        "titles": [
+            "PhD",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "associate professor",
+            "affiliated professor",
+            "principal investigator",
+            "patient"
+        ],
+        "institute": {
+            "name": "Northeastern University",
+            "address": {
+                "country": "USA",
+                "city": "Boston"
+            }
+        },
+        "media": {
+            "twitter": "@ANKoppes"
+        },
+        "keywords": [
+            "chemical engineering",
+            "neuro engineering",
+            "lc"
+        ],
+        "bio": "Associate Professor of Chemical Engineering, Northeastern University, Boston, USA"
+    },
+    {
+        "name": "Ron Davis",
+        "titles": [
+            "Prof.",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "professor",
+            "director"
+        ],
+        "institute": {
+            "name": "Stanford",
+            "address": {
+                "country": "USA",
+                "city": "Stanford"
+            }
+        },
+        "media": {
+            
+        },
+        "keywords": [
+            "biochemistry",
+            "genetics",
+            "me/cfs",
+            "treatment",
+            "cure"
+        ],
+        "bio": "Professor of Biochem and Genetics at Standford, Director at Genome Tech Ctr, MECFS Collaboartive Research Ctr and OMF Scientific Advisory Board, Stanford, USA"
+    },
+    {
+        "name": "Oonagh Cousins",
+        "role": [
+            "speaker",
+            "advocate",
+            "visiting research fellow",
+            "ambassador",
+            "patient",
+            "researcher"
+        ],
+        "institute": {
+            "name": "University of Oxford",
+            "address": {
+                "country": "UK",
+                "city": "Oxford"
+            }
+        },
+        "media": {
+            "twitter": "@oonagh_cousins"
+        },
+        "keywords": [
+            "lc",
+            "participatory research methods"
+        ],
+        "bio": "Visiting Research Fellow, University of Oxford, Ambassador for the Charity Long Covid Support, Oxford, UK"
+    },
+    {
+        "name": "Amy Proal",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "chief scientific officer",
+            "president",
+            "microbiologist"
+        ],
+        "institute": {
+            "name": "PolyBio Research Foundation",
+            "address": {
+                "country": "USA",
+                "city": "Boston"
+            }
+        },
+        "media": {
+            "twitter": "@microbeminded2"
+        },
+        "keywords": [
+            "microbiology",
+            "infection-associated chronic disease",
+            "me/cfs",
+            "lc",
+            "lyme",
+            "eds",
+            "immunometabolism",
+            "mitochondria",
+            "cell metabolism",
+            "pathogen persistence"
+        ],
+        "bio": "President/Chief Scientific Officer PolyBio Research Foundation, Boston, USA"
+    },
+    {
+        "name": "Todd Davenport",
+        "titles": [
+            "Prof.",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "professor",
+            "vice chair"
+        ],
+        "institute": {
+            "name": "University of the Pacific",
+            "address": {
+                "country": "USA",
+                "city": "Stockton"
+            }
+        },
+        "media": {
+            "twitter": "@sunsopeningband"
+        },
+        "keywords": [
+            "lc",
+            "me/cfs",
+            "physical therapy",
+            "infection-associated chronic disease",
+            "phenotyping"
+        ],
+        "bio": "Professor and Vice Chair, Departement of Physical Therapy at University of the Pacific in Stockton, USA"
+    },
+    {
+        "name": "Jordon Steele-John",
+        "role": [
+            "politician",
+            "australian greens",
+            "senator"
+        ],
+        "media": {
+            "twitter": "@SenatorJordon"
+        },
+        "keywords": [
+            "politics",
+            "australia",
+            "perth"
+        ],
+        "bio": "Member of Australian Greens, Senator for Western Australia, Perth, Australia"
+    },
+    {
+        "name": "Michael Kacik",
+        "titles": [
+            "Dr."
+        ],
+        "address": {
+            "url": "www.pro-vascular.de/",
+            "city": "Münster",
+            "country": "DE"
+        },        
+        "role": [
+            "speaker",
+            "advocate",
+            "medical doctor",
+            "gp",
+            "angiologist",
+            "internist"
+        ],
+        "media": {
+            "twitter": ""
+        },
+        "keywords": [
+            "internal medicine",
+            "angiology",
+            "general medicine",
+            "lc",
+            "me/cfs",
+            "vascular regulation disorder",
+            "insights",
+            "clinical practice"
+        ],
+        "bio": "Specialist in Internal Medicine and Angiology and Specialist in General Medicine, Münster, Germany"
+    },
+    {
+        "name": "Georg Schomerus",
+        "titles": [
+            "Prof.",
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "professor",
+            "chair"
+        ],
+        "institute": {
+            "name": "University of Leipzig",
+            "address": {
+                "country": "DE",
+                "city": "Leipzig"
+            }
+        },
+        "media": {
+            "twitter": "@geschom"
+        },
+        "keywords": [
+            "psychiatry",
+            "psychotherapy",
+            "stigma",
+            "time trends",
+            "substance use disorders"
+        ],
+        "bio": "Professor and Chair, Departement of Psychiatry and Psychotherapy, University of Leipzig, Germany"
+    },
+    {
+        "name": "Sabine Hermisson",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "advocate",
+            "caregiver",
+            "researcher"
+        ],
+        "address": {
+            "country": "AT",
+            "city": "Vienna"
+        },
+        "media": {
+            "twitter": "@SabineHermisson"
+        },
+        "keywords": [
+            "mother",
+            "caregiver",
+            "severly ill",
+            "bell 0",
+            "empirical education",
+            "religion",
+            "me/cfs"
+        ],
+        "bio": "Mother and Carer of a very severly ill ME Patient and advocate, Vienna, Austria"
+    },
+    {
+        "name": "Paul Hennessy",
+        "role": [
+            "speaker",
+            "advocate",
+            "patient"
+        ],
+        "media": {
+            "twitter": "@we_are_ssd"
+        },
+        "keywords": [
+            "patient advocacy",
+            "lc"
+        ],
+        "bio": "Long Covid Advocate, California, USA"
+    },
+    {
+        "name": "Martin Kräter",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "research fellow"
+        ],
+        "institute": {
+            "name": "Max Planck Institute for the Science of Light",
+            "address": {
+                "country": "DE",
+                "city": "Erlangen"
+            }
+        },
+        "media": {
+            "twitter": "@KraterMartin"
+        },
+        "keywords": [
+            "deformability cytometry",
+            "microcirculation",
+            "cell mechanics",
+            "lc"
+        ],
+        "bio": "Postdoctoral Research Fellow at Max Planck Institute for the Science of Light, Erlangen, Germany"
+    },
+    {
+        "name": "Pam Bishop",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "patient",
+            "ex-research professor"
+        ],
+        "institute": {
+            "name": "",
+            "address": {
+                "country": "",
+                "city": ""
+            }
+        },
+        "media": {
+            "twitter": "@pamelarbishop"
+        },
+        "keywords": [
+            "lc",
+            "pots",
+            "me/cfs",
+            "mcas",
+            "sfn",
+            "cSVD",
+            "patient advocacy"
+        ],
+        "bio": "Long COVID Patient, Tennessee, USA"
+    },
+    {
+        "name": "David Putrino",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "director"
+        ],
+        "institute": {
+            "name": "Rehabilitation Innovation at Icahn School of Medicine at Mount Sinai",
+            "address": {
+                "country": "USA",
+                "city": "New York City"
+            }
+        },
+        "media": {
+            "twitter": "@PutrinoLab"
+        },
+        "keywords": [
+            "lc",
+            "rehabilitation innovation",
+            "pais",
+            "diagnosis",
+            "pathobiology",
+            "treatment"
+        ],
+        "bio": "Director of Rehabilitation Innovation at Icahn School of Medicine at Mount Sinai, New York City, USA"
+    },
+    {
+        "name": "Michael Stingl",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "neurologist",
+            "medical doctor",
+            "advocate"
+        ],
+        "address": {
+            "country": "AT",
+            "city": "Vienna"
+            
+        },
+        "media": {
+            "twitter": "@neurostingl"
+        },
+        "keywords": [
+            "neurology",
+            "insights",
+            "clinical practice",
+            "lc",
+            "me/cfs",
+            "eng",
+            "emg",
+            "brain health",
+            "telemedicine",
+            "nerve ultrasonics",
+            "diagnosis",
+            "treatment"
+        ],
+        "bio": "Specialist in Neurology, Vienna, Austria"
+    },
+    {
+        "name": "Linda N. Geng",
+        "titles": [
+            "MD",
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "associate professor",
+            "co-director"
+        ],
+        "institute": {
+            "name": "Post-Acute COVID-19 Syndrome Center",
+            "address": {
+                "country": "USA",
+                "city": "California"
+            }
+        },
+        "media": {
+            "twitter": ""
+        },
+        "keywords": [
+            "Stanford Long Covid Collaborative"
+        ],
+        "bio": "Clinical Associate Professor at Stanford University and Co-Director Post-Acute COVID-19 Syndrome Center, California, USA"
+    },
+    {
+        "name": "Danielle Beckman",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "neuroscientist"
+        ],
+        "institute": {
+            "name": "University of California",
+            "address": {
+                "country": "USA",
+                "city": "Davis"
+            }
+        },
+        "media": {
+            "twitter": "@DaniBeckman"
+        },
+        "keywords": [
+            "neuroscience",
+            "neuroinvasive potential",
+            "neuroinflammation",
+            "Sars-CoV-2",
+            "lc",
+            "brain fog",
+            "cognitive dysfunction",
+            "primates",
+            "biophysics",
+            "biological chemistry",
+            "microscopy"
+        ],
+        "bio": "Neuroscientist, University of California, Davis, USA"
+    },
+    {
+        "name": "David Tuller",
+        "titles": [
+            "Dr. Ph."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "senior fellow"
+        ],
+        "institute": {
+            "name": "Center for Global Public Health",
+            "address": {
+                "country": "USA",
+                "city": "UC Berkeley"
+            }
+        },
+        "media": {
+            "twitter": "@davidtuller1"
+        },
+        "keywords": [
+            "public health",
+            "journalism",
+            "lc",
+            "me/cfs"
+        ],
+        "bio": "Senior Fellow in Public Health and Journalism, Center for Global Public Health, UC Berkeley, USA"
+    },
+    {
+        "name": "Daniel Martins",
+        "titles": [
+            "Dr.",
+            "MD",
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "senior research fellow"
+        ],
+        "institute": {
+            "name": "King's College",
+            "address": {
+                "country": "UK",
+                "city": "London"
+            }
+        },
+        "media": {
+            "twitter": "@DanielArturAM",
+            "url": "danielartur0.wixsite.com/danielmartins"
+        },
+        "keywords": [
+            "neuroimaging",
+            "psychiatry",
+            "psychology",
+            "neuroscience",
+            "neuroimmunopsychiatry",
+            "lc",
+            "brain",
+            "experimental medicine",
+            "biomarkers"
+        ],
+        "bio": "Senior Research Fellow Departement of Neuroimaging, Institute of Psychiatry, Psychology and Neuroscience, King´s College, London, UK"
+    },
+    {
+        "name": "Tess Falor",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "founder",
+            "patient",
+            "space physicist"
+        ],
+        "institute": {
+            "name": "Renegade Research and RemissionBiome",
+            "address": {
+                "country": "USA",
+                "city": "Denver"
+            }
+        },
+        "media": {
+            "twitter": "@tessfalor"
+        },
+        "keywords": [
+            "caregiver led research",
+            "catalyzing change",
+            "patient led research",
+            "me/cfs"
+        ],
+        "bio": "Renegade Research and RemissionBiome founder, Denver, USA"
+    },
+    {
+        "name": "Marty Pack",
+        "titles": [
+            "M.A."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "executive director",
+            "creative producer",
+            "founder"
+        ],
+        "address": {
+            "country": "USA",
+            "city": "Ohio"
+        },
+        "keywords": [
+            "lc",
+            "marginalized communities",
+            "educational documentary film organization"
+        ],
+        "bio": "Founder, Executive Director and Creative Producer Wail of a Tale Productions, non-profit educational documentary film organization, Ohio, USA"
+    },
+    {
+        "name": "Erin Godwin",
+        "role": [
+            "speaker",
+            "advocate",
+            "caregiver"
+        ],
+        "media": {
+            "twitter": "@ErinAPN1"
+        },
+        "keywords": [
+            "mother",
+            "caregiver",
+            "lc",
+            "severly ill",
+            "practical insights",
+            "children",
+            "diagnostic odyssey"
+        ],
+        "bio": "Mother and Carer of a very severely ill child suffering from Long COVID, Australia"
+    },
+    {
+        "name": "Isabel Ramirez-Burnett",
+        "titles": [],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "CEO",
+            "project director",
+            "patient",
+            "NBC-HWC"
+        ],
+        "institute": {
+            "name": "AIP-C Renegade Research",
+            "address": {
+                "country": "USA",
+                "city": "Rhode-Island"
+            }
+        },
+        "media": {
+            "twitter": "@IsabelRamirezRD"
+        },
+        "keywords": [
+            "caregiver led research",
+            "patient led research",
+            "catalyzing change",
+            "lc",
+            "me/cfs",
+            "decentralized research",
+            "human-centered research",
+            "IACI",
+            "POC"
+        ],
+        "bio": "AIP-C Renegade Research CEO & RemissionBiome project director, Rhode-Island, USA"
+    },
+    {
+        "name": "Stan Kutcher",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "politician",
+            "senator"
+        ],
+        "media": {
+            "twitter": "@StanKutcher"
+        },
+        "keywords": [
+            "politics",
+            "Novia Scotia",
+            "Canada",
+            "mental health",
+            "health outcomes",
+            "scientific evidence"
+        ],
+        "bio": "Senator for Novia Scotia, Canada. 'Committed to improving mental health/health outcomes and the use of best available scientific evidence to guide decision making.'"
+    },
+    {
+        "name": "Sayoni Das",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "senior vice president"
+        ],
+        "institute": {
+            "name": "PrecisionLife",
+            "address": {
+                "country": "UK",
+                "city": "Oxford"
+            }
+        },
+        "media": {
+            "twitter": "@sayoni03",
+            "linkedin": "linkedin.com/in/sayoni-das"
+        },
+        "keywords": [
+            "bioinformatics",
+            "precision medicine",
+            "lc",
+            "me/cfs",
+            "disesae biology"
+        ],
+        "bio": "SVP of Bioinformatics at PrecisionLife, Oxford, UK"
+    },
+    {
+        "name": "Megan L. Fitzgerald",
+        "titles": [
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "study co-lead",
+            "biologist"
+        ],
+        "media": {
+            "twitter": "@themegascope",
+            "url": "themegascope.com"
+        },
+        "keywords": [
+            "patient led research",
+            "collaborative reinfections study",
+            "pem",
+            "lc",
+            "me/cfs",
+            "reinfections",
+            "visible"
+        ],
+        "bio": "Patient Led Research Collaborative Reinfections Study Co-Lead, USA "
+    },
+    {
+        "name": "Ed Yong",
+        "role": [
+            "speaker",
+            "advocate",
+            "science journalist",
+            "author"
+        ],
+        "media": {
+            "twitter": "@Edyong209",
+            "newsletter": "buttondown.email/edyong209"
+        },
+        "keywords": [
+            "science journalism",
+            "explanatory reporting",
+            "COVID-19",
+            "pandemic",
+            "me/cfs",
+            "lc",
+            "fatigue",
+            "pem"
+        ],
+        "bio": "Science Journalist and Winner of 2021 Pulitzer Prize for Explanatory Reporting for a series on the COVID-19 pandemic surprise speakers"
+    },
+    {
+        "name": "Anne Maitland",
+        "titles": [
+            "Dr."
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "immunologist",
+            "director",
+            "assistant professor",
+            "allergist"
+        ],
+        "institute": {
+            "name": "Icahn School of Medicine at Mt Sinai"
+        },
+        "media": {
+            "twitter": "@asktheallergist"
+        },
+        "keywords": [
+            "immunology",
+            "immune system",
+            "immune dysfunction",
+            "lc",
+            "me/cfs"
+        ],
+        "bio": "Director, Allergy & Immunology Services, Metrodora Institute, Asst. Professor, Icahn School of Medicine at Mt Sinai"
+    },
+    {
+        "name": "Valentina Puntmann",
+        "titles": [
+            "Prof.",
+            "Dr.",
+            "MD",
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "associate professor",
+            "consultant cardiologist",
+            "senior clinical research investigator"
+        ],
+        "institute": {
+            "name": "University Hospital Frankfurt",
+            "address": {
+                "country": "DE",
+                "city": "Frankfurt"
+            }
+        },
+        "media": {
+            "twitter": "@v_puntmann",
+            "url": "valentinapuntmann.com"
+        },
+        "keywords": [
+            "experimental imaging",
+            "cardiovascular imaging",
+            "pasc",
+            "cardiovascular involvement",
+            "Myoflame-19 RCT",
+            "COVID-19",
+            "heart",
+            "cardiorheumatology",
+            "cardiooncology",
+            "cardiac imaging"
+        ],
+        "bio": "Associate Professor at the Institute of Experimental and Cardiovascular Imaging, University Hospital Frankfurt, Germany"
+    },
+    {
+        "name": "Harry Leeming",
+        "role": [
+            "speaker",
+            "founder",
+            "advocate"
+        ],
+        "media": {
+            "twitter": "@visible_health"
+        },
+        "keywords": [
+            "apps",
+            "visible",
+            "wearable technology",
+            "measurement",
+            "management",
+            "lc",
+            "me/cfs",
+            "tools",
+            "pacing",
+            "monitoring"
+        ],
+        "bio": "Founder of Visible, USA"
+    },
+    {
+        "name": "Edo Plantinga",
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate"
+        ],
+        "media": {
+            "twitter": "@LongCovidTool",
+            "url": "longcovidtoolkit.org"
+        },
+        "keywords": [
+            "Long Covid Toolkit",
+            "actionable",
+            "knowledge",
+            "tools",
+            "people empowerment",
+            "evidence-based",
+            "patient experiences",
+            "lc",
+            "apps",
+            "caregivers",
+            "patients"
+        ],
+        "bio": "Project Manager and Founder of Long Covid Toolkit"
+    },
+    {
+        "name": "Amy Mooney",
+        "role": [
+            "speaker",
+            "advocate",
+            "occupational therapist"
+        ],
+        "media": {
+            "twitter": "@BatemanHorne"
+        },
+        "institute": {
+            "name": "Bateman Horne Center",
+            "address": {
+                "country": "USA",
+                "city": "Salt Lake City"
+            }
+        },
+        "keywords": [
+            "pem",
+            "occupational therapy",
+            "physical therapy",
+            "pacing",
+            "me/cfs",
+            "fm",
+            "lc"
+        ],
+        "bio": "Occupational Therapist, Chicago, USA"
+    },
+    {
+        "name": "Clayton Powers",
+        "titles": [
+            "MD"
+        ],
+        "role": [
+            "speaker",
+            "medical doctor",
+            "advocate",
+            "physical therapist"
+        ],
+        "institute": {
+            "name": "Bateman Horne Center",
+            "address": {
+                "country": "USA",
+                "city": "Salt Lake City"
+            }
+        },
+        "media": {
+            "twitter": "@BatemanHorne"
+        },
+        "keywords": [
+            "physical therapy"
+        ],
+        "bio": "Doctor of Physical Therapy University of Utah, Salt Lake City, USA"
+    },
+    {
+        "name": "Joanneke van Der Nagel",
+        "titles": [
+            "MD",
+            "PhD"
+        ],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate",
+            "epidemiologist",
+            "psychiatrist",
+            "founder"
+        ],
+        "institute": {
+            "name": "",
+            "address": {
+                "country": "",
+                "city": ""
+            }
+        },
+        "media": {
+            "twitter": "@LongCovidTool"
+        },
+        "keywords": [
+            "epidemiology",
+            "psychiatry",
+            "Long Covid Toolkit",
+            "actionable",
+            "knowledge",
+            "tools",
+            "people empowerment",
+            "evidence-based",
+            "patient experiences",
+            "lc",
+            "apps",
+            "caregivers",
+            "patients"
+        ],
+        "bio": "Epidemiologist, Psychiatrist, Researcher, Founder of Long Covid Toolkit, Netherlands"
+    },
+    {
+        "name": "",
+        "titles": [],
+        "role": [
+            "speaker",
+            "researcher",
+            "advocate"
+        ],
+        "institute": {
+            "name": "",
+            "address": {
+                "country": "",
+                "city": ""
+            }
+        },
+        "media": {
+            "twitter": ""
+        },
+        "keywords": [],
+        "bio": ""
+    }
+]

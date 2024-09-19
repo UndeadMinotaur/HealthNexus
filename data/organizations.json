@@ -1,0 +1,644 @@
+[
+    {
+        "name": "Open Medicine Foundation Canada",
+        "twitter": "@OpenMedFCanada",
+        "url": "omfcanada.ngo",
+        "language": [
+            "en"
+        ],
+        "region": "ca",
+        "verified": false,
+        "active": "unknown",
+        "id": 0
+    },
+    {
+        "name": "Millions Missing Can",
+        "twitter": "@MillionMissCan",
+        "url": "millionsmissingcanada.ca",
+        "language": [
+            "en"
+        ],
+        "region": "ca",
+        "verified": false,
+        "active": "unknown",
+        "id": 1
+    },
+    {
+        "name": "AQEM",
+        "twitter": "@AQEM_SFC",
+        "url": "millionsmissingcanada.ca",
+        "language": [
+            "en"
+        ],
+        "region": "ca",
+        "verified": false,
+        "active": "unknown",
+        "id": 2
+    },
+    {
+        "name": "Millions Missing Mexico",
+        "twitter": "@sfcem_mexico",
+        "url": "linktr.ee/AQEM_SFC",
+        "language": [
+            "fr"
+        ],
+        "region": "ca, Qu\u00e9bec",
+        "verified": false,
+        "active": "unknown",
+        "id": 3
+    },
+    {
+        "name": "UniteToFight2024",
+        "twitter": "@U2Fight_World",
+        "url": "unitetofight2024.world",
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": true,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 4
+    },
+    {
+        "name": "Irish ME/CFS Association",
+        "twitter": "@IrishMECFSAssoc",
+        "url": "irishmecfs.org",
+        "language": [
+            "en"
+        ],
+        "region": "ie",
+        "verified": false,
+        "active": "unknown",
+        "id": 5
+    },
+    {
+        "name": "THE ME CFS FOUNDATION SOUTH AFRICA",
+        "twitter": "@mecfs_sa",
+        "url": "mecfssa.org",
+        "language": [
+            "en"
+        ],
+        "region": "za",
+        "verified": false,
+        "active": "unknown",
+        "id": 6
+    },
+    {
+        "name": "ME/CFS AID Japan",
+        "twitter": "@mecfs_aid_Japan",
+        "url": "mecfs-aid-japan.org",
+        "language": [
+            "jp"
+        ],
+        "region": "jp",
+        "verified": false,
+        "active": "unknown",
+        "id": 7
+    },
+    {
+        "name": "NPO\u6cd5\u4eba \u7b4b\u75db\u6027\u8133\u810a\u9ac4\u708e\u306e\u4f1a",
+        "twitter": "@CFSnon",
+        "url": "mecfsj.wordpress.com",
+        "language": [
+            "jp"
+        ],
+        "region": "Jp",
+        "verified": false,
+        "active": "unknown",
+        "id": 8
+    },
+    {
+        "name": "European ME Research Group (EMERG)",
+        "twitter": "@euromeresearch",
+        "url": "emerg.eu",
+        "language": [
+            "en"
+        ],
+        "region": "eu",
+        "verified": false,
+        "active": "unknown",
+        "id": 9
+    },
+    {
+        "name": "European ME Coalition (EMEC)",
+        "twitter": "@EMEC_advocacy",
+        "url": "europeanmecoalition.com",
+        "language": [
+            "en"
+        ],
+        "region": "eu",
+        "verified": false,
+        "active": "unknown",
+        "id": 10
+    },
+    {
+        "name": "European ME Alliance",
+        "twitter": "@EUROMEALL",
+        "url": "europeanmealliance.org",
+        "language": [
+            "en"
+        ],
+        "region": "eu",
+        "verified": false,
+        "active": "unknown",
+        "id": 11
+    },
+    {
+        "name": "World ME Alliance",
+        "twitter": "@WorldMEAlliance",
+        "url": "worldmealliance.org",
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": false,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 12
+    },
+    {
+        "name": "Millions Missing France",
+        "twitter": "@MillionsMissgFr",
+        "url": "millionsmissing.fr",
+        "language": [
+            "fr"
+        ],
+        "region": "fr",
+        "verified": false,
+        "active": "unknown",
+        "id": 13
+    },
+    {
+        "name": "#MillionsMissing Deutschland",
+        "twitter": "@MMissingGermany",
+        "url": "millionsmissing.de",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 14
+    },
+    {
+        "name": "MillionsMissingNL",
+        "twitter": "@MMissingHolland",
+        "url": "www.facebook.com/MillionsMissingHolland/",
+        "language": [
+            "nl"
+        ],
+        "region": "nl",
+        "verified": false,
+        "active": "unknown",
+        "id": 15
+    },
+    {
+        "name": "Millions Missing Finland",
+        "twitter": "@FinlandMissing",
+        "url": "http://sites.google.com/view/millions-missing-finland",
+        "language": [
+            "fi"
+        ],
+        "region": "fi",
+        "verified": false,
+        "active": "unknown",
+        "id": 16
+    },
+    {
+        "name": "#MillionsMissing Sweden",
+        "twitter": "@MMissingSweden",
+        "url": "http://fb.me/MillionsMissingSweden",
+        "language": [
+            "se"
+        ],
+        "region": "se",
+        "verified": false,
+        "active": "unknown",
+        "id": 17
+    },
+    {
+        "name": "Deutsche Gesellschaft f\u00fcr ME/CFS e.V.",
+        "twitter": "@dg_mecfs",
+        "url": "mecfs.de",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 18
+    },
+    {
+        "name": "\u00d6sterreichische Gesellschaft f\u00fcr ME/CFS",
+        "twitter": "@oeg_mecfs",
+        "url": "mecfs.at",
+        "language": [
+            "de"
+        ],
+        "region": "at",
+        "verified": false,
+        "active": "unknown",
+        "id": 19
+    },
+    {
+        "name": "ME/CFS Freiburg",
+        "twitter": "@MECFS_Freiburg",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 20
+    },
+    {
+        "name": "ME Foreningen",
+        "twitter": "@MEForeningen_dk",
+        "url": "me-foreningen.dk",
+        "language": [
+            "dk"
+        ],
+        "region": "dk",
+        "verified": false,
+        "active": "unknown",
+        "id": 21
+    },
+    {
+        "name": "ME-gids",
+        "twitter": "@ME_gids",
+        "url": "me-gids.net",
+        "language": [
+            "nl"
+        ],
+        "region": "be;nl",
+        "verified": false,
+        "active": "unknown",
+        "id": 22
+    },
+    {
+        "name": "Association of People Affected by Fibromyalgia and other Central Sensitization Syndromes of Catalonia",
+        "twitter": "@ACAFssc",
+        "url": "fibromialgia.cat",
+        "language": [
+            "en",
+            "es",
+            "ca"
+        ],
+        "region": "es",
+        "verified": false,
+        "active": "unknown",
+        "contact": {
+            "email": "acaf@fibromialgia.cat"
+        },
+        "id": 23
+    },
+    {
+        "name": "WE&ME Foundation",
+        "twitter": "@weandmecfs",
+        "url": "weandmecfs.org",
+        "language": [
+            "en"
+        ],
+        "region": "at;int",
+        "verified": false,
+        "active": "unknown",
+        "id": 24
+    },
+    {
+        "name": "ME/cvs Vereniging",
+        "twitter": "@MEcvsVereniging",
+        "url": "me-cvsvereniging.nl",
+        "language": [
+            "nl"
+        ],
+        "region": "nl",
+        "verified": false,
+        "active": "unknown",
+        "id": 25
+    },
+    {
+        "name": "ME/CVS-Stichting Nederland",
+        "twitter": "@MECVSSTICHTING",
+        "url": "mecvs.nl",
+        "language": [
+            "nl"
+        ],
+        "region": "nl",
+        "verified": false,
+        "active": "unknown",
+        "id": 26
+    },
+    {
+        "name": "MIRAME ARTS",
+        "twitter": "@MIRAME_ARTS",
+        "url": "linktr.ee/mirame_arts",
+        "language": [
+            "en",
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 27
+    },
+    {
+        "name": "Ne\u00fanavn\u00ed - Nada\u010dn\u00ed fond",
+        "twitter": "@neunavni",
+        "url": "neunavni.cz",
+        "language": [
+            "cz"
+        ],
+        "region": "cz",
+        "verified": false,
+        "active": "unknown",
+        "id": 28
+    },
+    {
+        "name": "StartaMEvolution",
+        "twitter": "@a_MEvolution",
+        "url": "startamevolution.org",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 29
+    },
+    {
+        "name": "Fatigatio e.V. - Bundesverband ME/CFS",
+        "twitter": "@FatigatioeV",
+        "url": "fatigatio.de",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 30
+    },
+    {
+        "name": "ME-Hilfe e.V.",
+        "twitter": "@Me_Hilfe_",
+        "url": "linktr.ee/me_hilfe",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 31
+    },
+    {
+        "name": "ME/CFS-Netzwerk Baden-W\u00fcrttemberg",
+        "twitter": "@MECFS_BW",
+        "url": "mecfs-freiburg.de",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 32
+    },
+    {
+        "name": "ONG PEM",
+        "twitter": "@AsociacionPEM",
+        "url": "ongpem.org",
+        "language": [
+            "es"
+        ],
+        "region": "es",
+        "verified": false,
+        "active": "unknown",
+        "contact": {
+            "email": "info.ongpem@gmail.com"
+        },
+        "id": 33
+    },
+    {
+        "name": "MECFS Stuttgart",
+        "twitter": "MECFS_Stuttgart",
+        "language": [
+            "de"
+        ],
+        "region": "de",
+        "verified": false,
+        "active": "unknown",
+        "id": 34
+    },
+    {
+        "name": "Norges ME-forening - Rogaland Fylkeslag",
+        "twitter": "@ME_Rogaland",
+        "url": "www.me-foreningen.info/fylkeslag/rogaland-fylkeslag",
+        "language": [
+            "no"
+        ],
+        "region": "no",
+        "verified": false,
+        "active": "unknown",
+        "id": 35
+    },
+    {
+        "name": "ME-foreldrene",
+        "twitter": "@MEforeldrene",
+        "url": "meforeldrene.no;https://fryvil.wordpress.com/the-me-parents/",
+        "language": [
+            "en",
+            "no"
+        ],
+        "region": "no",
+        "verified": false,
+        "active": "unknown",
+        "id": 36
+    },
+    {
+        "name": "Norges ME-forening",
+        "twitter": "@MEforeningen",
+        "url": "www.me-foreningen.no",
+        "language": [
+            "no"
+        ],
+        "region": "no",
+        "verified": false,
+        "active": "unknown",
+        "id": 37
+    },
+    {
+        "name": "Stichting Long COVID",
+        "twitter": "@StLongCOVID",
+        "url": "stichtinglongcovid.nl",
+        "language": [
+            "nl"
+        ],
+        "region": "nl",
+        "verified": false,
+        "active": "unknown",
+        "id": 38
+    },
+    {
+        "name": "Doctors with M.E.",
+        "twitter": "@DoctorsWithME",
+        "url": "doctorswith.me",
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": false,
+        "active": "unknown",
+        "id": 39
+    },
+    {
+        "name": "ME Association",
+        "twitter": "@MEAssociation",
+        "url": "linktr.ee/meassociation",
+        "language": [
+            "en"
+        ],
+        "region": "uk",
+        "verified": false,
+        "active": "unknown",
+        "id": 40
+    },
+    {
+        "name": "#MEAction Network UK",
+        "twitter": "@MEActNetUK",
+        "url": "www.meaction.net",
+        "language": [
+            "en"
+        ],
+        "region": "uk",
+        "verified": false,
+        "active": "unknown",
+        "id": 41
+    },
+    {
+        "name": "Long Covid Switzerland",
+        "twitter": "@LongCovidCH",
+        "url": "long-covid-info.ch",
+        "language": [
+            "de"
+        ],
+        "region": "ch",
+        "verified": false,
+        "active": "unknown",
+        "id": 42
+    },
+    {
+        "name": "Long Covid Europe",
+        "abbreviation": "LCE",
+        "twitter": "@LongCOVIDEurope",
+        "url": "longcovideurope.org",
+        "language": [
+            "en"
+        ],
+        "region": "eu",
+        "verified": false,
+        "active": "unknown",
+        "id": 43
+    },
+    {
+        "name": "Long Covid Kids Schweiz",
+        "parentOrganizationId": 42,
+        "twitter": "@LongCovidKinder",
+        "url": "longcovidkids.ch",
+        "language": [
+            "en",
+            "de"
+        ],
+        "region": "ch",
+        "verified": false,
+        "active": "unknown",
+        "id": 44
+    },
+    {
+        "name": "World Health Network",
+        "twitter": "@TheWHN",
+        "url": "whn.global",
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": false,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 45
+    },
+    {
+        "name": "Post-Viral Research Aotearoa",
+        "media": {
+            "url": "www.pvra.nz"
+        },
+        "language": [
+            "en"
+        ],
+        "region": "us",
+        "verified": false,
+        "active": "unknown",
+        "id": 46
+    },
+    {
+        "name": "Long Covid Support",
+        "media":{
+            "twitter": "@long_covid",
+            "url": "www.pvra.nz",
+            "linktr.ee": "longcovidsupport"
+        },
+        "language": [
+            "en"
+        ],
+        "region": "uk",
+        "verified": false,
+        "active": "unknown",
+        "id": 47
+    },
+    {
+        "name": "RemissionBiome MECFS/LongCovid Self-Experiment",
+        "media": {
+            "twitter": "@remissionbiome",
+            "url": "RemissionBiome.org"
+        },
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": false,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 48,
+        "parentOrganizationId": 49
+    },
+    {
+        "name": "Renegade Research",
+        "media": {
+            "twitter": "@RenegadeRes"
+        },
+        "language": [
+            "en"
+        ],
+        "region": "int",
+        "verified": false,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 49
+    },
+    {
+        "name": "Action for M.E.",
+        "media": {
+            "twitter": "@actionforme",
+            "url": "actionforme.org.uk"
+        },
+        "language": [
+            "en"
+        ],
+        "contact":{
+            "telephone": "0117 927 9551"
+        },
+        "region": "uk",
+        "verified": false,
+        "active": "yes",
+        "last_activity_check": 2024,
+        "id": 50
+    }
+]
