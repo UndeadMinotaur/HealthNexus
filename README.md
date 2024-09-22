@@ -62,6 +62,7 @@ Things you can currently contribute on without further coordination:
 - Adjust the haproxy role to correctly forward all traffic to the containers/services
 - When you need to enter a domain, please use `healthnexus.online` and add it to `/etc/hosts`.
 - Use the subdomains listed in the haproxy config file
+- Design UIs :D
 
 That's the most important next steps for now
 
