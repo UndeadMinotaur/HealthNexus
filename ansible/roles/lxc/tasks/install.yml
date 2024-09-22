@@ -12,7 +12,7 @@
 
 - name: Start LXD service
   systemd:
-    name: lxd
+    name: lxc
     state: started
     enabled: yes
   ignore_errors: yes

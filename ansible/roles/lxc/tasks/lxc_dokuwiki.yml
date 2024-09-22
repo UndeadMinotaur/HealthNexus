@@ -1,0 +1,25 @@
+---
+- name: Create LXC container dokuwiki
+  command: >
+    sudo lxc init ubuntu:24.04 {{ container_name_dokuwiki }}
+  args:
+    creates: /var/lib/lxc/{{ container_name_dokuwiki }}
+
+- name: Start LXC container dokuwiki
+  command: lxc start {{ container_name_dokuwiki }}
+
+- name: Ensure LXC container dokuwiki starts on boot
+  command: lxc-autostart -n {{ container_name_dokuwiki }}
+
+- name: Get LXC container IP address
+  command: lxc exec dokuwiki-container -- ip -4 addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+  register: container_ip
+  changed_when: false
+  become: yes
+
+- name: Add LXC container to Ansible inventory
+  add_host:
+    name: dokuwiki-container
+    ansible_host: "{{ container_ip.stdout }}"
+    ansible_user: ubuntu
+  delegate_to: localhost

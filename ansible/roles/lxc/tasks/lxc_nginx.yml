@@ -1,13 +1,12 @@
 ---
 - name: Create LXC container nginx
   command: >
-    lxc-create -n {{ container_name_nginx }} -t download
-    -- -d ubuntu -r focal -a amd64
+    sudo lxc init ubuntu:24.04 {{ container_name_nginx }}
   args:
     creates: /var/lib/lxc/{{ container_name_nginx }}
 
 - name: Start LXC container nginx
-  command: lxc-start -n {{ container_name_nginx }}
+  command: lxc start {{ container_name_nginx }}
 
 - name: Ensure LXC container nginx starts on boot
   command: lxc-autostart -n {{ container_name_nginx }}

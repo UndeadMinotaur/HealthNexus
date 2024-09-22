@@ -21,6 +21,7 @@
   hosts: lxc_containers
   roles:
     - nginx
+    - dokuwiki
 
 
 

@@ -8,5 +8,7 @@
   include_tasks: lxc_{{ item }}.yml
   loop:
     - nginx
+    - dokuwiki
   vars:
     container_name_nginx: nginx-container
+    container_name_dokuwiki: dokuwiki-container
