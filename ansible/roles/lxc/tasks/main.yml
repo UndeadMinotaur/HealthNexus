@@ -9,6 +9,10 @@
   loop:
     - nginx
     - dokuwiki
+    - zulip
+    - nextcloud
   vars:
     container_name_nginx: nginx-container
     container_name_dokuwiki: dokuwiki-container
+    container_name_zulip: zulip-container
+    container_name_nextcloud: nextcloud-container

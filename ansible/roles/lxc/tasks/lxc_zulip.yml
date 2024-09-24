@@ -1,13 +1,13 @@
 ---
 - name: Check if the LXC container exists
-  command: lxc info {{ container_name_dokuwiki }}
+  command: lxc info {{ container_name_zulip }}
   register: container_check
   ignore_errors: true
   changed_when: false
 
-- name: Create LXC container dokuwiki
+- name: Create LXC container zulip
   when: container_check.failed
-  command: lxc init ubuntu:24.04 {{ container_name_dokuwiki }}
+  command: lxc init ubuntu:24.04 {{ container_name_zulip }}
   become: yes
 
 - name: Check if the container is running
@@ -16,36 +16,35 @@
   become: yes
   ignore_errors: true
   shell: |
-    lxc info {{ container_name_dokuwiki }} | grep -q "Status: RUNNING"
+    lxc info {{ container_name_zulip }} | grep -q "Status: RUNNING"
 
-- name: Start LXC container dokuwiki
-  command: lxc start {{ container_name_dokuwiki }}
+- name: Start LXC container zulip
+  command: lxc start {{ container_name_zulip }}
   when: container_status.rc != 0
-
+  
 - name: Wait for the LXC container to be fully running
   shell: |
-    lxc info {{ container_name_dokuwiki }} | grep -q "Status: RUNNING"
+    lxc info {{ container_name_zulip }} | grep -q "Status: RUNNING"
   register: container_running
   retries: 3  # Number of retries
   delay: 3    # Wait n seconds between retries
   until: container_running.rc == 0
   changed_when: false
-  ignore_errors: false
-  become: yes
+  ignore_errors: false  
 
-- name: Ensure LXC container dokuwiki starts on boot
-  command: lxc-autostart -n {{ container_name_dokuwiki }}
+- name: Ensure LXC container zulip starts on boot
+  command: lxc-autostart -n {{ container_name_zulip }}
 
 - name: Get LXC container IP address
   register: container_ip
   changed_when: false
   become: yes
   shell: |
-    lxc info {{ container_name_dokuwiki }} | grep "inet: .* (global)" | awk '{ print $2 }' | awk -F/ '{ print $1 }';
+    lxc info {{ container_name_zulip }} | grep "inet: .* (global)" | awk '{ print $2 }' | awk -F/ '{ print $1 }';
 
 - name: Add LXC container to Ansible inventory
   add_host:
-    name: "{{ container_name_dokuwiki }}"
+    name: "{{ container_name_zulip }}"
     ansible_host: "{{ container_ip.stdout }}"
     ansible_user: ubuntu
   delegate_to: localhost

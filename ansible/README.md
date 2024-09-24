@@ -52,3 +52,7 @@ All
 
 ## Domain
 Configured in `ansible/roles/setup/tasks/main.yml`.
+
+## TODO
+
+clear repository from secrets and deploy config files that handles changing all credentials by calling a command.
