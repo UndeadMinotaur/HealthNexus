@@ -2,3 +2,4 @@ ansible/hosts
 ansible/inventory
 
 .vagrant
+.SECRETS
