@@ -5,6 +5,27 @@
     name: haproxy
     state: present
 
+- name: Check HAProxy configuration
+  command: haproxy -c -f /etc/haproxy/haproxy.cfg
+  register: haproxy_check
+  ignore_errors: yes  # Continue even if this command fails
+
+- name: Output HAProxy configuration check results
+  debug:
+    msg: "{{ haproxy_check.stdout }}"
+  when: haproxy_check.rc == 0  # Only output if the check was successful
+
+- name: Output HAProxy configuration check error
+  debug:
+    msg: "HAProxy configuration check failed: {{ haproxy_check.stderr }}"
+  when: haproxy_check.rc != 0  # Only output if the check failed
+
+- name: Add entry to /etc/hosts
+  lineinfile:
+    path: /etc/hosts
+    state: present
+    line: "127.0.0.1 healthnexus.online"
+
 - name: Deploy HAProxy configuration file
   copy:
     src: haproxy.cfg

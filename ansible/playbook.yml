@@ -6,7 +6,7 @@
     # - setup
     - lxc
     # - nginx
-    # - haproxy
+    - haproxy
     # - zulip
     # - nextcloud
     # - bigbluebutton
@@ -17,11 +17,11 @@
     # - keycloak_ldap
     # - ldap_sso
 
-- name: Setup nginx
-  hosts: lxc_containers
-  roles:
-    - nginx
-    - dokuwiki
+# - name: Setup nginx
+#   hosts: lxc_containers
+#   roles:
+#     - nginx
+#     - dokuwiki
 
 
 

@@ -1,0 +1,11 @@
+[Unit] 
+Description="Lxc-autostart for lxc user" 
+
+[Service] 
+Type=oneshot 
+ExecStart=/usr/bin/lxc-autostart 
+ExecStop=/usr/bin/lxc-autostart -s 
+RemainAfterExit=1
+
+[Install] 
+WantedBy=default.target

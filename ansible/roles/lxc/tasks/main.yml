@@ -1,8 +1,17 @@
 ---
+- name: Set hosts
+  copy:
+    src: etc/hosts
+    dest: /etc/hosts
+    owner: root
+    group: root
+    mode: '0644'
+
 - name: Install LXC
   import_tasks: install.yml
   vars:
     nextcloud_directory: /var/www/nextcloud
+    user: root
 
 - name: Setup LXC for "{{ item }}"
   include_tasks: lxc_{{ item }}.yml
@@ -11,8 +20,14 @@
     - dokuwiki
     - zulip
     - nextcloud
+    - mumble
+    - etherpad
+    - cryptpad
   vars:
     container_name_nginx: nginx-container
     container_name_dokuwiki: dokuwiki-container
     container_name_zulip: zulip-container
     container_name_nextcloud: nextcloud-container
+    container_name_mumble: mumble-container
+    container_name_etherpad: etherpad-container
+    container_name_cryptpad: cryptpad-container

@@ -27,3 +27,47 @@
 - name: Initialize LXD
   command: lxd init --auto
   become: yes
+
+- name: Get the subnet of lxdbr0 network
+  shell: ip -4 addr show lxdbr0 | grep -oP 'inet \K[\d.]+/\d+'
+  register: lxdbr0_subnet
+
+- name: Set the subnet variable
+  set_fact:
+    lxdbr0_subnet_cidr: "{{ lxdbr0_subnet.stdout }}"
+
+- name: Extract the first three octets and add a dot
+  set_fact:
+    lxdbr0_subnet: "{{ lxdbr0_subnet.stdout | regex_search('^([\\d]+\\.[\\d]+\\.[\\d]+)') }}."
+
+# - name: Create directory
+#   ansible.builtin.file:
+#     path: /root/.config/systemd/user
+#     state: directory
+#     owner: root
+#     group: root
+#     mode: 0775
+#     recurse: yes
+
+# - name: Deploy lxc-autostart service
+#   copy:
+#     src: lxc-autostart.service
+#     dest: /root/.config/systemd/user/lxc-autostart.service
+#     owner: root
+#     group: root
+#     mode: '0644'
+
+# - name: Start LXC autostart service
+#   systemd:
+#     name: lxc-autostart
+#     state: stopped
+#     scope: user
+#     enabled: yes
+#   ignore_errors: no
+#   become: yes
+
+# - name: Add root to lingering users
+#   command: loginctl enable-linger "{{ user }}"
+#   ignore_errors: no
+#   become: yes
+

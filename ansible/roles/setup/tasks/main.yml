@@ -12,9 +12,3 @@
     - git
     - unzip
     - docker.io
-
-- name: Add entry to /etc/hosts
-  lineinfile:
-    path: /etc/hosts
-    state: present
-    line: "127.0.0.1 healthnexus.online"

@@ -1,7 +1,7 @@
 ---
 - name: Set container_name variable
   set_fact:
-    container_name: "{{ container_name_nginx }}"
+    container_name: "{{ container_name_cryptpad }}"
 
 - name: Check if the LXC container {{ container_name }} exists
   command: lxc info {{ container_name }}
@@ -27,13 +27,13 @@
   command: lxc config device add {{ container_name }} eth0 nic \
            nictype=bridged \
            parent=lxdbr0 \
-           ipv4.address={{ lxdbr0_subnet }}7
+           ipv4.address={{ lxdbr0_subnet }}2
   become: yes
 
-- name: Start LXC container nginx
+- name: Start LXC container {{ container_name }}
   command: lxc start {{ container_name }}
-
-- name: Wait for the LXC container to be fully running
+  
+- name: Wait for the LXC container {{ container_name }} to be fully running
   shell: |
     lxc info {{ container_name }} | grep -q "Status: RUNNING"
   register: container_running
@@ -41,9 +41,9 @@
   delay: 3    # Wait n seconds between retries
   until: container_running.rc == 0
   changed_when: false
-  ignore_errors: false
+  ignore_errors: false  
 
-- name: Ensure LXC container nginx starts on boot
+- name: Ensure LXC container {{ container_name }} starts on boot
   command: lxc config set {{ container_name }} boot.autostart true
   ignore_errors: no
   become: yes
@@ -61,7 +61,3 @@
     ansible_host: "{{ container_ip.stdout }}"
     ansible_user: ubuntu
   delegate_to: localhost
-
-# - name: Gather facts from nginx-container
-#   setup:
-#     delegate_to: nginx-container
