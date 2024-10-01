@@ -15511,23 +15511,26 @@
             "id": 360,
             "name": "Kassenärztliche Vereinigung Baden-Württemberg",
             "contact_info": {
-                "fax": "0711 7875-299",
-                "fax_machine_readable": "07117875299",
-                "email": "",
+                "phone": "0711 7875-0",
+                "fax": "0711 7875-3274",
+                "fax_machine_readable": "071178753274",
+                "email": "info@kvbawue.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Albstadtweg 11",
+                    "city": "Suttgart",
+                    "state": "Baden-Württemberg",
+                    "postal_code": "70567",
+                    "country": "de"
                 },
+                "website": "https://www.kvbawue.de/",
                 "contact_preferences": [
                     "fax"
                 ],
                 "languages": []
             },
             "labels": [
-                "Kassenärztliche Vereinigung"
+                "Kassenärztliche Vereinigung",
+                "kvbw"
             ],
             "status": "unverified",
             "notes": "",
@@ -15543,21 +15546,105 @@
             "social_media": {},
             "related_organizations": [],
             "historical_interactions": [],
-            "last_updated": "2024-09-19"
+            "last_updated": "2024-10-01",
+            "general_agencies": [
+                {
+                    "name": "Bezirksdirektion Stuttgart",
+                    "contact_info": {
+                        "fax": "0711 7875-3274",
+                        "fax_machine_readable": "071178753274",
+                        "email": "",
+                        "address": {
+                            "street": "Albstadtweg 11",
+                            "city": "Stuttgart",
+                            "state": "Baden-Württemberg",
+                            "postal_code": "70567",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [
+                            "fax"
+                        ],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksdirektion Freiburg",
+                    "contact_info": {
+                        "fax": "0761 884-4145",
+                        "fax_machine_readable": "07618844145",
+                        "email": "",
+                        "address": {
+                            "street": "Sundgauallee 27",
+                            "city": "Freiburg",
+                            "state": "Baden-Württemberg",
+                            "postal_code": "79114",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [
+                            "fax"
+                        ],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksdirektion Karlsruhe",
+                    "contact_info": {
+                        "fax": "0721 926-4744",
+                        "fax_machine_readable": "07219264744",
+                        "email": "",
+                        "address": {
+                            "street": "Steinhäuserstr. 19a",
+                            "city": "Karlsruhe",
+                            "state": "Baden-Württemberg",
+                            "postal_code": "76135",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [
+                            "fax"
+                        ],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksdirektion Reutlingen",
+                    "contact_info": {
+                        "fax": "07121 917-1299",
+                        "fax_machine_readable": "071219171299",
+                        "email": "",
+                        "address": {
+                            "street": "Konrad-Adenauer-Str. 18",
+                            "city": "Reutlingen",
+                            "state": "Baden-Württemberg",
+                            "postal_code": "72762",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [
+                            "fax"
+                        ],
+                        "languages": []
+                    }
+                }
+            ]
         },
         {
             "id": 361,
             "name": "Kassenärztliche Vereinigung Bayern",
             "contact_info": {
+                "phone": "089 57093-0",
                 "fax": "089 57093-835",
                 "fax_machine_readable": "08957093835",
-                "email": "",
+                "email": "info@kvb.de",
+                "website": "https://www.kvb.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Elsenheimerstraße 39",
+                    "city": "München",
+                    "state": "Bayern",
+                    "postal_code": "80687",
+                    "country": "de"
                 },
                 "contact_preferences": [
                     "fax"
@@ -15581,25 +15668,113 @@
             "social_media": {},
             "related_organizations": [],
             "historical_interactions": [],
-            "last_updated": "2024-09-19"
+            "last_updated": "2024-09-19",
+            "district_offices": [
+                {
+                    "name": "Bezirksstelle Oberbayern",
+                    "contact_info": {
+                        "email": "bc-oberbayern@kvb.de",
+                        "address": {
+                            "street": "Elsenheimerstr. 39",
+                            "city": "München",
+                            "state": "Bayern",
+                            "postal_code": "80687",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksstelle Niederbayern",
+                    "contact_info": {
+                        "telephone": "09421 8009-0",
+                        "email": "bc-straubing@kvb.de",
+                        "address": {
+                            "street": "Lilienstraße 5-9",
+                            "city": "Straubing",
+                            "state": "Bayern",
+                            "postal_code": "94315",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksstelle Oberpfalz",
+                    "contact_info": {
+                        "phone": "0941 3963-0",
+                        "email": "bc-regensburg@kvb.de",
+                        "address": {
+                            "postbox": "10 06 32",
+                            "street": "",
+                            "city": "Regensburg",
+                            "state": "Bayern",
+                            "postal_code": "93006",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksstelle Mittelfranken",
+                    "contact_info": {
+                        "phone": "0911 94667-0",
+                        "email": "bc-nuernberg@kvb.de",
+                        "address": {
+                            "street": "Vogelsgarten 6",
+                            "city": "Nürnberg",
+                            "state": "Bayern",
+                            "postal_code": "90402",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Bezirksstelle Schwaben",
+                    "contact_info": {
+                        "phone": "0821 3256-0",
+                        "email": "bc-augsburg@kvb.de",
+                        "address": {
+                            "postbox": "10 20 20",
+                            "street": "",
+                            "city": "Augsburg",
+                            "state": "Bayern",
+                            "postal_code": "86010",
+                            "country": "de"
+                        },
+                        "website": "",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                }
+            ]
         },
         {
             "id": 362,
             "name": "Kassenärztliche Vereinigung Berlin",
             "contact_info": {
+                "phone": "+4930310030",
                 "fax": "030 31003-380",
                 "fax_machine_readable": "03031003380",
-                "email": "",
+                "email": "kvbe@kvberlin.de",
+                "website": "https://www.kvberlin.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Masurenallee 6A",
+                    "city": "Berlin",
+                    "state": "Berlin",
+                    "postal_code": "14057",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15625,19 +15800,19 @@
             "id": 363,
             "name": "Kassenärztliche Vereinigung Brandenburg",
             "contact_info": {
-                "fax": "0331 230-909",
+                "phone": "+4933123090",
+                "fax": "0331 2309-09",
                 "fax_machine_readable": "0331230909",
-                "email": "",
+                "email": "info@kvbb.de",
+                "website": "https://www.kvbb.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Pappelallee 5",
+                    "city": "Potsdam",
+                    "state": "Brandenburg",
+                    "postal_code": "14469",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15663,19 +15838,19 @@
             "id": 364,
             "name": "Kassenärztliche Vereinigung Bremen",
             "contact_info": {
+                "phone": "+4942134040",
                 "fax": "0421 3404-404",
                 "fax_machine_readable": "04213404404",
                 "email": "",
+                "website": "https://www.kvhb.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Schwachhauser Heerstraße 26/28",
+                    "city": "Bremen",
+                    "state": "Bremen",
+                    "postal_code": "28209",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15692,7 +15867,9 @@
                 "availability": null,
                 "average_response_time": null
             },
-            "social_media": {},
+            "social_media": {
+                "instagram": "https://www.instagram.com/kvaekmfa"
+            },
             "related_organizations": [],
             "historical_interactions": [],
             "last_updated": "2024-09-19"
@@ -15701,19 +15878,19 @@
             "id": 365,
             "name": "Kassenärztliche Vereinigung Hamburg",
             "contact_info": {
+                "phone": "040 / 22 802 - 0",
                 "fax": "040 22802-444",
                 "fax_machine_readable": "04022802444",
-                "email": "",
+                "email": "kontakt@kvhh.de",
+                "website": "https://www.kvhh.net/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Humboldtstraße 56",
+                    "city": "Hamburg",
+                    "state": "Hamburg",
+                    "postal_code": "22083",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15739,19 +15916,18 @@
             "id": 366,
             "name": "Kassenärztliche Vereinigung Hessen",
             "contact_info": {
-                "fax": "06151 158-488",
-                "fax_machine_readable": "06151158488",
-                "email": "",
+                "phone": "069 24741-7777",
+                "fax": "069 24741-68826",
+                "fax_machine_readable": "0692474168826",
+                "email": "info.line@kvhessen.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Europa-Allee 90",
+                    "city": "Frankfurt am Main",
+                    "state": "Hessen",
+                    "postal_code": "60486",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15771,25 +15947,105 @@
             "social_media": {},
             "related_organizations": [],
             "historical_interactions": [],
+            "offices": [
+                {
+                    "name": "BeratungsCenter Darmstadt ",
+                    "contact_info": {
+                        "phone": "06151 158-500",
+                        "fax": "06151 158-488",
+                        "email": "beratung-darmstadt@kvhessen.de",
+                        "address": {
+                            "street": "Pallaswiesenstraße 174",
+                            "city": "Darmstadt",
+                            "state": "Hessen",
+                            "postal_code": "64293",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "BeratungsCenter Frankfurt ",
+                    "contact_info": {
+                        "phone": "069 24741-7600",
+                        "fax": "069 24741-68829",
+                        "email": "beratung-frankfurt@kvhessen.de",
+                        "address": {
+                            "street": "Europa-Allee 90",
+                            "city": "Frankfurt am Main",
+                            "state": "Hessen",
+                            "postal_code": "60486",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "BeratungsCenter Gießen ",
+                    "contact_info": {
+                        "phone": "0641 4009-314",
+                        "fax": "0641-4009-219",
+                        "email": "beratung-giessen@kvhessen.de",
+                        "address": {
+                            "street": "Mittermaierstraße 27",
+                            "city": " Gießen",
+                            "state": "Hessen",
+                            "postal_code": "35394",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "BeratungsCenter Kassel ",
+                    "contact_info": {
+                        "phone": "0561 7008-250",
+                        "fax": "0561 7008-4222",
+                        "email": "beratung-kassel@kvhessen.de",
+                        "address": {
+                            "street": "Karthäuserstraße 7 – 9",
+                            "city": "Kassel",
+                            "state": "Hessen",
+                            "postal_code": "34117",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "BeratungsCenter Wiesbaden ",
+                    "contact_info": {
+                        "phone": "069 24741-7171",
+                        "fax": "069 24741-78171",
+                        "email": "beratung-wiesbaden@kvhessen.de",
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                }
+            ],
             "last_updated": "2024-09-19"
         },
         {
             "id": 367,
             "name": "Kassenärztliche Vereinigung Mecklenburg-Vorpommern",
             "contact_info": {
-                "fax": "03857434-555",
-                "fax_machine_readable": "03857434555",
-                "email": "",
+                "phone": "0385 7431 0",
+                "fax": "03857431-222",
+                "fax_machine_readable": "03857431222",
+                "email": "info@kvmv.de",
+                "website": "https://www.kvmv.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Neumühler Straße 22",
+                    "city": "Schwerin",
+                    "state": "Mecklenburg-Vorpommern",
+                    "postal_code": "19057",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15809,24 +16065,231 @@
             "social_media": {},
             "related_organizations": [],
             "historical_interactions": [],
+            "offices": [
+                {
+                    "name": "Kreisstelle Greifswald",
+                    "contact_info": {
+                        "phone": "03834.899090",
+                        "fax": "03834.899091",
+                        "email": "",
+                        "address": {
+                            "street": "Wolgaster Str. 1",
+                            "city": "Greifswald",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "17489",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Güstrow",
+                    "contact_info": {
+                        "phone": "03843.215443",
+                        "fax": "03843.217675",
+                        "email": "",
+                        "address": {
+                            "street": "Rövertannen 13",
+                            "city": "Güstrow",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "18273",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Ludwigslust",
+                    "contact_info": {
+                        "phone": "038847.33953",
+                        "fax": "038847.33952",
+                        "email": "",
+                        "address": {
+                            "street": "Kleine Wallstr. 2",
+                            "city": "Boizenburg",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "19258",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Malchin",
+                    "contact_info": {
+                        "phone": "03994.632835",
+                        "fax": "03994.299179",
+                        "email": "",
+                        "address": {
+                            "street": "Heinrich-Heine-Str. 39",
+                            "city": "Malchin",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "17139",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Neubrandenburg",
+                    "contact_info": {
+                        "phone": "0395.5442613",
+                        "fax": "0395.5584780",
+                        "email": "",
+                        "address": {
+                            "street": "An der Marienkirche 2",
+                            "city": "Neubrandenburg",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "17033",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Neustrelitz",
+                    "contact_info": {
+                        "phone": "03981.205204",
+                        "fax": "03981.205212",
+                        "email": "",
+                        "address": {
+                            "street": "Elisabethstr. 18",
+                            "city": "Neustrelitz",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "17235",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Parchim",
+                    "contact_info": {
+                        "phone": "03871.213938",
+                        "fax": "03871.629953",
+                        "email": "",
+                        "address": {
+                            "street": "Lübzer Str. 21",
+                            "city": "Parchim",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "19370",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Pasewalk",
+                    "contact_info": {
+                        "phone": "03973.216962",
+                        "fax": "03973.216962",
+                        "email": "",
+                        "address": {
+                            "street": "Prenzlauer Str. 27",
+                            "city": "Pasewalk",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "17309",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Rostock",
+                    "contact_info": {
+                        "phone": "0381.3777479",
+                        "fax": "0381.3777497",
+                        "email": "",
+                        "address": {
+                            "street": "Robert-Koch-Str. 9",
+                            "city": "Rostock",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "18059",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Schwerin",
+                    "contact_info": {
+                        "phone": "0385.7431347",
+                        "fax": "0385.7431151",
+                        "email": "",
+                        "address": {
+                            "street": "Neumühler Str. 22",
+                            "city": "Schwerin",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "19057",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Stralsund",
+                    "contact_info": {
+                        "phone": "03831.258293",
+                        "fax": "03831.258293",
+                        "email": "",
+                        "address": {
+                            "street": "Bleistr. 13 A",
+                            "city": "Stralsund",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "18439",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                },
+                {
+                    "name": "Kreisstelle Wismar",
+                    "contact_info": {
+                        "phone": "03841.701983",
+                        "fax": "03841.327233",
+                        "email": "",
+                        "address": {
+                            "street": "Lübsche Str. 148",
+                            "city": "Wismar",
+                            "state": "Mecklenburg-Vorpommern",
+                            "postal_code": "23966",
+                            "country": "de"
+                        },
+                        "contact_preferences": [],
+                        "languages": []
+                    }
+                }
+            ],
             "last_updated": "2024-09-19"
         },
         {
             "id": 368,
             "name": "Kassenärztliche Vereinigung Niedersachsen",
             "contact_info": {
+                "phone": "0511 380-4800",
                 "fax": "0511 380-2240",
                 "fax_machine_readable": "05113802240",
-                "email": "",
+                "email": "info@kvn.de ",
+                "website": "https://www.kvn.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Berliner Allee 22",
+                    "city": "Hannover",
+                    "state": "Niedersachsen",
+                    "postal_code": "30175",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -15853,18 +16316,19 @@
             "id": 369,
             "name": "Kassenärztliche Vereinigung Nordrhein",
             "contact_info": {
-                "fax": "0211 5970-8287 2",
-                "fax_machine_readable": "0211597082872",
-                "email": "",
+                "phone": "+49 211 5970 0",
+                "fax": "0211 5970-8287",
+                "fax_machine_readable": "021159708287",
+                "email": "service@kvno.de",
+                "website": "https://www.kvno.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Tersteegenstraße 9",
+                    "city": "Düsseldorf",
+                    "state": "Nordrhein-Westfalen",
+                    "postal_code": "40474",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -15891,18 +16355,19 @@
             "id": 370,
             "name": "Kassenärztliche Vereinigung Rheinland-Pfalz",
             "contact_info": {
+                "phone": "06131326326",
                 "fax": "06131 326-327",
                 "fax_machine_readable": "06131326327",
-                "email": "",
+                "email": "service@kv-rlp.de",
+                "website": "https://www.kv-rlp.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Isaac-Fulda-Allee 14",
+                    "city": "Mainz",
+                    "state": "Rheinland-Pfalz",
+                    "postal_code": "55124",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -15929,18 +16394,19 @@
             "id": 371,
             "name": "Kassenärztliche Vereinigung Saarland",
             "contact_info": {
-                "fax": "0681 9988-555",
-                "fax_machine_readable": "06819988555",
-                "email": "",
+                "phone": "0049681998370",
+                "fax": "0681/99837140",
+                "fax_machine_readable": "0681/99837140",
+                "email": "info@kvsaarland.de",
+                "website": "https://www.kvsaarland.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Europaallee 7-9",
+                    "city": "Saarbrücken",
+                    "state": "Saarland",
+                    "postal_code": "66113",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16005,18 +16471,19 @@
             "id": 373,
             "name": "Kassenärztliche Vereinigung Sachsen-Anhalt",
             "contact_info": {
-                "fax": "0391 627-5555",
-                "fax_machine_readable": "03916275555",
-                "email": "",
+                "phone": "(03 91) 6 27 60 00",
+                "fax": "(03 91) 6 27 89 99",
+                "fax_machine_readable": "03916278999",
+                "email": "info@kvsa.de",
+                "website": "https://www.kvsa.de/start.html",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Doctor-Eisenbart-Ring 2",
+                    "city": "Magdeburg",
+                    "state": "Sachsen-Anhalt",
+                    "postal_code": "39120",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16043,18 +16510,19 @@
             "id": 374,
             "name": "Kassenärztliche Vereinigung Schleswig-Holstein",
             "contact_info": {
-                "fax": "0431 570-299",
-                "fax_machine_readable": "0431570299",
-                "email": "",
+                "phone": "04551 883 0",
+                "fax": "04551 883 209",
+                "fax_machine_readable": "04551883209",
+                "email": "info-team@kvsh.de",
+                "website": "https://www.kvsh.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Bismarckallee 1-6",
+                    "city": "Bad Segeberg",
+                    "state": "Schleswig-Holstein",
+                    "postal_code": "23795",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16081,18 +16549,19 @@
             "id": 375,
             "name": "Kassenärztliche Vereinigung Thüringen",
             "contact_info": {
-                "fax": "0361 5973-555",
-                "fax_machine_readable": "03615973555",
+                "phone": "03643 559-0",
+                "fax": "03643 559-191",
+                "fax_machine_readable": "03643 559-191",
                 "email": "",
+                "website": "https://www.kv-thueringen.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Zum Hospitalgraben 8",
+                    "city": "Weimar",
+                    "state": "Thüringen",
+                    "postal_code": "99425",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16119,18 +16588,19 @@
             "id": 376,
             "name": "Kassenärztliche Vereinigung Westfalen-Lippe",
             "contact_info": {
-                "fax": "0251 929-2999",
-                "fax_machine_readable": "02519292999",
-                "email": "",
+                "phone": "+4923194320",
+                "fax": "0231 94 32 55 55",
+                "fax_machine_readable": "023194325555",
+                "email": "kvinfo@kvwl.de",
+                "website": "https://www.kvwl.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Robert-Schimrigk-Str. 4-6",
+                    "city": "Dortmund",
+                    "state": "Nordrhein-Westfalen",
+                    "postal_code": "44141",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16157,18 +16627,17 @@
             "id": 377,
             "name": "Kassenärztliche Bundesvereinigung",
             "contact_info": {
+                "phone": "030 4005-0",
                 "fax": "030 4005-1590",
                 "fax_machine_readable": "03040051590",
                 "email": "",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Herbert-Lewin-Platz 2",
+                    "city": "Berlin",
+                    "postal_code": "10623",
+                    "country": "de"
                 },
                 "contact_preferences": [
-                    "fax"
                 ],
                 "languages": []
             },
@@ -16190,6 +16659,46 @@
             "related_organizations": [],
             "historical_interactions": [],
             "last_updated": "2024-09-19"
+        },
+        {
+            "id": 378,
+            "name": "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention",
+            "title": "Government Office",
+            "organization": "",
+            "contact_info": {
+                "email": "poststelle@stmgp.bayern.de",
+                "phone": "089 95414-0",
+                "address": {
+                    "street": "Haidenauplatz 1",
+                    "city": "München",
+                    "state": "Bayern",
+                    "postal_code": "81667",
+                    "country": "de"
+                },
+                "languages": [
+                    "de"
+                ]
+            },
+            "labels": [
+                "government",
+                "office",
+                "regulating authority"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "high",
+            "responsiveness": {
+                "availability": "weekdays",
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-01"
         }
     ]
 }
