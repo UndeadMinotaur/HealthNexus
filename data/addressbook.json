@@ -797,7 +797,7 @@
                 "address": {
                     "street": "",
                     "city": "Munich",
-                    "state": "",
+                    "state": "by",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -840,7 +840,7 @@
                 "address": {
                     "street": "",
                     "city": "Stuttgart",
-                    "state": "",
+                    "state": "bw",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -3111,7 +3111,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "",
+                    "state": "bb",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4100,7 +4100,7 @@
                 "address": {
                     "street": "",
                     "city": "Stuttgart",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4144,7 +4144,7 @@
                 "address": {
                     "street": "",
                     "city": "Munich",
-                    "state": "Bavaria",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4188,7 +4188,7 @@
                 "address": {
                     "street": "",
                     "city": "Berlin",
-                    "state": "Berlin",
+                    "state": "BE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4232,7 +4232,7 @@
                 "address": {
                     "street": "",
                     "city": "Potsdam",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4276,7 +4276,7 @@
                 "address": {
                     "street": "",
                     "city": "Bremen",
-                    "state": "Bremen",
+                    "state": "HB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4320,7 +4320,7 @@
                 "address": {
                     "street": "",
                     "city": "Hamburg",
-                    "state": "Hamburg",
+                    "state": "HH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4364,7 +4364,7 @@
                 "address": {
                     "street": "",
                     "city": "Wiesbaden",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4408,7 +4408,7 @@
                 "address": {
                     "street": "",
                     "city": "Schwerin",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4452,7 +4452,7 @@
                 "address": {
                     "street": "",
                     "city": "Schwerin",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4541,7 +4541,7 @@
                 "address": {
                     "street": "",
                     "city": "Düsseldorf",
-                    "state": "North Rhine-Westphalia",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4585,7 +4585,7 @@
                 "address": {
                     "street": "",
                     "city": "Mainz",
-                    "state": "Rhineland-Palatinate",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4629,7 +4629,7 @@
                 "address": {
                     "street": "",
                     "city": "Saarbrücken",
-                    "state": "Saarland",
+                    "state": "SL",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4673,7 +4673,7 @@
                 "address": {
                     "street": "",
                     "city": "Dresden",
-                    "state": "Saxony",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4717,7 +4717,7 @@
                 "address": {
                     "street": "",
                     "city": "Magdeburg",
-                    "state": "Saxony-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4761,7 +4761,7 @@
                 "address": {
                     "street": "",
                     "city": "Kiel",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4805,7 +4805,7 @@
                 "address": {
                     "street": "",
                     "city": "Erfurt",
-                    "state": "Thuringia",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4837,7 +4837,7 @@
         },
         {
             "id": 113,
-            "name": "Baden-Württemberg",
+            "name": "Landessozialgericht Baden-Württemberg",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Baden-Württemberg",
             "contact_info": {
@@ -4848,7 +4848,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4880,7 +4880,7 @@
         },
         {
             "id": 114,
-            "name": "Bayern",
+            "name": "Landessozialgericht Bayern",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Bayern",
             "contact_info": {
@@ -4891,7 +4891,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4923,7 +4923,7 @@
         },
         {
             "id": 115,
-            "name": "Berlin-Brandenburg",
+            "name": "Landessozialgericht Berlin-Brandenburg",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Berlin-Brandenburg",
             "contact_info": {
@@ -4934,7 +4934,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Berlin-Brandenburg",
+                    "state": "BE-BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -4966,7 +4966,7 @@
         },
         {
             "id": 116,
-            "name": "Hamburg",
+            "name": "Landessozialgericht Hamburg",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Hamburg",
             "contact_info": {
@@ -4977,7 +4977,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hamburg",
+                    "state": "HH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5009,7 +5009,7 @@
         },
         {
             "id": 117,
-            "name": "Hessen",
+            "name": "Landessozialgericht Hessen",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Hessen",
             "contact_info": {
@@ -5020,7 +5020,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5052,7 +5052,7 @@
         },
         {
             "id": 118,
-            "name": "Mecklenburg-Vorpommern",
+            "name": "Landessozialgericht Mecklenburg-Vorpommern",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Mecklenburg-Vorpommern",
             "contact_info": {
@@ -5063,7 +5063,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5095,7 +5095,7 @@
         },
         {
             "id": 119,
-            "name": "Niedersachsen-Bremen",
+            "name": "Landessozialgericht Niedersachsen-Bremen",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Niedersachsen-Bremen",
             "contact_info": {
@@ -5138,7 +5138,7 @@
         },
         {
             "id": 120,
-            "name": "NRW",
+            "name": "Landessozialgericht Nordrhein-Westfalen",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht NRW",
             "contact_info": {
@@ -5181,7 +5181,7 @@
         },
         {
             "id": 121,
-            "name": "Rheinland Pfalz",
+            "name": "Landessozialgericht Rheinland Pfalz",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Rheinland-Pfalz",
             "contact_info": {
@@ -5192,7 +5192,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5224,7 +5224,7 @@
         },
         {
             "id": 122,
-            "name": "Saarland",
+            "name": "Landessozialgericht Saarland",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Saarland",
             "contact_info": {
@@ -5235,7 +5235,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Saarland",
+                    "state": "SL",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5267,7 +5267,7 @@
         },
         {
             "id": 123,
-            "name": "Sachsen",
+            "name": "Landessozialgericht Sachsen",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Sachsen",
             "contact_info": {
@@ -5278,7 +5278,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5310,7 +5310,7 @@
         },
         {
             "id": 124,
-            "name": "Sachsen-Anhalt",
+            "name": "Landessozialgericht Sachsen-Anhalt",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Sachsen-Anhalt",
             "contact_info": {
@@ -5321,7 +5321,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5353,7 +5353,7 @@
         },
         {
             "id": 125,
-            "name": "Schleswig Holstein",
+            "name": "Landessozialgericht Schleswig Holstein",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Schleswig-Holstein",
             "contact_info": {
@@ -5364,7 +5364,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5396,7 +5396,7 @@
         },
         {
             "id": 126,
-            "name": "Thüringen",
+            "name": "Landessozialgericht Thüringen",
             "title": "Landessozialgericht",
             "organization": "Landessozialgericht Thüringen",
             "contact_info": {
@@ -5407,7 +5407,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5450,7 +5450,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5493,7 +5493,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5536,7 +5536,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5579,7 +5579,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5622,7 +5622,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5665,7 +5665,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5708,7 +5708,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5751,7 +5751,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5794,7 +5794,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5837,7 +5837,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5880,7 +5880,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5923,7 +5923,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -5966,7 +5966,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6009,7 +6009,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6052,7 +6052,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6095,7 +6095,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Berlin",
+                    "state": "BE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6138,7 +6138,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6181,7 +6181,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6224,7 +6224,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6267,7 +6267,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6310,7 +6310,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bremen",
+                    "state": "HB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -6998,7 +6998,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hamburg",
+                    "state": "HH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7041,7 +7041,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7084,7 +7084,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7127,7 +7127,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7170,7 +7170,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7213,7 +7213,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7256,7 +7256,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7299,7 +7299,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7342,7 +7342,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7385,7 +7385,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7428,7 +7428,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7471,7 +7471,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7514,7 +7514,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7557,7 +7557,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7600,7 +7600,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7643,7 +7643,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7686,7 +7686,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7729,7 +7729,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7772,7 +7772,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7815,7 +7815,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7858,7 +7858,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7901,7 +7901,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7944,7 +7944,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -7987,7 +7987,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8030,7 +8030,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Saarland",
+                    "state": "SL",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8073,7 +8073,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8116,7 +8116,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8159,7 +8159,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8202,7 +8202,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8245,7 +8245,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8288,7 +8288,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8335,7 +8335,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8378,7 +8378,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8425,7 +8425,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8468,7 +8468,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8511,7 +8511,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8554,7 +8554,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8597,7 +8597,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8640,7 +8640,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8683,7 +8683,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8726,7 +8726,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8769,7 +8769,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8812,7 +8812,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Berlin",
+                    "state": "BE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8855,7 +8855,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8898,7 +8898,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Bremen",
+                    "state": "HB",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8941,7 +8941,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hamburg",
+                    "state": "HH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -8984,7 +8984,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9027,7 +9027,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9113,7 +9113,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9156,7 +9156,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9199,7 +9199,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Saarland",
+                    "state": "SL",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9242,7 +9242,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen",
+                    "state": "SN",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9285,7 +9285,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9328,7 +9328,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -9371,7 +9371,7 @@
                 "address": {
                     "street": "",
                     "city": "",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "",
                     "country": "DE"
                 },
@@ -14865,19 +14865,362 @@
             "id": 343,
             "name": "Bayerische Landesärztekammer",
             "contact_info": {
+                "phone": "089 4147-0",
                 "fax": "089 4147-280",
                 "fax_machine_readable": "0894147280",
-                "email": "",
+                "email": "info@blaek.de",
+                "website": "http://www.blaek.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Mühlbaurstraße 16",
+                    "city": "München",
+                    "state": "BY",
+                    "postal_code": "81677",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Hier sind noch weitere Adressen von Kreisverbänden: https://www.blaek.de/ueber-uns/kreis-und-bezirksverbaende",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Mittelfranken",
+            "contact_info": {
+                "phone": "0911 277499-0",
+                "fax": "0911 277499-20",
+                "fax_machine_readable": "091127749920",
+                "email": "sekretariat@aebv-mittelfranken.de",
+                "website": "http://www.aebv-mittelfranken.de/",
+                "address": {
+                    "street": "Fürther Straße 115",
+                    "city": "Nürnberg",
+                    "state": "BY",
+                    "postal_code": "90429",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Niederbayern",
+            "contact_info": {
+                "phone": "09421 18 53 55",
+                "fax": "09421 18 98 465",
+                "fax_machine_readable": "094211898465",
+                "email": "info@aebv-ndb.de",
+                "website": "http://www.aebv-ndb.de/",
+                "address": {
+                    "street": "Lilienstraße 5-9",
+                    "city": "Straubing",
+                    "state": "BY",
+                    "postal_code": "94315",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Oberbayern",
+            "contact_info": {
+                "phone": "089 451257-0",
+                "fax": "089 451257-29",
+                "fax_machine_readable": "08945125729",
+                "email": "aebo@aebo.de",
+                "website": "http://www.aebo.de/",
+                "address": {
+                    "street": "Neumarkter Straße 41",
+                    "city": "München",
+                    "state": "BY",
+                    "postal_code": "81673",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Oberfranken",
+            "contact_info": {
+                "phone": "0921 230512-6",
+                "fax": "0921 150055-9",
+                "fax_machine_readable": "09211500559",
+                "email": "service@aebz-ofr.de",
+                "website": "service@aebz-ofr.de",
+                "address": {
+                    "street": "Brandenburger Straße 4",
+                    "city": "Bayreuth",
+                    "state": "BY",
+                    "postal_code": "95448",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Oberpfalz",
+            "contact_info": {
+                "phone": "0941 30788-193",
+                "fax": "0941 33623",
+                "fax_machine_readable": "094133623",
+                "email": "sekretariat@aebv-oberpfalz.de",
+                "website": "http://www.aebv-oberpfalz.de/",
+                "address": {
+                    "street": "Scharnhorststraße 10",
+                    "city": "Regensburg",
+                    "state": "BY",
+                    "postal_code": "93049",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Schwaben",
+            "contact_info": {
+                "phone": "0821 3256-200",
+                "fax": "0821 3256-295",
+                "fax_machine_readable": "08213256295",
+                "email": "info@aebv-schwaben.de",
+                "website": "http://www.aebv-schwaben.de/",
+                "address": {
+                    "street": "Frohsinnstraße 2",
+                    "city": "Augsburg",
+                    "state": "BY",
+                    "postal_code": "86150",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Bezirksverband Unterfranken",
+            "contact_info": {
+                "phone": "0931 3534027",
+                "fax": "0931 3534029",
+                "fax_machine_readable": "09313534029",
+                "email": "sekretariat@aebv-unterfranken.de",
+                "website": "http://www.aebv-unterfranken.de/",
+                "address": {
+                    "street": "Dominikanerplatz 8 (Echter Galerie)",
+                    "city": "Würzburg",
+                    "state": "BY",
+                    "postal_code": "97070",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 343,
+            "name": "Ärztlicher Kreis und Bezirksverband München",
+            "contact_info": {
+                "phone": "089 547116-0",
+                "fax": "089 547116-99",
+                "fax_machine_readable": "08954711699",
+                "email": "sekretariat@aekbv.de",
+                "website": "http://www.aekbv.de/",
+                "address": {
+                    "street": "Elsenheimerstraße 65",
+                    "city": "München",
+                    "state": "BY",
+                    "postal_code": "80687",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztlicher Bezirksverband",
+                "Kreisverband"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 344,
+            "name": "Landesärztekammer Baden-Württemberg",
+            "contact_info": {
+                "phone": "0711 76989-0",
+                "fax": "0711 76989-50",
+                "fax_machine_readable": "07117698950",
+                "email": "info@laek-bw.de",
+                "website": "https://www.aerztekammer-bw.de/",
+                "address": {
+                    "street": "Jahnstraße 40",
+                    "city": "Stuttgart",
+                    "state": "BW",
+                    "postal_code": "70597",
+                    "country": "de"
+                },
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -14901,28 +15244,142 @@
         },
         {
             "id": 344,
-            "name": "Landesärztekammer Baden-Württemberg",
+            "name": "Bezirksärztekammer Südbaden",
             "contact_info": {
-                "fax": "0711 76989-50",
-                "fax_machine_readable": "07117698950",
-                "email": "",
+                "phone": "0761 600-470",
+                "fax": "0761 600-4757",
+                "fax_machine_readable": "07616004757",
+                "email": "kontakt@baek-sb.de",
+                "website": "https://www.aerztekammer-bw.de/baek-sb",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Sundgauallee 27",
+                    "city": "Freiburg",
+                    "state": "BW",
+                    "postal_code": "79114",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
                 "Ärztekammer"
             ],
             "status": "unverified",
-            "notes": "",
+            "notes": "Weitere Kontakte https://files.aerztekammer-bw.de/21b5a7b115436197/ba29eb43f797/Telefon_Mailverzeichnis_SB.pdf",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 344,
+            "name": "Bezirksärztekammer Südwürttemberg",
+            "contact_info": {
+                "phone": "07121 917-0",
+                "fax": "(0 71 21) 917 - 2400",
+                "fax_machine_readable": "071219172400",
+                "email": "zentrale@baek-sw.de",
+                "website": "https://www.aerztekammer-bw.de/baek-sw",
+                "address": {
+                    "street": "Haldenhaustraße 11",
+                    "city": "Reutlingen",
+                    "state": "BW",
+                    "postal_code": "72770",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Telefonverzeichnis: https://files.aerztekammer-bw.de/227d441c0211f432/5ec71b27c766/Telefonverzeichnis_sw.pdf",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 344,
+            "name": "Bezirksärztekammer Nordwürttemberg",
+            "contact_info": {
+                "phone": "0711 76981-0",
+                "fax": "0761 600-4757",
+                "fax_machine_readable": "07616004757",
+                "email": "info@baek-nw.de",
+                "website": "https://www.aerztekammer-bw.de/baek-nw",
+                "address": {
+                    "street": "Jahnstraße 5",
+                    "city": "Stuttgart",
+                    "state": "BW",
+                    "postal_code": "70597",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte https://files.aerztekammer-bw.de/b533135031795d15/dbb6b59c0686/Telefonverzeichnis-nw.pdf",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 344,
+            "name": "Bezirksärztekammer Nordbaden",
+            "contact_info": {
+                "phone": "0721 16024-0",
+                "fax": "0721 – 16024-222",
+                "fax_machine_readable": "072116024222",
+                "email": "baek-nordbaden@baek-nb.de",
+                "website": "https://www.aerztekammer-bw.de/baek-nb",
+                "address": {
+                    "street": "Zimmerstraße 4",
+                    "city": "Karlsruhe",
+                    "state": "BW",
+                    "postal_code": "76137",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte https://files.aerztekammer-bw.de/ad14e198615fbaec/d156a310a42b/Telefonliste_NB.pdf",
             "rating": {
                 "usefulness_rating": null,
                 "responsiveness_rating": null
@@ -14941,19 +15398,19 @@
             "id": 345,
             "name": "Landesarztekammer Berlin",
             "contact_info": {
-                "fax": "030 40806-222",
+                "fax": "030 40806-3499",
+                "website": "http://www.aekb.de/",
+                "phone": "030 40806-0",
                 "fax_machine_readable": "03040806222",
-                "email": "",
+                "email": "kammer@aekb.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Friedrichstraße 16",
+                    "city": "Berlin",
+                    "state": "BE",
+                    "postal_code": "10969",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -14977,21 +15434,59 @@
         },
         {
             "id": 346,
-            "name": "Landesärztekammer Brandenburg",
+            "name": "Landesärztekammer Brandenburg - Geschäftsstelle Cottbus",
             "contact_info": {
-                "fax": "0331 888 29-50",
+                "fax": "0355 78010-369",
                 "fax_machine_readable": "03318882950",
-                "email": "",
+                "email": "post@laekb.de",
+                "phone": "0355 78010-0",
+                "website": "http://www.laekb.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Dreifertstraße 12",
+                    "city": "Cottbus",
+                    "state": "BB",
+                    "postal_code": "03044",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 346,
+            "name": "Landesärztekammer Brandenburg - Geschäftsstelle Potsdam",
+            "contact_info": {
+                "fax": "0331 505605-769",
+                "fax_machine_readable": "0331505605769",
+                "email": "post@laekb.de",
+                "phone": "0331 505605-0",
+                "website": "http://www.laekb.de/",
+                "address": {
+                    "street": " Pappelallee 5",
+                    "city": "Potsdam",
+                    "state": "BB",
+                    "postal_code": "14469",
+                    "country": "de"
+                },
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15017,19 +15512,19 @@
             "id": 347,
             "name": "Landesärztekammer Bremen",
             "contact_info": {
-                "fax": "0421 3404-404",
-                "fax_machine_readable": "04213404404",
-                "email": "",
+                "fax": "0421 340420-9",
+                "fax_machine_readable": "04213404209",
+                "email": "info@aekhb.de",
+                "phone": "0421 340420-0",
+                "website": "http://www.aekhb.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Schwachhauser Heerstraße 30",
+                    "city": "Bremen",
+                    "state": "HB",
+                    "postal_code": "28209",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15055,19 +15550,19 @@
             "id": 348,
             "name": "Landesärztekammer Hamburg",
             "contact_info": {
-                "fax": "040 202299-920",
-                "fax_machine_readable": "040202299920",
-                "email": "",
+                "fax": "040 202299-400",
+                "fax_machine_readable": "040202299400",
+                "email": "post@aekhh.de",
+                "phone": "040 202299-0",
+                "website": "http://www.aerztekammer-hamburg.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Weidestraße 122 b",
+                    "city": "Hamburg",
+                    "state": "HH",
+                    "postal_code": "22083",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15095,17 +15590,17 @@
             "contact_info": {
                 "fax": "069 97672-128",
                 "fax_machine_readable": "06997672128",
-                "email": "",
+                "email": "info@laekh.de",
+                "phone": "069 97672-0",
+                "website": "http://www.laekh.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Hanauer Landstraße 152",
+                    "city": "Frankfurt a. M.",
+                    "state": "HE",
+                    "postal_code": "60314",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15131,19 +15626,19 @@
             "id": 350,
             "name": "Landesärztekammer Mecklenburg-Vorpommern",
             "contact_info": {
-                "fax": "0385 7435-555",
-                "fax_machine_readable": "03857435555",
-                "email": "",
+                "fax": "0381 49280-80",
+                "fax_machine_readable": "03814928080",
+                "email": "info@aek-mv.de",
+                "phone": "0381 49280-0",
+                "website": "http://www.aek-mv.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "August-Bebel-Straße 9a",
+                    "city": "Rostock",
+                    "state": "MV",
+                    "postal_code": "18055",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15169,19 +15664,19 @@
             "id": 351,
             "name": "Landesärztekammer Niedersachsen",
             "contact_info": {
-                "fax": "0511 380-2240",
-                "fax_machine_readable": "05113802240",
-                "email": "",
+                "fax": "0511 3802-1199",
+                "fax_machine_readable": "051138021199",
+                "email": "info@aekn.de",
+                "phone": "0511 380-02",
+                "website": "http://www.aekn.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Berliner Allee 20",
+                    "city": "Hannover",
+                    "state": "Niedersachsen",
+                    "postal_code": "30175",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15207,19 +15702,57 @@
             "id": 352,
             "name": "Landesärztekammer Nordrhein",
             "contact_info": {
-                "fax": "0211 4302-200",
-                "fax_machine_readable": "02114302200",
-                "email": "",
+                "phone": "0211 4302-0",
+                "website": "http://www.aekno.de/",
+                "fax": "0211 4302-2009",
+                "fax_machine_readable": "021143022009",
+                "email": "aerztekammer@aekno.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Tersteegenstraße 9",
+                    "city": "Düsseldorf",
+                    "state": "NRW",
+                    "postal_code": "40474",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Kreisstellen: https://www.aekno.de/aerztekammer/kreisstellen",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-09-19"
+        },
+        {
+            "id": 352,
+            "name": "Landesärztekammer Westfalen-Lippe",
+            "contact_info": {
+                "phone": "0251 929-0",
+                "website": "http://www.aekwl.de/",
+                "fax": "0251 929-2999",
+                "fax_machine_readable": "02519292999",
+                "email": "posteingang@aekwl.de",
+                "address": {
+                    "street": "Gartenstraße 210-214",
+                    "city": "Münster",
+                    "state": "NRW",
+                    "postal_code": "48147",
+                    "country": "de"
+                },
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15245,26 +15778,26 @@
             "id": 353,
             "name": "Landesärztekammer Rheinland-Pfalz",
             "contact_info": {
-                "fax": "06131 28822-28",
-                "fax_machine_readable": "061312882228",
-                "email": "",
+                "phone": "06131 28822-0",
+                "website": "http://www.laek-rlp.de/",
+                "fax": "06131 28822-88",
+                "fax_machine_readable": "061312882288",
+                "email": "kammer@laek-rlp.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Mittlere Bleiche 40",
+                    "city": "Mainz",
+                    "state": "RLP",
+                    "postal_code": "55116",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
                 "Ärztekammer"
             ],
             "status": "unverified",
-            "notes": "",
+            "notes": "Zu den Bezirksärztekammern: https://www.laek-rlp.de/ueberuns/bezirksaerztekammern/",
             "rating": {
                 "usefulness_rating": null,
                 "responsiveness_rating": null
@@ -15280,22 +15813,174 @@
             "last_updated": "2024-09-19"
         },
         {
+            "id": 353,
+            "name": "Bezirksärztekammer Koblenz",
+            "contact_info": {
+                "phone": "0261 39001-0",
+                "website": "https://www.aerztekammer-koblenz.de/",
+                "fax": "0261 39001-20",
+                "fax_machine_readable": "02613900120",
+                "email": "info@aerztekammer-koblenz.de",
+                "address": {
+                    "street": "Bubenheimer Bann 12",
+                    "city": "Koblenz",
+                    "state": "RLP",
+                    "postal_code": "56070",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte: https://www.aerztekammer-koblenz.de/kammer/ansprechpartnertelefonliste-e-mail-adresse.html",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 353,
+            "name": "Bezirksärztekammer Pfalz",
+            "contact_info": {
+                "phone": "06321 9284-0",
+                "website": "https://www.aek-pfalz.de/",
+                "fax": "(0 63 21) 92 84 - 60",
+                "fax_machine_readable": "06321928460",
+                "email": "info@aek-pfalz.de",
+                "address": {
+                    "street": "Maximilianstraße 22",
+                    "city": "Neustadt",
+                    "state": "RLP",
+                    "postal_code": "67433",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte: https://www.aek-pfalz.de/unsere-kammer/team/",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 353,
+            "name": "Bezirksärztekammer Rheinhessen",
+            "contact_info": {
+                "phone": "06131 3869-0",
+                "website": "https://aerztekammer-mainz.de/",
+                "fax": "06131 3869-12",
+                "fax_machine_readable": "06131386912",
+                "email": "info@aerztekammer-mainz.de",
+                "address": {
+                    "street": "Mittlere Bleiche 40",
+                    "city": "Mainz",
+                    "state": "RLP",
+                    "postal_code": "55116",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte: https://aerztekammer-mainz.de/kontakt.php",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 353,
+            "name": "Bezirksärztekammer Trier",
+            "contact_info": {
+                "phone": "0651 994759-0",
+                "website": "https://aerztekammer-trier.de/",
+                "fax": "0651 994759-22",
+                "fax_machine_readable": "065199475922",
+                "email": "info@aerztekammer-trier.de",
+                "address": {
+                    "street": "Schönbornstr. 10",
+                    "city": "Trier",
+                    "state": "RLP",
+                    "postal_code": "54295",
+                    "country": "de"
+                },
+                "contact_preferences": [],
+                "languages": []
+            },
+            "labels": [
+                "Ärztekammer"
+            ],
+            "status": "unverified",
+            "notes": "Weitere Kontakte: https://aerztekammer-trier.de/mitarbeiter.php",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "power_level": "moderate",
+            "responsiveness": {
+                "availability": null,
+                "average_response_time": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
             "id": 354,
             "name": "Landesärztekammer Saarland",
             "contact_info": {
-                "fax": "0681 4003-260",
-                "fax_machine_readable": "06814003260",
-                "email": "",
+                "phone": "0681 4003-0",
+                "website": "http://www.aerztekammer-saarland.de/",
+                "fax": "0681 4003-340",
+                "fax_machine_readable": "06814003340",
+                "email": "info-aeks@aeksaar.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Faktoreistraße 4",
+                    "city": "Saarbrücken",
+                    "state": "SL",
+                    "postal_code": "66111",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15321,19 +16006,19 @@
             "id": 355,
             "name": "Landesärztekammer Sachsen",
             "contact_info": {
-                "fax": "0351 8267-755",
-                "fax_machine_readable": "03518267755",
-                "email": "",
+                "fax": "0351 8267-412",
+                "fax_machine_readable": "03518267412",
+                "email": "dresden@slaek.de",
+                "website": "http://www.slaek.de/",
+                "phone": "0351 8267-0",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Schützenhöhe 16",
+                    "city": "Dresden",
+                    "state": "SN",
+                    "postal_code": "01099",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15359,19 +16044,19 @@
             "id": 356,
             "name": "Landesärztekammer Sachsen-Anhalt",
             "contact_info": {
-                "fax": "0391 6054-260",
-                "fax_machine_readable": "03916054260",
-                "email": "",
+                "fax": "0391 6054-7000",
+                "fax_machine_readable": "039160547000",
+                "phone": "0391 6054-6",
+                "website": "http://www.aeksa.de/",
+                "email": "info@aeksa.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Doctor-Eisenbart-Ring 2",
+                    "city": "Magdeburg",
+                    "state": "ST",
+                    "postal_code": "39120",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15397,19 +16082,19 @@
             "id": 357,
             "name": "Landesärztekammer Schleswig-Holstein",
             "contact_info": {
-                "fax": "0431 988-710",
-                "fax_machine_readable": "0431988710",
-                "email": "",
+                "phone": "04551 803-0",
+                "fax": "04551 803-188",
+                "fax_machine_readable": "04551803188",
+                "email": "aerztekammer@aeksh.de",
+                "website": "http://www.aeksh.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Bismarckallee 8-12",
+                    "city": "Bad Segeberg",
+                    "state": "SH",
+                    "postal_code": "23795",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15437,17 +16122,17 @@
             "contact_info": {
                 "fax": "0361 59098-20",
                 "fax_machine_readable": "03615909820",
-                "email": "",
+                "email": "post@laek-thueringen.de",
+                "phone": "03641 614-0",
+                "website": "http://www.laek-thueringen.de/",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Im Semmicht 33",
+                    "city": "Jena",
+                    "state": "TH",
+                    "postal_code": "07751",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -15473,26 +16158,26 @@
             "id": 359,
             "name": "Bundesärztekammer",
             "contact_info": {
+                "phone": "(030) 400456-0",
+                "website": "https://www.bundesaerztekammer.de",
                 "fax": "030 400456-388",
                 "fax_machine_readable": "030400456388",
-                "email": "",
+                "email": "info@baek.de",
                 "address": {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "postal_code": "",
-                    "country": ""
+                    "street": "Herbert-Lewin-Platz 1",
+                    "city": "Berlin",
+                    "state": "BE",
+                    "postal_code": "10623",
+                    "country": "de"
                 },
-                "contact_preferences": [
-                    "fax"
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
                 "Ärztekammer"
             ],
             "status": "unverified",
-            "notes": "",
+            "notes": "Weitere Kontaktdaten hier: https://www.lobbyregister.bundestag.de/suche/R002002/28507 sowie zu den LAEK https://www.bundesaerztekammer.de/kontakt/adressen-der-landesaerztekammern",
             "rating": {
                 "usefulness_rating": null,
                 "responsiveness_rating": null
@@ -15518,7 +16203,7 @@
                 "address": {
                     "street": "Albstadtweg 11",
                     "city": "Suttgart",
-                    "state": "Baden-Württemberg",
+                    "state": "BW",
                     "postal_code": "70567",
                     "country": "de"
                 },
@@ -15557,7 +16242,7 @@
                         "address": {
                             "street": "Albstadtweg 11",
                             "city": "Stuttgart",
-                            "state": "Baden-Württemberg",
+                            "state": "BW",
                             "postal_code": "70567",
                             "country": "de"
                         },
@@ -15577,7 +16262,7 @@
                         "address": {
                             "street": "Sundgauallee 27",
                             "city": "Freiburg",
-                            "state": "Baden-Württemberg",
+                            "state": "BW",
                             "postal_code": "79114",
                             "country": "de"
                         },
@@ -15597,7 +16282,7 @@
                         "address": {
                             "street": "Steinhäuserstr. 19a",
                             "city": "Karlsruhe",
-                            "state": "Baden-Württemberg",
+                            "state": "BW",
                             "postal_code": "76135",
                             "country": "de"
                         },
@@ -15617,7 +16302,7 @@
                         "address": {
                             "street": "Konrad-Adenauer-Str. 18",
                             "city": "Reutlingen",
-                            "state": "Baden-Württemberg",
+                            "state": "BW",
                             "postal_code": "72762",
                             "country": "de"
                         },
@@ -15642,7 +16327,7 @@
                 "address": {
                     "street": "Elsenheimerstraße 39",
                     "city": "München",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "80687",
                     "country": "de"
                 },
@@ -15677,7 +16362,7 @@
                         "address": {
                             "street": "Elsenheimerstr. 39",
                             "city": "München",
-                            "state": "Bayern",
+                            "state": "BY",
                             "postal_code": "80687",
                             "country": "de"
                         },
@@ -15694,7 +16379,7 @@
                         "address": {
                             "street": "Lilienstraße 5-9",
                             "city": "Straubing",
-                            "state": "Bayern",
+                            "state": "BY",
                             "postal_code": "94315",
                             "country": "de"
                         },
@@ -15712,7 +16397,7 @@
                             "postbox": "10 06 32",
                             "street": "",
                             "city": "Regensburg",
-                            "state": "Bayern",
+                            "state": "BY",
                             "postal_code": "93006",
                             "country": "de"
                         },
@@ -15729,7 +16414,7 @@
                         "address": {
                             "street": "Vogelsgarten 6",
                             "city": "Nürnberg",
-                            "state": "Bayern",
+                            "state": "BY",
                             "postal_code": "90402",
                             "country": "de"
                         },
@@ -15747,7 +16432,7 @@
                             "postbox": "10 20 20",
                             "street": "",
                             "city": "Augsburg",
-                            "state": "Bayern",
+                            "state": "BY",
                             "postal_code": "86010",
                             "country": "de"
                         },
@@ -15770,7 +16455,7 @@
                 "address": {
                     "street": "Masurenallee 6A",
                     "city": "Berlin",
-                    "state": "Berlin",
+                    "state": "BE",
                     "postal_code": "14057",
                     "country": "de"
                 },
@@ -15808,7 +16493,7 @@
                 "address": {
                     "street": "Pappelallee 5",
                     "city": "Potsdam",
-                    "state": "Brandenburg",
+                    "state": "BB",
                     "postal_code": "14469",
                     "country": "de"
                 },
@@ -15846,7 +16531,7 @@
                 "address": {
                     "street": "Schwachhauser Heerstraße 26/28",
                     "city": "Bremen",
-                    "state": "Bremen",
+                    "state": "HB",
                     "postal_code": "28209",
                     "country": "de"
                 },
@@ -15886,7 +16571,7 @@
                 "address": {
                     "street": "Humboldtstraße 56",
                     "city": "Hamburg",
-                    "state": "Hamburg",
+                    "state": "HH",
                     "postal_code": "22083",
                     "country": "de"
                 },
@@ -15923,7 +16608,7 @@
                 "address": {
                     "street": "Europa-Allee 90",
                     "city": "Frankfurt am Main",
-                    "state": "Hessen",
+                    "state": "HE",
                     "postal_code": "60486",
                     "country": "de"
                 },
@@ -15957,7 +16642,7 @@
                         "address": {
                             "street": "Pallaswiesenstraße 174",
                             "city": "Darmstadt",
-                            "state": "Hessen",
+                            "state": "HE",
                             "postal_code": "64293",
                             "country": "de"
                         },
@@ -15974,7 +16659,7 @@
                         "address": {
                             "street": "Europa-Allee 90",
                             "city": "Frankfurt am Main",
-                            "state": "Hessen",
+                            "state": "HE",
                             "postal_code": "60486",
                             "country": "de"
                         },
@@ -15991,7 +16676,7 @@
                         "address": {
                             "street": "Mittermaierstraße 27",
                             "city": " Gießen",
-                            "state": "Hessen",
+                            "state": "HE",
                             "postal_code": "35394",
                             "country": "de"
                         },
@@ -16008,7 +16693,7 @@
                         "address": {
                             "street": "Karthäuserstraße 7 – 9",
                             "city": "Kassel",
-                            "state": "Hessen",
+                            "state": "HE",
                             "postal_code": "34117",
                             "country": "de"
                         },
@@ -16041,7 +16726,7 @@
                 "address": {
                     "street": "Neumühler Straße 22",
                     "city": "Schwerin",
-                    "state": "Mecklenburg-Vorpommern",
+                    "state": "MV",
                     "postal_code": "19057",
                     "country": "de"
                 },
@@ -16075,7 +16760,7 @@
                         "address": {
                             "street": "Wolgaster Str. 1",
                             "city": "Greifswald",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "17489",
                             "country": "de"
                         },
@@ -16092,7 +16777,7 @@
                         "address": {
                             "street": "Rövertannen 13",
                             "city": "Güstrow",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "18273",
                             "country": "de"
                         },
@@ -16109,7 +16794,7 @@
                         "address": {
                             "street": "Kleine Wallstr. 2",
                             "city": "Boizenburg",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "19258",
                             "country": "de"
                         },
@@ -16126,7 +16811,7 @@
                         "address": {
                             "street": "Heinrich-Heine-Str. 39",
                             "city": "Malchin",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "17139",
                             "country": "de"
                         },
@@ -16143,7 +16828,7 @@
                         "address": {
                             "street": "An der Marienkirche 2",
                             "city": "Neubrandenburg",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "17033",
                             "country": "de"
                         },
@@ -16160,7 +16845,7 @@
                         "address": {
                             "street": "Elisabethstr. 18",
                             "city": "Neustrelitz",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "17235",
                             "country": "de"
                         },
@@ -16177,7 +16862,7 @@
                         "address": {
                             "street": "Lübzer Str. 21",
                             "city": "Parchim",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "19370",
                             "country": "de"
                         },
@@ -16194,7 +16879,7 @@
                         "address": {
                             "street": "Prenzlauer Str. 27",
                             "city": "Pasewalk",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "17309",
                             "country": "de"
                         },
@@ -16211,7 +16896,7 @@
                         "address": {
                             "street": "Robert-Koch-Str. 9",
                             "city": "Rostock",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "18059",
                             "country": "de"
                         },
@@ -16228,7 +16913,7 @@
                         "address": {
                             "street": "Neumühler Str. 22",
                             "city": "Schwerin",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "19057",
                             "country": "de"
                         },
@@ -16245,7 +16930,7 @@
                         "address": {
                             "street": "Bleistr. 13 A",
                             "city": "Stralsund",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "18439",
                             "country": "de"
                         },
@@ -16262,7 +16947,7 @@
                         "address": {
                             "street": "Lübsche Str. 148",
                             "city": "Wismar",
-                            "state": "Mecklenburg-Vorpommern",
+                            "state": "MV",
                             "postal_code": "23966",
                             "country": "de"
                         },
@@ -16289,8 +16974,7 @@
                     "postal_code": "30175",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16324,12 +17008,11 @@
                 "address": {
                     "street": "Tersteegenstraße 9",
                     "city": "Düsseldorf",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "40474",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16363,12 +17046,11 @@
                 "address": {
                     "street": "Isaac-Fulda-Allee 14",
                     "city": "Mainz",
-                    "state": "Rheinland-Pfalz",
+                    "state": "RLP",
                     "postal_code": "55124",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16402,12 +17084,11 @@
                 "address": {
                     "street": "Europaallee 7-9",
                     "city": "Saarbrücken",
-                    "state": "Saarland",
+                    "state": "SL",
                     "postal_code": "66113",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16479,12 +17160,11 @@
                 "address": {
                     "street": "Doctor-Eisenbart-Ring 2",
                     "city": "Magdeburg",
-                    "state": "Sachsen-Anhalt",
+                    "state": "ST",
                     "postal_code": "39120",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16518,12 +17198,11 @@
                 "address": {
                     "street": "Bismarckallee 1-6",
                     "city": "Bad Segeberg",
-                    "state": "Schleswig-Holstein",
+                    "state": "SH",
                     "postal_code": "23795",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16557,12 +17236,11 @@
                 "address": {
                     "street": "Zum Hospitalgraben 8",
                     "city": "Weimar",
-                    "state": "Thüringen",
+                    "state": "TH",
                     "postal_code": "99425",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16596,12 +17274,11 @@
                 "address": {
                     "street": "Robert-Schimrigk-Str. 4-6",
                     "city": "Dortmund",
-                    "state": "Nordrhein-Westfalen",
+                    "state": "NRW",
                     "postal_code": "44141",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16637,8 +17314,7 @@
                     "postal_code": "10623",
                     "country": "de"
                 },
-                "contact_preferences": [
-                ],
+                "contact_preferences": [],
                 "languages": []
             },
             "labels": [
@@ -16671,7 +17347,7 @@
                 "address": {
                     "street": "Haidenauplatz 1",
                     "city": "München",
-                    "state": "Bayern",
+                    "state": "BY",
                     "postal_code": "81667",
                     "country": "de"
                 },
@@ -16699,6 +17375,1779 @@
             "related_organizations": [],
             "historical_interactions": [],
             "last_updated": "2024-10-01"
+        },
+        {
+            "id": 1,
+            "name": "Universitätsklinikum Freiburg, Infektionsambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "internal medicine",
+                "infectiology"
+            ],
+            "organization": "Universitätsklinikum Freiburg",
+            "contact_info": {
+                "email": "med-2-infektiologie@uniklinik-freiburg.de",
+                "phone": "+49-(0)-761-270-18190",
+                "website": "https://www.uniklinik-freiburg.de/infektiologie/patientenversorgung/infektionsambulanzen-1.html",
+                "fax": "+49-(0)-761-270-18200",
+                "fax_machine_readable": "+4076127018200",
+                "address": {
+                    "recipient": "Universitätsklinikum Freiburg, Abteilung Infektiologie, Klinik für Innere Medizin II, Department Innere Medizin",
+                    "street": "Hugstetter Straße 55",
+                    "city": "Freiburg im Breisgau",
+                    "state": "bw",
+                    "postal_code": "79106",
+                    "country": "de"
+                },
+                "languages": []
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "rating": {
+                "usefulness_rating": null,
+                "responsiveness_rating": null
+            },
+            "social_media": {},
+            "related_organizations": [],
+            "historical_interactions": [],
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 3,
+            "name": "Universitätsklinikum Heidelberg, Post-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "gastroenterology",
+                "hepatology",
+                "infectiology",
+                "poisoning"
+            ],
+            "organization": "Universitätsklinikum Heidelberg",
+            "contact_info": {
+                "email": "longcovid.med4@med.uni-heidelberg.de",
+                "phone": "06221 56-32200",
+                "website": "https://www.klinikum.uni-heidelberg.de/einrichtungen/post-covid-ambulanz-2290",
+                "fax": "06221 56-33981",
+                "address": {
+                    "recipient": "Universitätsklinikum Heidelberg, Post-Covid-Ambulanz",
+                    "street": "Im Neuenheimer Feld 410",
+                    "city": "Heidelberg",
+                    "state": "bw",
+                    "postal_code": "69120",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 4,
+            "name": "Universitätsklinikum Heidelberg, Long-Covid-Ambulanz bei psychischen und kognitiven Beschwerden",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry"
+            ],
+            "organization": "Universitätsklinikum Heidelberg",
+            "contact_info": {
+                "email": "lc-ambulanz.psych@med.uni-heidelberg.de",
+                "phone": "06221 56-37406",
+                "website": "https://www.klinikum.uni-heidelberg.de/einrichtungen/long-covid-ambulanz-bei-psychischen-und-kognitiven-beschwerden-2377",
+                "fax": "06221 56-5477",
+                "address": {
+                    "recipient": "Universitätsklinikum Heidelberg, Long-Covid-Ambulanz bei psychischen und kognitiven Beschwerden",
+                    "street": " Voßstraße 4",
+                    "city": "Heidelberg ",
+                    "state": "bw",
+                    "postal_code": "69115",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 5,
+            "name": "",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology",
+                "psychology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "praxis@npz-heidelberg.de",
+                "phone": "06221 – 31 46 33",
+                "website": "https://www.npz-heidelberg.de/das-zentrum/",
+                "fax": "06221 – 65 33 279",
+                "address": {
+                    "recipient": "Neuropsychologisches Zentrum Heidelberg",
+                    "street": "Rohrbacher Str. 73",
+                    "city": "Heidelberg",
+                    "state": "bw",
+                    "postal_code": "69115",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 7,
+            "name": "Klinikum Karlsbad-Langensteinbach, Post-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology",
+                "psychology"
+            ],
+            "organization": "Klinikum Karlsbad-Langensteinbach",
+            "contact_info": {
+                "email": "long.covid.kkl@srh.de",
+                "phone": "0720261-7367",
+                "website": "https://www.klinikum-karlsbad.de/medizin-und-pflege/fachabteilungen-zentren/klinische-psychologie-neuropsychologie/post-covid-ambulanz/",
+                "fax": "+49 (0) 7202 61 - 6161",
+                "address": {
+                    "recipient": "Klinikum Karlsbad-Langensteinbach, Post-Covid-Ambulanz",
+                    "street": "Guttmannstraße 1",
+                    "city": "Karlsbad-Langensteinbach",
+                    "state": "bw",
+                    "postal_code": "76307",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "low quality contact entry, Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 8,
+            "name": "Zentralinstitut für seelische Gesundheit, Ambulanz für Post Covid und ME/CFS",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry",
+                "psychology",
+                "neurology"
+            ],
+            "organization": "Zentralinstitut für seelische Gesundheit",
+            "contact_info": {
+                "email": "zentralambulanz@zi-mannheim.de",
+                "phone": "0621 1703-2850",
+                "website": "https://www.zi-mannheim.de/behandlung/ambulante-angebote-ambulanz/ambulante-therapieangebote/ambulanz-fuer-post-covid-und-me/cfs.html",
+                "fax": "",
+                "address": {
+                    "recipient": "Zentralinstitut für Seelische Gesundheit (ZI), Ambulanz für Post Covid und ME/CFS",
+                    "street": "J 5",
+                    "city": "Mannheim",
+                    "state": "bw",
+                    "postal_code": "68159",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 9,
+            "name": "Universitätsklinikum Tübingen, Innere Medizin I",
+            "title": "Klinik",
+            "specialisation": [
+                "internal medicine",
+                "psychosomatic",
+                "gastroenterology",
+                "oncology",
+                "hepatology",
+                "infectiology",
+                "geriatry"
+            ],
+            "organization": "Universitätsklinikum Tübingen",
+            "contact_info": {
+                "email": "Infekt.im1@med.uni-tuebingen.de",
+                "phone": "07071 29-82740 ",
+                "website": "https://www.medizin.uni-tuebingen.de/de/das-klinikum/einrichtungen/kliniken/medizinische-klinik/innere-medizin-1/ambulanzen-stationen/infektion",
+                "fax": "07071 29-5906",
+                "address": {
+                    "recipient": "Universitätsklinikum Tübingen, Innere Medizin I",
+                    "street": " Adresse: Otfried-Müller-Straße 10 ",
+                    "city": "Tübingen",
+                    "state": "bw",
+                    "postal_code": "72076",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 10,
+            "name": "Universitätsklinikum Freiburg, Post-COVID Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology"
+            ],
+            "organization": "Universitätsklinikum Freiburg",
+            "contact_info": {
+                "email": "neurologie@uniklinik-freiburg.de",
+                "phone": "0761-270 53060",
+                "website": "https://www.uniklinik-freiburg.de/neurologie/klinik/ambulanzen/spezialambulanzen/post-covid-ambulanz.html",
+                "fax": "0761-270 53100",
+                "address": {
+                    "recipient": "Universitätsklinikum Freiburg, Post-COVID Ambulanz",
+                    "street": "Breisacher Str. 64",
+                    "city": "Freiburg",
+                    "state": "bw",
+                    "postal_code": "79106",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 12,
+            "name": "Universitätsklinikum Augsburg, Kinderklinik Augsburg",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry",
+                "cardiology",
+                "pneumology",
+                "neurology",
+                "psychology",
+                "ENT"
+            ],
+            "organization": "Universitätsklinikum Augsburg",
+            "contact_info": {
+                "email": "Patientensteuerung.kk@uk-augsburg.de",
+                "phone": "0821 400-3456",
+                "website": "https://www.uk-augsburg.de/kliniken/kinderklinik-augsburg-mutter-kind-zentrum-schwaben/klinik-fuer-kinder-und-jugendmedizin/long-covid-bei-kindern-jugendlichen",
+                "fax": "0821 400-179210",
+                "address": {
+                    "recipient": "Universitätsklinikum Augsburg, Kinderklinik Augsburg | Mutter-Kind-Zentrum Schwaben, Patientensteuerung » Long-COVID",
+                    "street": "Stenglinstraße 2",
+                    "city": "Augsburg",
+                    "state": "by",
+                    "postal_code": "86156",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 13,
+            "name": "Universitätsklinikum Augsburg, COVID-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [],
+            "organization": "Universitätsklinikum Augsburg",
+            "contact_info": {
+                "email": "info@uk-augsburg.de",
+                "phone": "+49 821 400-01",
+                "website": "https://www.uk-augsburg.de/gesundheit-medizin/coronavirus/covid-ambulanz",
+                "fax": "+49 821 400-4585",
+                "address": {
+                    "recipient": "Universitätsklinikum Augsburg, COVID-Ambulanz",
+                    "street": "Stenglinstraße 2",
+                    "city": "Augsburg",
+                    "state": "by",
+                    "postal_code": "86156",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 14,
+            "name": "Klinikum Donaustauf",
+            "title": "Klinik",
+            "specialisation": [
+                "pneumology",
+                "psychosomatic"
+            ],
+            "organization": "Klinikum Donaustauf",
+            "contact_info": {
+                "email": "info@csm-donaustauf.de ",
+                "phone": "09403800",
+                "website": "https://csm-donaustauf.de/",
+                "fax": "0940380211",
+                "address": {
+                    "recipient": "Caritas-Krankenhaus St. Maria gGmbH",
+                    "street": "Ludwigstraße 68",
+                    "city": "Donaustauf",
+                    "state": "by",
+                    "postal_code": "93093",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Keinerlei Informationen zu Post Covid auf der Webseite. Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 15,
+            "name": "Klinikum Memmingen",
+            "title": "Klinik",
+            "specialisation": [
+                "infectiology"
+            ],
+            "organization": "Klinikum Memmingen",
+            "contact_info": {
+                "email": "",
+                "phone": "+498331700",
+                "website": "https://www.klinikum-memmingen.de",
+                "fax": "+498331702223",
+                "address": {
+                    "recipient": "Klinikum Memmingen",
+                    "street": "Bismarckstr. 23",
+                    "city": "Memmingen",
+                    "state": "by",
+                    "postal_code": "87700",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 16,
+            "name": "München Klinik, Long Covid Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry",
+                "infectiology",
+                "immunology"
+            ],
+            "organization": "München Klinik",
+            "contact_info": {
+                "email": "infekt.immun.kinderklinik@mri.tum.de",
+                "phone": "(089) 6794-0",
+                "website": "https://www.muenchen-klinik.de/krankenhaus/schwabing/kinderkliniken/kinderheilkunde-jugendmedizin/spezialgebiete-kinder-klinik/kinder-immunologie-immunschwaeche-immundefekt/therapie-kinder-immunologie-immundysregulation/long-covid-kinder-jugendliche/",
+                "fax": "",
+                "address": {
+                    "recipient": "München Klinik, Long Covid Ambulanz",
+                    "street": "Thalkirchner Straße 48",
+                    "city": "München",
+                    "state": "by",
+                    "postal_code": "80337",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 17,
+            "name": "LMU Klinikum, Post-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "infectiology",
+                "cardiology",
+                "pneumology",
+                "psychiatry",
+                "psychosomatic",
+                "physical medicine",
+                "pain therapy"
+            ],
+            "organization": "LMU Klinikum",
+            "contact_info": {
+                "email": "post-covidLMU@med.uni-muenchen.de",
+                "phone": "089 4400-74985",
+                "website": "https://www.lmu-klinikum.de/medizin-pflege/einrichtungen/post-covid-ambulanz/c716a7727172c169",
+                "fax": "089 4400-77362",
+                "address": {
+                    "recipient": "LMU Klinikum, Post-Covid-Ambulanz",
+                    "street": "Marchioninistraße 15 ",
+                    "city": "München",
+                    "state": "by",
+                    "postal_code": "81337",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 0,
+            "name": "Max-Planck-Institut für Psychiatrie, Post-COVID Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry",
+                "neurology",
+                "somnology"
+            ],
+            "organization": "Max-Planck-Institut für Psychiatrie",
+            "contact_info": {
+                "email": "ambulanz@psych.mpg.de",
+                "phone": "089-30622-1402",
+                "website": "https://www.psych.mpg.de/post-covid",
+                "fax": "",
+                "address": {
+                    "recipient": "Max-Planck-Institut für Psychiatrie, Post-COVID Ambulanz",
+                    "street": "Kraepelinstr. 2-10",
+                    "city": "München",
+                    "state": "by",
+                    "postal_code": "80804",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 20,
+            "name": "kbo-Inn-Salzach-Klinikum, Long-/Post-Covid-Tagesklinik",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry",
+                "psychosomatic",
+                "neurology"
+            ],
+            "organization": "kbo-Inn-Salzach-Klinikum",
+            "contact_info": {
+                "email": "isabella.eder@kbo.de",
+                "phone": "080 71-71 623",
+                "website": "https://kbo-isk.de/post-covid-tagesklinik",
+                "fax": "",
+                "address": {
+                    "recipient": "kbo-Inn-Salzach-Klinikum, Long-/Post-Covid-Tagesklinik",
+                    "street": "Gabersee 1",
+                    "city": "Wasserburg am Inn",
+                    "state": "by",
+                    "postal_code": "83512",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 21,
+            "name": "Kinderklinik Dritter Orden Passau, Long-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry",
+                "psychology"
+            ],
+            "organization": "Ordenskliniken München-Passau gGmbH",
+            "contact_info": {
+                "email": "benedikt.steif@kinderklinik-passau.de",
+                "phone": "0851 / 7205-1000",
+                "website": "https://kinderklinik-passau.de/behandlungsspektrum/besondere-angebote/long-covid-ambulanz",
+                "fax": "",
+                "address": {
+                    "recipient": "Ordenskliniken München-Passau gGmbH, Kinderklinik Dritter Orden Passau, Long-Covid-Ambulanz",
+                    "street": "Bischof-Altmann-Straße 9",
+                    "city": "Passau",
+                    "state": "by",
+                    "postal_code": "94032",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 22,
+            "name": "Barmherzige Brüder Klinik St. Hedwig",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry"
+            ],
+            "organization": "KUNO Klinik St. Hedwig der Universität Regensburg",
+            "contact_info": {
+                "email": "geschaeftsfuehrung.hedwig@barmherzige-regensburg.de",
+                "phone": "+49 (0)941 369 98",
+                "website": "https://www.barmherzige-hedwig.de/medien/meldungen/artikel/bayerns-gesundheitsminister-besucht-kinderuniversitaetsklinik-der-barmherzigen-brueder-in-regensburg.html",
+                "fax": "+49 (0)941 369 5002",
+                "address": {
+                    "recipient": "Barmherzige Brüder Klinik St. Hedwig",
+                    "street": "Steinmetzstraße 1-3",
+                    "city": "Regensburg",
+                    "state": "by",
+                    "postal_code": "93049",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 0,
+            "name": "Asklepios Klinik Schaufling",
+            "title": "Klinik",
+            "specialisation": [],
+            "organization": "Asklepios Klinik Schaufling",
+            "contact_info": {
+                "email": "schaufling@asklepios.com",
+                "phone": "(09904) 77 - 0",
+                "website": "https://www.asklepios.com/schaufling",
+                "fax": "",
+                "address": {
+                    "recipient": "Asklepios Klinik Schaufling GmbH",
+                    "street": "Hausstein 2",
+                    "city": "Schaufling",
+                    "state": "by",
+                    "postal_code": "94571",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 24,
+            "name": "Schön Klinik Berchtesgadener Land",
+            "title": "Klinik",
+            "specialisation": [
+                "internal medicine",
+                "pneumology",
+                "physical therapy",
+                "balneology",
+                "gastroenterology",
+                "somnology",
+                "psychology"
+            ],
+            "organization": "Schön Klinik Berchtesgadener Land",
+            "contact_info": {
+                "email": "info@schoen-klinik.de",
+                "phone": "+49 8652 93-0",
+                "website": "https://www.schoen-klinik.de/berchtesgadener-land/Corona/post-long-covid/behandlung",
+                "fax": "+49 8652 93-1650",
+                "address": {
+                    "recipient": "Schön Klinik Berchtesgadener Land",
+                    "street": "Malterhöh 1",
+                    "city": "Schönau am Königssee",
+                    "state": "by",
+                    "postal_code": "83471",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 25,
+            "name": "Isar-Amper-Klinikum Region München, Post-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry"
+            ],
+            "organization": "Isar-Amper-Klinikum",
+            "contact_info": {
+                "email": "kontakt.iak@kbo.de",
+                "phone": "089 4562-2697",
+                "website": "https://kbo-iak.de/kliniken-und-bereiche/post-covid-ambulanz",
+                "fax": "089 4562-2960",
+                "address": {
+                    "recipient": "Isar-Amper-Klinikum Region München, Post-Covid-Ambulanz",
+                    "street": "Ringstraße 56 | 1. OG",
+                    "city": "Haar",
+                    "state": "by",
+                    "postal_code": "85540",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 26,
+            "name": "Josefinum Augsburg",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry"
+            ],
+            "organization": "Josefinum Augsburg",
+            "contact_info": {
+                "email": "info@josefinum.de",
+                "phone": "082124120",
+                "website": "https://www.josefinum.de/",
+                "fax": "0821/ 2412 -194 495",
+                "address": {
+                    "recipient": "KJF Klinik Josefinum gGmbH",
+                    "street": "Joseph-Mayer-Straße 1",
+                    "city": "Augsburg",
+                    "state": "by",
+                    "postal_code": "86154",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 27,
+            "name": "Bezirkskliniken Schwaben (KU)",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry"
+            ],
+            "organization": "Bezirkskliniken Schwaben (KU)",
+            "contact_info": {
+                "email": "info@bezirkskliniken-schwaben.de ",
+                "phone": "082148032701",
+                "website": "https://www.bezirkskliniken-schwaben.de/",
+                "fax": "082148032702",
+                "address": {
+                    "recipient": "Bezirkskliniken Schwaben (KU)",
+                    "street": "Geschwister-Schönert-Straße 4",
+                    "city": "Augsburg",
+                    "state": "by",
+                    "postal_code": "86156",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 29,
+            "name": "Uniklinikum Erlangen, Post-COVID-Zentrum",
+            "title": "Klinik",
+            "specialisation": [
+                "ophtalmology",
+                "rheumatology",
+                "immunology",
+                "psychosomatic",
+                "psychology"
+            ],
+            "organization": "Uniklinikum Erlangen",
+            "contact_info": {
+                "email": "Post-Covid-Zentrum@uk-erlangen.de",
+                "phone": "9131/85-40105",
+                "website": "https://www.post-covid-zentrum.uk-erlangen.de/",
+                "fax": "09131/85-34694",
+                "address": {
+                    "recipient": "Uniklinikum Erlangen, Post-COVID-Zentrum",
+                    "street": "Schwabachanlage 6",
+                    "city": "Erlangen",
+                    "state": "by",
+                    "postal_code": "91054",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 30,
+            "name": "Klinikum Nürnberg, Sportmedizinische Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "sports medicine"
+            ],
+            "organization": "Klinikum Nürnberg",
+            "contact_info": {
+                "email": "sportmedizin@klinikum-nuernberg.de",
+                "phone": "+4909113985630",
+                "website": "https://www.klinikum-nuernberg.de/zuweiser/institute-medizinische-dienstleister/sportmedizin/standard-titel-1/?sword_list%5B0%5D=covid&no_cache=1",
+                "fax": "+49 (0) 911 398-5629",
+                "address": {
+                    "recipient": "Institut für Sportmedizin, Klinikum Nürnberg, Campus Süd",
+                    "street": "Rosenberger Straße 11",
+                    "city": "Nürnberg",
+                    "state": "by",
+                    "postal_code": "90471",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 30,
+            "name": "Klinikum Nürnberg, Psychosomatische Post-Covid-Behandlung",
+            "title": "Klinik",
+            "specialisation": [
+                "psychosomatic"
+            ],
+            "organization": "Klinikum Nürnberg",
+            "contact_info": {
+                "email": "Psychosomatik@klinikum-nuernberg.de",
+                "phone": "+49 (0) 911 398-7390",
+                "website": "https://www.klinikum-nuernberg.de/behandlung/seelische-gesundheit/psychosomatik-und-psychotherapie/psychosomatische-post-covid-behandlung/?sword_list%5B0%5D=covid&no_cache=1",
+                "fax": "",
+                "address": {
+                    "recipient": "Klinikum Nürnberg, Campus Nord",
+                    "street": "Prof.-Ernst-Nathan-Str. 1",
+                    "city": "Nürnberg",
+                    "state": "by",
+                    "postal_code": "90419",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 31,
+            "name": "Asklepios Klinik Gauting",
+            "title": "Klinik",
+            "specialisation": [
+                "pneumology"
+            ],
+            "organization": "Asklepios Klinik",
+            "contact_info": {
+                "email": "gauting@asklepios.com",
+                "phone": "(089) 8 57 91 -0",
+                "website": "https://www.asklepios.com/gauting/",
+                "fax": "(089) 8 57 91 - 10 06",
+                "address": {
+                    "recipient": "Asklepios Klinik Gauting GmbH - Asklepios Fachkliniken München-Gauting",
+                    "street": "Robert-Koch-Allee 2",
+                    "city": "Gauting",
+                    "state": "by",
+                    "postal_code": "82131",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 33,
+            "name": "Sozialpädriatisches Zentrum am Kinderkrankenhaus St. Marien gGmbH, Chronic Fatigue/ Long Covid Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry"
+            ],
+            "organization": "SPZ am Kinderkrankenhaus St. Marien gGmbH",
+            "contact_info": {
+                "email": "sekretariat@spz-landshut.de",
+                "phone": "0871 / 852 – 1325",
+                "website": "https://www.spz-landshut.de/angebote/chronic-fatigue-long-covid-sprechstunde/",
+                "fax": "+49 (0)871/ 852 14 40",
+                "address": {
+                    "recipient": "SPZ am Kinderkrankenhaus St. Marien gGmbH ",
+                    "street": "Grillparzerstr. 9 ",
+                    "city": "Landshut",
+                    "state": "by",
+                    "postal_code": "84036",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 34,
+            "name": "Charité Fatigue Centrum, Post-COVID-Sprechstunde bei Verdacht auf ME/CFS ",
+            "title": "Klinik",
+            "specialisation": [
+                "mecfs"
+            ],
+            "organization": "Charité Fatigue Centrum",
+            "contact_info": {
+                "email": "fatigue-centrum@charite.de",
+                "phone": "+49 30 450 524 355",
+                "website": "https://cfc.charite.de/fuer_patienten/post_covid/",
+                "fax": "",
+                "address": {
+                    "recipient": "Charité - Universitätsmedizin Berlin, Institut für Medizinische Immunologie, z.Hd. Frau Silvia Thiel",
+                    "street": "Augustenburger Platz 1",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "13353",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 35,
+            "name": "Charité Fatigue Centrum, Post-Covid-Diagnostikzentrum",
+            "title": "Klinik",
+            "specialisation": [
+                "pain therapy",
+                "physical medicine",
+                "palliative medicine"
+            ],
+            "organization": "Charité Fatigue Centrum",
+            "contact_info": {
+                "email": "sascha.treskatsch@charite.de",
+                "phone": "+49 30 450 - 50",
+                "website": "https://anaesthesie.charite.de/patienten_angehoerige/postcovid_diagnostikzentrum/",
+                "fax": "",
+                "address": {
+                    "recipient": "Charité - Universitätsmedizin Berlin, Institut für Medizinische Immunologie, z.Hd. Frau Silvia Thiel",
+                    "street": "Hindenburgdamm 30",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "12200",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 37,
+            "name": "Deutsches Herzzentrum der Charité, neurologische Post-COVID-19 Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "cardiology"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "kardio-sekretariat@dhzc-charite.de",
+                "phone": "+4930450553702",
+                "website": "https://www.dhzc.charite.de/kliniken/cbf-kardiologie/ambulanz/",
+                "fax": "+49 30 450 7 553 703",
+                "address": {
+                    "recipient": "Deutsches Herzzentrum der Charité, Campus Virchow-Klinikum",
+                    "street": "Augustenburger Platz 1",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "13353",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 38,
+            "name": "Charité Universitätsmedizin Berlin, Fächerverbund Infektiologie, Pneumologie und Intensivmedizin",
+            "title": "Klinik",
+            "specialisation": [
+                "infectiology",
+                "pneumology"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "infektiologie-pneumologie@charite.de",
+                "phone": "+4930450653666",
+                "website": "https://infektiologie-pneumologie.charite.de/",
+                "fax": "",
+                "address": {
+                    "recipient": "Deutsches Herzzentrum der Charité, Campus Virchow-Klinikum",
+                    "street": "Charitéplatz 1",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "10117",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 39,
+            "name": "Max Delbrück Center, Hochschulambulanz für Kardiologie",
+            "title": "Klinik",
+            "specialisation": [
+                "cardiology"
+            ],
+            "organization": "Max-Delbrück-Centrum für Molekulare Medizin in der Helmholtz-Gemeinschaft (MDC)",
+            "contact_info": {
+                "email": "hochschulambulanz-buch@charite.de",
+                "phone": "030 - 450 540 660",
+                "website": "https://www.mdc-berlin.de/de/ecrc/hochschul-ambulanzen/kardiologie#t-patient*innen",
+                "fax": "030 - 450 540 907",
+                "address": {
+                    "recipient": "Charite Campus Buch",
+                    "street": "Lindenberger Weg 80",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "13125",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "social_media": {
+                "facebook": "https://www.facebook.com/MaxDelbrueckCentrum",
+                "twitter": "https://twitter.com/MDC_Berlin",
+                "linkedin": "https://www.linkedin.com/school/mdcberlin/",
+                "researchgate": "https://www.researchgate.net/institution/Max-Delbrueck-Centrum_fuer_Molekulare_Medizin",
+                "youtube": "https://www.youtube.com/channel/UC27AvZmlsDxqOvF54DoQXIg",
+                "instagram": "https://www.instagram.com/mdc.berlin/"
+            },
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 40,
+            "name": "Charité Universitätsmedizin Berlin Klinik für Neurologie, Campus Benjamin Franklin, neurologische Post-COVID-19 Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "neurologie.postcovid19@charite.de",
+                "phone": "+49 30 450 560 560",
+                "website": "https://neurologie.charite.de/fuer_patienten/ambulante_behandlung/",
+                "fax": "",
+                "address": {
+                    "recipient": "Klinik für Neurologie mit Experimenteller Neurologie, Charité Campus Benjamin Franklin",
+                    "street": "Hindenburgdamm 30 (Geländeadresse: Hauptgebäude VC, Bettenhaus 2)",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "12200",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 41,
+            "name": "Charité Universitätsmedizin Berlin, Arbeitsbereich Physikalische Medizin ",
+            "title": "Klinik",
+            "specialisation": [
+                "physical medicine"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "anett.reisshauer@charite.de",
+                "phone": "+49 30 450 517 082",
+                "website": "https://physikalische-medizin.charite.de/fuer_patienten/spezialsprechstunden/post_covid_syndrom_recov%C7%9Djar/#c30709128",
+                "fax": "",
+                "address": {
+                    "recipient": "Arbeitsbereich Physikalische Medizin , Charité – Universitätsmedizin Berlin",
+                    "street": "Charitéplatz 1",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "10117",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 42,
+            "name": "Charité Universitätsmedizin Berlin, Medizinische Klinik mit Schwerpunkt Psychosomatik",
+            "title": "Klinik",
+            "specialisation": [
+                "psychosomatic"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "matthias.rose@charite.de",
+                "phone": "+49 30 450 553 278",
+                "website": "https://psychosomatik.charite.de/",
+                "fax": "",
+                "address": {
+                    "recipient": "Medizinische Klinik mit Schwerpunkt Psychosomatik der Charité – Universitätsmedizin Berlin, Campus Charité Mitte",
+                    "street": "Charitéplatz 1 (Sauerbruchweg 5)",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "10117",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 43,
+            "name": "Charité Universitätsmedizin Berlin, Klinik für Hals-, Nasen-, Ohrenheilkunde",
+            "title": "Klinik",
+            "specialisation": [
+                "ENT"
+            ],
+            "organization": "Charité Universitätsmedizin Berlin",
+            "contact_info": {
+                "email": "heidi.olze@charite.de",
+                "phone": "+49 30 450 555 002",
+                "website": "https://hno.charite.de",
+                "fax": "",
+                "address": {
+                    "recipient": "Klinik für Hals-, Nasen-, Ohrenheilkunde, Charité Campus Virchow-Klinikum",
+                    "street": "Augustenburger Platz 1",
+                    "city": "Berlin",
+                    "state": "be",
+                    "postal_code": "13353",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "facebook": "https://www.facebook.com/ChariteUniversitaetsmedizinBerlin/",
+                "instagram": "https://www.instagram.com/chariteberlin/",
+                "mastodon": "https://wisskomm.social/@ChariteBerlin",
+                "twitter": "https://twitter.com/chariteberlin/",
+                "youtube": "https://www.youtube.com/@charite_berlin",
+                "linkedin": "https://de.linkedin.com/school/charite/",
+                "xing": "https://www.xing.com/pages/charite"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-04"
+        },
+        {
+            "id": 44,
+            "name": "Alexianer St. Hedwig-Krankenhaus, DiReNa - das Long-​COVID-Netzwerk für Brandenburg",
+            "title": "Klinik",
+            "specialisation": [
+                "cardiology",
+                "angiology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "G.Doerr@alexianer.de",
+                "phone": "+4933196825000",
+                "website": "https://www.alexianer-potsdam.de/long-post-covid",
+                "fax": "(0331) 9682-​5009",
+                "address": {
+                    "recipient": "Alexianer St. Josef Potsdam GmbH, z.H. Dr. med. Gesine Dörr",
+                    "street": "Zimmerstraße 6",
+                    "city": "Potsdam",
+                    "state": "be",
+                    "postal_code": "14471",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 45,
+            "name": "Sana Kliniken Sommerfeld",
+            "title": "Klinik",
+            "specialisation": [
+                "physical medicine"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "https://www.sana.de/sommerfeld/kontakt#",
+                "phone": "+49 (0)33055 5-0",
+                "website": "https://www.sana.de/sommerfeld/",
+                "fax": "033055 5-1111",
+                "address": {
+                    "recipient": "Sana Kliniken Sommerfeld",
+                    "street": "Waldhausstraße 44",
+                    "city": "Kremmen",
+                    "state": "bb",
+                    "postal_code": "16766",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "social_media": {
+                "instagram": "https://www.instagram.com/sana.berlin.brandenburg/",
+                "facebook": "https://www.facebook.com/sanaklinikensommerfeld",
+                "youtube": "https://www.youtube.com/channel/UCLo0i_pDnE3H-EDeNAhJ4yQ",
+                "linkedin": "https://www.linkedin.com/company/sana-kliniken-berlin-brandenburg/",
+                "xing": "https://www.xing.com/companies/sanaklinikenag"
+            },
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 46,
+            "name": "Universitätsklinikum Ruppin-Brandenburg, Long- und Post-COVID-Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology",
+                "pneumology",
+                "somnology",
+                "internal medicine"
+            ],
+            "organization": "Universitätsklinikum Ruppin-Brandenburg",
+            "contact_info": {
+                "email": "hochschulambulanzen@ukrb.de",
+                "phone": "03391 39-36800",
+                "website": "https://www.ukrb.de/aktuelles/details/long-und-post-covid-sprechstunde-in-hochschulambulanz.html",
+                "fax": "+49 (0)3391 39-11219",
+                "address": {
+                    "recipient": "Universitätsklinikum Ruppin-Brandenburg, z.H. Dr. Müller & Dr. Kelm ",
+                    "street": "Fehrbelliner Straße 38",
+                    "city": "Neuruppin",
+                    "state": "bb",
+                    "postal_code": "16816",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 48,
+            "name": "Asklepios Fachklinikum Lübben",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry",
+                "psychology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "luebben@asklepios.de",
+                "phone": "03546/29-0",
+                "website": "https://www.asklepios.com",
+                "fax": "03546292442",
+                "address": {
+                    "recipient": "Die Klinik im Spreewald",
+                    "street": "Luckauer Str. 17",
+                    "city": "Lübben",
+                    "state": "bb",
+                    "postal_code": "15907",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 47,
+            "name": "Asklepios Fachklinikum Teupitz",
+            "title": "Klinik",
+            "specialisation": [
+                "psychiatry",
+                "psychology",
+                "neurology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "teupitz@asklepios.de",
+                "phone": "033766/66-0",
+                "website": "https://www.asklepios.com",
+                "fax": "033766/62-241",
+                "address": {
+                    "recipient": "Die Klinik im Spreewald",
+                    "street": "Buchholzer Str. 21",
+                    "city": "Teupitz",
+                    "state": "bb",
+                    "postal_code": "15755",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 49,
+            "name": "Helios Klinikum Bad Saarow, Neurologie und Schmerztherapie",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology",
+                "pain therapy"
+            ],
+            "organization": "Helios Klinikum",
+            "contact_info": {
+                "email": "info.badsaarow@helios-gesundheit.de",
+                "phone": "(033631) 7-0",
+                "website": "https://www.helios-gesundheit.de/standorte-angebote/kliniken/bad-saarow/leistungen/fachbereiche/",
+                "fax": "(033631) 7-2108",
+                "address": {
+                    "recipient": "Helios Klinikum Bad Saarow, Neurologie",
+                    "street": "Pieskower Straße 33",
+                    "city": "Bad Saarow",
+                    "state": "bb",
+                    "postal_code": "15526",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 50,
+            "name": "Immanuel Klinik Rüdersdorf, Abteilung Neurologie und Schmerztherapie",
+            "title": "Klinik",
+            "specialisation": [
+                "neurology",
+                "pain therapy"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "ruedersdorf.neurologie@immanuel.de",
+                "phone": "+49 33638 83-347",
+                "website": "https://ruedersdorf.immanuel.de/abteilungen/fachabteilungen/neurologie/leistungsspektrum/krankheitsbilder/neuro-covid-bzw-post-covid/",
+                "fax": "+49 33638 83-311 ",
+                "address": {
+                    "recipient": "Immanuel Klinik Rüdersdorf, Abteilung Neurologie und Schmerztherapie",
+                    "street": "Seebad 82/83",
+                    "city": "Rüdersdorf bei Berlin",
+                    "state": "bb",
+                    "postal_code": "15562",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 51,
+            "name": "Klinikum Bremen-Mitte, Eltern-Kind-Zentrum Prof. Hess",
+            "title": "Klinik",
+            "specialisation": [
+                "pediatry"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "ambulanztermine-elki@gesundheitnord.de",
+                "phone": "(0421) 497-71 005",
+                "website": "https://www.gesundheitnord.de/krankenhaeuser-kliniken/eltern-kind-zentrum-prof-hess/",
+                "fax": "(0421) 497 19 81051",
+                "address": {
+                    "recipient": "Klinikum Bremen-Mitte",
+                    "street": "St.-Jürgen-Straße 1",
+                    "city": "Bremen",
+                    "state": "hb",
+                    "postal_code": "28205",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 52,
+            "name": "Universitätsklinikum Gießen Marburg, Post-Covid-Ambulanz",
+            "title": "Klinik",
+            "specialisation": [
+                "cardiology",
+                "neurology",
+                "pneumology"
+            ],
+            "organization": "Universitätsklinikum Gießen Marburg",
+            "contact_info": {
+                "email": "hatice.sarikaya@uk-gm.de",
+                "phone": "06421 / 58 66451",
+                "website": "https://www.ukgm.de/ugm_2/deu/umr_pne/50601.html",
+                "fax": "06421 / 58 68987",
+                "address": {
+                    "recipient": "Klinik für Pneumologie",
+                    "street": "Baldingerstraße",
+                    "city": "Marburg",
+                    "state": "he",
+                    "postal_code": "35043",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 53,
+            "name": "Lungenfachklinik Immenhausen, Pneumologische Lehrklinik der Universitätsmedizin Göttingen",
+            "title": "Klinik",
+            "specialisation": [
+                "pneumology"
+            ],
+            "organization": "Universitätsmedizin Göttingen",
+            "contact_info": {
+                "email": "aufnahme@lungenfachklinik-immenhausen.de",
+                "phone": "05673 / 501 - 1111",
+                "website": "https://lungenfachklinik-immenhausen.de/",
+                "fax": "05673 / 501 - 1101",
+                "address": {
+                    "recipient": "Lungenfachklinik Immenhausen, Pneumologische Lehrklinik der Universitätsmedizin Göttingen",
+                    "street": "Robert-Koch-Str. 3",
+                    "city": "Immenhausen/Krs. Kassel",
+                    "state": "he",
+                    "postal_code": "34376",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 54,
+            "name": "Sana Klinikum Offenbach",
+            "title": "Klinik",
+            "specialisation": [
+                "pneumology"
+            ],
+            "organization": "Sana Kliniken",
+            "contact_info": {
+                "email": "lunge-of@sana.de",
+                "phone": "069 8405-4132",
+                "website": "https://www.sana.de/offenbach/medizin-pflege/mvz-pneumologie",
+                "fax": "069 8405-4135",
+                "address": {
+                    "recipient": "Sana Klinikum Offenbach GmbH",
+                    "street": " Starkenburgring 66",
+                    "city": "Offenbach",
+                    "state": "he",
+                    "postal_code": "63069",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 55,
+            "name": "Dr. Ebel Klinik Bergfried Saalfeld",
+            "title": "Klinik",
+            "specialisation": [
+                "psychology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "patientenverwaltung@klinik-bergfried.de",
+                "phone": "+49 (0) 3671 593 - 601",
+                "website": "https://ebel-kliniken.com/klinik-bergfried-saalfeld/reha/corona-folgestoerungen",
+                "fax": "+49 (0) 3671 · 593 - 619",
+                "address": {
+                    "recipient": "Klinik Bergfried Saalfeld",
+                    "street": "Zum Fuchsturm 20",
+                    "city": "Saalfeld",
+                    "state": "",
+                    "postal_code": "07318",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 56,
+            "name": "St. Josefs-Hospital Wiesbaden, Post-COVID-Sprechstunde",
+            "title": "Klinik",
+            "specialisation": [
+                "gastroenterology"
+            ],
+            "organization": "St. Josefs-Hospital Wiesbaden",
+            "contact_info": {
+                "email": "post-covid@joho.de",
+                "phone": "06111770",
+                "website": "https://www.joho.de/medizin-pflege/fachabteilungen/med-klinik-ii-gastroenterologie/post-covid-sprechstunde",
+                "fax": "06111771185",
+                "address": {
+                    "recipient": "St. Josefs-Hospital Wiesbaden",
+                    "street": "Beethovenstraße 20",
+                    "city": "Wiesbaden",
+                    "state": "he",
+                    "postal_code": "65189",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 57,
+            "name": "DKD Helios Klinik Wiesbaden, Post-COVID-19-Betreuung",
+            "title": "Klinik",
+            "specialisation": [
+                "internal medicine",
+                "angiology",
+                "cardiology",
+                "pneumology",
+                "neurology",
+                "psychology"
+            ],
+            "organization": "DKD Helios Klinik Wiesbaden",
+            "contact_info": {
+                "email": "post-covid.dkd@helios-gesundheit.de",
+                "phone": "(0611) 577-7626",
+                "website": "https://www1.helios-gesundheit.de/kliniken/wiesbaden-dkd/unser-angebot/zusaetzliche-angebote/post-covid-19-betreuung/",
+                "fax": "0611 577-577",
+                "address": {
+                    "recipient": "DKD Helios Klinik Wiesbaden ",
+                    "street": "Aukammallee 33",
+                    "city": "Wiesbaden",
+                    "state": "he",
+                    "postal_code": "65191",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 58,
+            "name": "Göthe-Universität Frankfurt am Main, Zentrum für Psychotherapie am Institut für Psychologie, Psychologische Beratung für Betroffene mit Long-COVID-Syndrom",
+            "title": "Klinik",
+            "specialisation": [
+                "psychology"
+            ],
+            "organization": "Universitätsklinikum Frankfurt",
+            "contact_info": {
+                "email": "seibert@zpt-gu.de",
+                "phone": "0 69) 7 98 - 2 38 49",
+                "website": "https://www.psychologie.uni-frankfurt.de/104532485/Flyer_Post_Covid_Beratung.pdf?",
+                "fax": "",
+                "address": {
+                    "recipient": "Zentrum für Psychotherapie",
+                    "street": "Varrentrappstraße 40-42",
+                    "city": "Frankfurt am Main",
+                    "state": "he",
+                    "postal_code": "60486",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 60,
+            "name": "Klinikum Werra-Meißner, Fachabteilung Pneumologie, Beatmungs- und Schlafmedizin",
+            "title": "Klinik",
+            "specialisation": [
+                "pneumology",
+                "somnology"
+            ],
+            "organization": "",
+            "contact_info": {
+                "email": "e-mail@klinikum-wm.de",
+                "phone": "495651821661",
+                "website": "https://www.klinikum-werra-meissner.de/klinikum/medizin-pflege/fachabteilungen/pneumologie-beatmungs-und-schlafmedizin.php",
+                "fax": "05651 / 82 1016 ",
+                "address": {
+                    "recipient": "Klinikum Werra-Meißner GmbH",
+                    "street": "Elsa-Brändström-Str. 1",
+                    "city": "Eschwege",
+                    "state": "he",
+                    "postal_code": "37269",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
+        },
+        {
+            "id": 62,
+            "name": "Universitätsmedizin Greifswald",
+            "title": "Klinik",
+            "specialisation": [],
+            "organization": "",
+            "contact_info": {
+                "email": "info-unimedizin@med.uni-greifswald.de",
+                "phone": "03834 86-0",
+                "website": "https://www.medizin.uni-greifswald.de/de/home/",
+                "fax": "",
+                "address": {
+                    "recipient": "Universitätsmedizin Greifswald",
+                    "street": "Fleischmannstraße 8",
+                    "city": "Greifswald",
+                    "state": "mv",
+                    "postal_code": "17475",
+                    "country": "de"
+                }
+            },
+            "labels": [
+                "clinic",
+                "Post Covid Ambulanz"
+            ],
+            "status": "unverified",
+            "notes": "Entnommen hierher: https://www.bmg-longcovid.de/service/buergertelefon-und-regionale-kliniksuche",
+            "last_updated": "2024-10-08"
         }
     ]
 }
