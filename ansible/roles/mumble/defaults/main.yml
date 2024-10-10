@@ -1,5 +1,0 @@
----
-mumble_version: "1.4.0"
-mumble_server_port: 64738
-mumble_server_password: "securepassword"
-mumble_server_name: "Mumble Server"

@@ -1,6 +1,16 @@
 ---
 - name: Configure Mumble server
   template:
-    src: murmur.ini.j2
-    dest: /etc/mumble-server.ini
+    src: mumble-server.ini.j2
+    dest: /etc/mumble/mumble-server.ini
+  become: yes
+
+# TODO: Yeah, recently this is plaintext passwords stored on the machine, I know I know. Will be adjusted later on.
+- name: Append secrets to Mumble server configuration
+  lineinfile:
+    path: /etc/mumble/mumble-server.ini
+    line: "{{ lookup('file', item) }}"
+    state: present
+  with_fileglob:
+    - "{{ playbook_dir }}/../.SECRETS/*"
   become: yes

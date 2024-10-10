@@ -1,4 +1,23 @@
 ---
+# - name: Check if Mumble user exists
+#   ansible.builtin.user:
+#     name: "mumble"
+#   register: user_check
+#   ignore_errors: yes
+
+# - name: Set user exists variable
+#   set_fact:
+#     mumble_user_exists: "{{ user_check is not failed }}"
+
+# - name: Create Mumble user
+#   user:
+#     name: mumble
+#     home: /home/mumble
+#     shell: /usr/sbin/nologin
+#     state: present
+#     create_home: yes
+#   when: not mumble_user_exists # Only run if user does not exist
+
 - name: Install Mumble server package
   apt:
     name: mumble-server
