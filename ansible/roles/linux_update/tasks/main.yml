@@ -1,0 +1,10 @@
+---
+- name: Update package list in LXC containers
+  command: apt update
+  become: yes
+  when: inventory_hostname in groups['lxc_containers']
+
+- name: Upgrade packages in LXC containers
+  command: apt upgrade -y
+  become: yes
+  when: inventory_hostname in groups['lxc_containers']

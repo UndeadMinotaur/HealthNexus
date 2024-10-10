@@ -42,7 +42,7 @@ All
 | nextcloud     | 80, 443   | :white_check_mark:   |
 | bigbluebutton | 80, 443, 7443, 16384-32768 | unclear [1] |
 | dokuwiki      | 80, 443   | :white_check_mark:   |
-| etherpad      | 9001      | ( :white_check_mark: ) |
+| etherpad      | 9001      | :white_check_mark:  |
 | mumble        | 64738     | ( :white_check_mark: ) |
 | cryptpad      | 3000      | ( :white_check_mark: ) |
 | backup        | -         | :white_check_mark:   |

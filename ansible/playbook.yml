@@ -4,31 +4,57 @@
   become: yes
   roles:
     # - setup
-    - lxc
-    # - nginx
+    # - lxc
     - haproxy
-    # - zulip
-    # - nextcloud
     # - bigbluebutton
-    # - dokuwiki
-    # - etherpad
-    # - mumble
-    # - cryptpad
     # - keycloak_ldap
     # - ldap_sso
 
-# - name: Setup nginx
+# Works
+# - name: Update all LXC containers
 #   hosts: lxc_containers
+#   become: yes
 #   roles:
-#     - nginx
+#     - linux_update
+
+# Mumble installation worked using this entry
+# - hosts: mumble-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - mumble
+
+# - hosts: zulip-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - zulip
+
+# - hosts: dokuwiki-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
 #     - dokuwiki
 
+# - hosts: etherpad-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - etherpad
 
+# - hosts: cryptpad-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - cryptpad
+
+# - hosts: nextcloud-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - nextcloud
+
+# - hosts: nginx-container
+#   become: yes  # Use become if necessary to run commands with elevated privileges
+#   roles:
+#     - nginx
 
 # - name: Backup all services
 #   hosts: all
 #   become: yes
 #   roles:
 #     - backup
-                                                    
-

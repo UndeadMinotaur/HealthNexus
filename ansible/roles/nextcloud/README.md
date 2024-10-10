@@ -1,5 +1,6 @@
 # Installation
 
+## PLAIN
 1. Install requirements
 ```bash
 apt update;
@@ -111,3 +112,33 @@ sudo -u www-data php occ  maintenance:install \
 
 TODO configure
 TODO subcribe to https://nextcloud.com/newsletter/
+
+
+## AIO
+https://github.com/nextcloud/all-in-one#nextcloud-all-in-one
+
+```bash
+apt install docker.io
+
+docker run \
+--init \
+--sig-proxy=false \
+--name nextcloud-aio-mastercontainer \
+--restart always \
+--publish 8002:80 \
+--publish 8003:8080 \
+--publish 8004:8443 \
+--volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \
+--volume /var/run/docker.sock:/var/run/docker.sock:ro \
+nextcloud/all-in-one:latest
+```
+
+Initial startup of Nextcloud All-in-One complete!
+You should be able to open the Nextcloud AIO Interface now on port 8080 of this server!       
+E.g. https://internal.ip.of.this.server:8080
+⚠ Important: do always use an ip-address if you access this port and not a domain as HSTS might block access to it later!
+
+If your server has port 80 and 8443 open and you point a domain to your server, you can get a valid certificate automatically by opening the Nextcloud AIO Interface via:                   
+https://your-domain-that-points-to-this-server.tld:8443 
+
+Please do not forget to open port 3478/TCP and 3478/UDP in your firewall/router for the Talk container!

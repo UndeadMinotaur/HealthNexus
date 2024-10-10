@@ -3,3 +3,5 @@ ansible/inventory
 
 .vagrant
 .SECRETS
+
+ansible/roles/etherpad/**/credentials.json
