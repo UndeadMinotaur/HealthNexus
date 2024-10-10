@@ -1,0 +1,18 @@
+[Unit]
+Description=Etherpad
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=etherpad
+Group=etherpad
+WorkingDirectory=/home/etherpad/etherpad-lite
+ExecStart=/usr/local/bin/pnpm run prod
+Restart=always
+Environment=NODE_ENV=production
+
+StandardOutput=append:/var/log/etherpad/etherpad.log
+StandardError=append:/var/log/etherpad/etherpad-error.log
+
+[Install]
+WantedBy=multi-user.target
